@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
         <title>@yield('title', 'BSH Principal')</title> <!-- Título dinámico -->
@@ -11,8 +10,11 @@
            <!-- Descripción meta dinámica -->
     <meta name="description" content="@yield('description', 'Descripción por defecto')">
 
-        @vite('resources/css/app.css')
-        @vite('resources/js/app.js')
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" async>
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <link rel="icon" href="{{ asset('img/favicon-1.png') }}" type="image/x-icon" />
 
@@ -20,76 +22,83 @@
 
     </head>
     <body>
-        <section class="block bg-gray-200 transition duration-300 ease-in-out border border-transparent rounded">
-            <div class="max-w-7xl mx-auto relative flex">
-                <div class="w-1/5 min-h-0 flex">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <i class="text-gray-400"></i>
-                            <i class="fa-solid fa-envelope text-gray-400"></i>
-                            <div class="pl-1"><a href="mailto:bsh@bombasellos.com.mx" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">bsh@bombasellos.com.mx</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/6">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <i class="text-gray-400">
-                                
-                            </i>
-                            <i class="fa-solid fa-phone text-gray-400"></i>
-                            <div class="pl-1">
-                                
-                                <a href="Tel://55 575 21715" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">55 575 21715</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/6">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <i class="text-gray-400">
-                            </i>
-                            <i class="fa-solid fa-phone text-gray-400"></i>
-                            <div class="pl-1"><a href="Tel://222 227 3866" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">222 227 3866</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/6">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <i class="text-gray-400"></i>
-                            <i class="icon fa fa-whatsapp text-gray-400"></i>
-                            <div class="pl-1"><a href="https://api.whatsapp.com/send?phone=5218332395885&amp;text=Hola%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">833 239 5885</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/6">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <i class="text-gray-400"></i>
-                            <i class="icon fa fa-whatsapp text-gray-400"></i>
-                            <div class="pl-1"><a href="https://api.whatsapp.com/send?phone=5218332462205&amp;text=Hola%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">833 2462205</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-1/6">
-                    <div class="p-4 flex w-auto">
-                        <div class="transition-all duration-300 ease-in-out flex items-center">
-                            <a href="https://www.facebook.com/Bombas-Sellos-y-Hules-Industriales-SA-de-CV-116434456400428" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-10">
-                                <span class="sr-only">Facebook</span>
-                                <i class="text-gray-400"></i>
-                                <i class="fa-brands fa-facebook text-gray-400"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
-                                <span class="sr-only">Linkedin-square</span>
-                                <i class="text-gray-400"></i>
-                                <i class="fa-brands fa-linkedin text-gray-400"></i>
-                            </a>
-                        </div>
+<!-- Sección de contacto -->
+<section class="hidden md:block bg-gray-200 transition duration-300 ease-in-out border border-transparent rounded">
+    <div class="max-w-7xl mx-auto relative flex">
+        <div class="w-1/5 min-h-0 flex">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <i class="text-gray-400"></i>
+                    <i class="fa-solid fa-envelope text-gray-400"></i>
+                    <div class="pl-1">
+                        <a href="mailto:bsh@bombasellos.com.mx" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">bsh@bombasellos.com.mx</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="w-1/6">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <i class="text-gray-400"></i>
+                    <i class="fa-solid fa-phone text-gray-400"></i>
+                    <div class="pl-1">
+                        <a href="Tel://55 575 21715" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">55 575 21715</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/6">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <i class="text-gray-400"></i>
+                    <i class="fa-solid fa-phone text-gray-400"></i>
+                    <div class="pl-1">
+                        <a href="Tel://222 227 3866" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">222 227 3866</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/6">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <i class="text-gray-400"></i>
+                    <i class="icon fa fa-whatsapp text-gray-400"></i>
+                    <div class="pl-1">
+                        <a href="https://api.whatsapp.com/send?phone=5218332395885&amp;text=Hola%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">833 239 5885</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/6">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <i class="text-gray-400"></i>
+                    <i class="icon fa fa-whatsapp text-gray-400"></i>
+                    <div class="pl-1">
+                        <a href="https://api.whatsapp.com/send?phone=5218332462205&amp;text=Hola%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20" class="text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out">833 2462205</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-1/6">
+            <div class="p-4 flex w-auto">
+                <div class="transition-all duration-300 ease-in-out flex items-center">
+                    <a href="https://www.facebook.com/Bombas-Sellos-y-Hules-Industriales-SA-de-CV-116434456400428" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-10">
+                        <span class="sr-only">Facebook</span>
+                        <i class="text-gray-400"></i>
+                        <i class="fa-brands fa-facebook text-gray-400"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
+                        <span class="sr-only">Linkedin-square</span>
+                        <i class="text-gray-400"></i>
+                        <i class="fa-brands fa-linkedin text-gray-400"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
         
 
 
@@ -105,7 +114,7 @@
                         </a>
                     </div>
                     <div class="w-full md:w-4/5 flex flex-col md:flex-row md:justify-end items-center">
-                        <button id="menu-toggle" class="block md:hidden focus:outline-none mb-4 md:mb-0">
+                        <button id="menu-toggle" class="block md:hidden focus:outline-none mb-4 md:mb-0" aria-label="Toggle navigation menu">
                             <span class="flex flex-col">
                                 <span class="w-6 h-px bg-gray-600 mb-1 transition-all duration-300"></span>
                                 <span class="w-6 h-px bg-gray-600 mb-1 transition-all duration-300"></span>
@@ -131,29 +140,28 @@
    
         
         
-         <!--Barra guinda-->
-         
-         <section class="font-roboto left-0 box-border transition duration-300 ease-in-out border border-transparent rounded mb-4 bg-red-900 h-48.11px">
-            
-                            <div class="py-3.5 flex justify-center">
-                                <div class="flex">
-                                    <ul class="flex justify-center">
-                                        <li class="pr-15 text-sm">
-                                            <a title="TURCITE®B SLYDWAY® y WAYLOCK®" href="https://bombasellos.com.mx:/plasticos-de-ingeneria/turcite-b-slydway/" class="text-white uppercase">TURCITE®B SLYDWAY® y WAYLOCK®</a>
-                                        </li>
-                                        <li class="pr-15 text-sm px-4">
-                                            <a title="JUNTAS DE EXPANSIÓN" href="https://juntasflexibles.com/" class="text-white uppercase">JUNTAS DE EXPANSIÓN</a>
-                                        </li>
-                                        <li class="pr-15 text-sm px-4">
-                                            <a title="BOMBAS NEUMÁTICAS WILDEN®" href="https://bombasellos.com.mx/bombas/bombas-neumaticas/" class="text-white uppercase">BOMBAS NEUMÁTICAS WILDEN®</a>
-                                        </li>
-                                        <li class="text-sm px-4">
-                                            <a title="AMPLIFICADORES MAXIMATOR℗" href="https://bombasdealtapresion.com.mx/" class="text-white uppercase">AMPLIFICADORES MAXIMATOR℗</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-        </section>
+<!--Barra guinda-->
+<section class="hidden md:block font-roboto left-0 box-border transition duration-300 ease-in-out border border-transparent rounded mb-4 bg-red-900 h-48.11px">
+    <div class="py-3.5 flex justify-center">
+        <div class="flex">
+            <ul class="flex justify-center">
+                <li class="pr-15 text-sm">
+                    <a title="TURCITE®B SLYDWAY® y WAYLOCK®" href="https://bombasellos.com.mx:/plasticos-de-ingeneria/turcite-b-slydway/" class="text-white uppercase">TURCITE®B SLYDWAY® y WAYLOCK®</a>
+                </li>
+                <li class="pr-15 text-sm px-4">
+                    <a title="JUNTAS DE EXPANSIÓN" href="https://juntasflexibles.com/" class="text-white uppercase">JUNTAS DE EXPANSIÓN</a>
+                </li>
+                <li class="pr-15 text-sm px-4">
+                    <a title="BOMBAS NEUMÁTICAS WILDEN®" href="https://bombasellos.com.mx/bombas/bombas-neumaticas/" class="text-white uppercase">BOMBAS NEUMÁTICAS WILDEN®</a>
+                </li>
+                <li class="text-sm px-4">
+                    <a title="AMPLIFICADORES MAXIMATOR℗" href="https://bombasdealtapresion.com.mx/" class="text-white uppercase">AMPLIFICADORES MAXIMATOR℗</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
         
         
         
@@ -216,7 +224,7 @@
                     </div>
 
                     <div class="p-4">
-                        <button id="toggleMenu" type="button" class="block md:hidden text-white">
+                        <button id="toggleMenu" type="button" class="block md:hidden text-white" aria-label="Toggle navigation menu">
                             <i class="fas fa-bars"></i> <!-- Icono de menú -->
                         </button>
                         

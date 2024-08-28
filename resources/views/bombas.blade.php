@@ -1,38 +1,37 @@
 @extends('layouts.app')
 
 @section('title', 'Bombas Centrífugas Calpeda y Neumáticas Wilden | BSH MX.')
-@section('description', 'Cotiza Bombas centrifugas y neumáticas de la marca Calpeda y Wilden. Sellos mecánicos, Impulsores, Kits de repuestos, 
-Juntas, Variadores de velocidad etc.')
+@section('description', 'Cotiza Bombas centrifugas y neumáticas de la marca Calpeda y Wilden. Sellos mecánicos, Impulsores, Kits de repuestos, Juntas, Variadores de velocidad etc.')
 
 @section('structured-data')
 <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "Bombas Centrífugas Calpeda y Neumáticas Wilden",
-          "description": "Cotiza Bombas centrifugas y neumáticas de la marca Calpeda y Wilden. Sellos mecánicos, Impulsores, Kits de repuestos, Juntas, Variadores de velocidad etc.",
-          "brand": [
-            {
-              "@type": "Brand",
-              "name": "Calpeda"
-            },
-            {
-              "@type": "Brand",
-              "name": "Wilden"
-            }
-          ],
-          "offers": {
-            "@type": "Offer",
-            "url": "https://bombasellos.com.mx/",
-            "priceCurrency": "MXN",
-            "availability": "https://schema.org/InStock"
-          },
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.5",
-            "reviewCount": "11"
-          }
-        }
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bombas Centrífugas Calpeda y Neumáticas Wilden",
+  "description": "Cotiza Bombas centrifugas y neumáticas de la marca Calpeda y Wilden. Sellos mecánicos, Impulsores, Kits de repuestos, Juntas, Variadores de velocidad etc.",
+  "brand": [
+    {
+      "@type": "Brand",
+      "name": "Calpeda"
+    },
+    {
+      "@type": "Brand",
+      "name": "Wilden"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://bombasellos.com.mx/",
+    "priceCurrency": "MXN",
+    "availability": "https://schema.org/InStock"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "reviewCount": "11"
+  }
+}
 </script>
 @endsection
 
@@ -77,7 +76,6 @@ Juntas, Variadores de velocidad etc.')
     </div>
 </section>
 
-
 <section class="block box-border transition-all duration-300 ease-in-out bg-cover bg-center" style="background-image: url('/img/bombas-industriales.jpg');">
     <div class="max-w-screen-xl box-border flex flex-wrap mx-auto relative">
         <div class="w-full md:w-1/2 box-border relative min-h-[1px] flex justify-center">
@@ -103,7 +101,7 @@ Juntas, Variadores de velocidad etc.')
                 </div>
                 <div class="box-border mb-2 md:mb-5 relative w-full flex flex-row flex-nowrap">
                     <div class="box-border transition-all duration-300 ease-in-out">
-                        <a class="text-white no-underline bg-red-900 font-roboto font-bold inline-block leading-[15px] text-[15px] py-3 px-6 rounded shadow-none text-center transition-all duration-300 ease-in-out" href="#GAMA">
+                        <a class="text-white no-underline bg-red-900 font-roboto font-bold inline-block leading-[15px] text-[15px] py-3 px-6 rounded shadow-none text-center transition-all duration-300 ease-in-out" href="#hubspotForm">
                             <span class="flex justify-center">
                                 <span class="flex-grow order-10 block">VER GAMA DE PRODUCTOS</span>
                             </span> 
@@ -154,7 +152,7 @@ Juntas, Variadores de velocidad etc.')
                 </div>
                 <div class="box-border relative w-full flex flex-row flex-nowrap">
                     <div class="box-border transition-all duration-300 ease-in-out">
-                        <a class="inline-block text-[15px] leading-[15px] text-white no-underline bg-[#610001] font-roboto font-black py-[12px] px-[24px] rounded-[3px] shadow-none text-center transition-all duration-300 ease-in-out flex justify-center" href="#contacto">
+                        <a class="inline-block text-[15px] leading-[15px] text-white no-underline bg-[#610001] font-roboto font-black py-[12px] px-[24px] rounded-[3px] shadow-none text-center transition-all duration-300 ease-in-out flex justify-center" href="#hubspotForm">
                             <span class="flex-grow order-10 block">
                                 AGENDAR ASESORIA
                             </span>
@@ -164,7 +162,7 @@ Juntas, Variadores de velocidad etc.')
             </div>
         </div>
         <div class="w-full md:w-1/2 box-border relative min-h-[1px] flex">
-            <div class="box-border p-[10px] flex w-full flex-wrap content-start">
+            <div class="box-border p-2.5 flex w-full flex-wrap content-start">
                 <div class="box-border text-center mb-[20px] relative w-full flex flex-row flex-nowrap justify-center">
                     <div class="box-border transition-all duration-300 ease-in-out">
                         <picture fetchpriority="high" decoding="async" class="box-border" title="Bombas 1">
@@ -177,7 +175,6 @@ Juntas, Variadores de velocidad etc.')
         </div>
     </div>
 </section>
-
 
 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
     <div class="box-border mb-5 relative w-full flex flex-row flex-nowrap">
@@ -244,25 +241,65 @@ Juntas, Variadores de velocidad etc.')
 
 
 
-<!-- Incluir el script de HubSpot en tu layout -->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<!--Puntuar página-->
+<div class="flex flex-col items-center box-border my-8">
+    <div class="box-border mb-2 text-lg">¡Haz clic para puntuar esta página!</div>
+    <div class="inline-block box-border relative" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer; background-image: url('/img/star_2.svg');">
+        <div class="absolute top-0 left-0 h-full" style="width: 0%; background-size: 32px; background-image: url('/img/star_3.svg');"></div>
+    </div>
+    <div class="inline-block align-bottom ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="inline-block fill-current text-gray-600 cursor-pointer">
+            <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
+        </svg>
+        <span class="text-sm">(Votos: <span id="votes-count">0</span> Promedio: <span id="average-rating">0</span>)</span>
+    </div>
+</div>
 
-<div class="bg-[#000935] p-12 rounded-md text-white">
+
+
+
+<!-- Incluir el script de HubSpot en tu layout -->
+<div id="hubspotFormContainer" class="bg-[#000935] p-12 rounded-md text-white">
   <h2 class="text-[41px] text-center font-semibold mb-4">¿Necesitas más información?</h2>
   <p class="text-[32px] mb-6">Por favor llena el siguiente formulario y en breve un experto se comunicará contigo.</p>
   <div id="hubspotForm"></div>
 </div>
 
 <script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "7547674",
-    formId: "9a3ab0cf-0e30-47a4-b3d9-0b4bfdcc3a27",
-    target: '#hubspotForm'
+  document.addEventListener("DOMContentLoaded", function() {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          var script = document.createElement("script");
+          script.src = "//js.hsforms.net/forms/embed/v2.js";
+          script.charset = "utf-8";
+          script.type = "text/javascript";
+          script.async = true;
+          script.onload = function() {
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "7547674",
+              formId: "9a3ab0cf-0e30-47a4-b3d9-0b4bfdcc3a27",
+              target: '#hubspotForm'
+            });
+          };
+          document.body.appendChild(script);
+          observer.disconnect();
+        }
+      });
+    });
+
+    observer.observe(document.querySelector("#hubspotFormContainer"));
+  });
+
+  document.querySelectorAll('a[href^="#hubspotForm"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
   });
 </script>
-
-
-
 
 @endsection

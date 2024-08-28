@@ -21,8 +21,37 @@ document.getElementById("toggleMenu").addEventListener("click", function() {
         menu.classList.add("hidden");
     }
 });
+//JS PARA MENÚ:
 
-//Código js para las tablas:
+
+//Código js para puntuar entradas:
+
+document.addEventListener('DOMContentLoaded', function() {
+    const starsContainer = document.querySelector('[style*="background-image"]');
+    const filledStars = starsContainer.querySelector('div');
+    const votesCount = document.getElementById('votes-count');
+    const averageRating = document.getElementById('average-rating');
+
+    let totalVotes = 0;
+    let totalRating = 0;
+
+    starsContainer.addEventListener('click', function(event) {
+        const rect = starsContainer.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const starWidth = rect.width / 5; // Asumiendo 5 estrellas
+
+        const rating = Math.ceil(x / starWidth);
+        totalVotes += 1;
+        totalRating += rating;
+
+        filledStars.style.width = `${(rating / 5) * 100}%`;
+
+        votesCount.textContent = totalVotes;
+        averageRating.textContent = (totalRating / totalVotes).toFixed(1);
+    });
+});
+
+
 
 
 
