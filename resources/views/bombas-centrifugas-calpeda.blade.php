@@ -1,10 +1,7 @@
 @extends('layouts.app')
 
-@section('title', '	
-Bombas Centrífugas en linea, sumergibles, de pozo | Calpeda')
-@section('description', '	
-Cotiza Bombas centrífugas Sumergibles para cárcamos, de Pozo profundo, alimentación, presurizadoras y HVAC. 
-Precio Mayorista Entrega Inmediata. Distribuidor MX.')
+@section('title', 'Bombas Centrífugas en linea, sumergibles, de pozo | Calpeda')
+@section('description', 'Cotiza Bombas centrífugas Sumergibles para cárcamos, de Pozo profundo, alimentación, presurizadoras y HVAC. Precio Mayorista Entrega Inmediata. Distribuidor MX.')
 
 @section('structured-data')
 <script type="application/ld+json">
@@ -32,7 +29,6 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
 </script>
 @endsection
 
-
 @section('contenido')
 
 <section class="w-[1423px] mt-[10px] -mb-[14px] left-[12.5px] bg-[#f2f2f2] relative flex-auto flex-shrink flex-grow order-0 align-self-auto">
@@ -42,15 +38,11 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
                 <div class="mb-5 w-full flex-nowrap flex-row relative">
                     <div class="transition-all duration-300 ease-in-out">
                         <div>
-                            <!-- Flexy Breadcrumb -->
                             <div>
-                                <!-- Breadcrumb wrapper -->
                                 <div class="m-0 p-0">
-                                    <!-- Ordered list-->
                                     <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-none m-0 p-0 float-left font-roboto text-base w-auto bg-[#ededf0] rounded-md">
                                         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block text-base px-2 py-1 mr-1 rounded-l-md">
                                             <span itemprop="name">
-                                                <!-- Home Link -->
                                                 <a itemprop="item" href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
                                                     <i aria-hidden="true" class="fa fa-home mr-1"></i>Home
                                                 </a>
@@ -88,12 +80,6 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
     </div>
 </section>
 
-
-
-
-<!--Contenido e imagen -->
-  
-<!-- Contenido e imagen -->
 <section class="w-full max-w-[1423px] mx-auto bg-[#f2f2f2] transition-all duration-300 relative">
     <div class="max-w-[1190px] flex flex-wrap sm:flex-nowrap mx-auto relative box-border">
         <div class="w-full sm:w-1/2 p-2.5 flex flex-wrap relative">
@@ -139,7 +125,7 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
             <div class="w-full p-2.5 relative flex flex-wrap content-start">
                 <div class="w-full text-center relative">
                     <picture class="transition-all duration-300">
-                        <source type="image/webp" srcset="/img/centrifugas-calpeda-en-mexico.png.webp 667w" sizes="(max-width: 667px) 100vw, 667px" />
+                        <source type="image/webp" srcset="/img/centrifugas-calpeda-en-mexico.webp 667w" sizes="(max-width: 667px) 100vw, 667px" />
                         <img fetchpriority="high" decoding="async" width="667" height="492" src="https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico.png" alt="Bomba Sumergible de Acero inoxidable" srcset="https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico.png 667w, https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico-300x221.png 300w" sizes="(max-width: 667px) 100vw, 667px" class="max-w-full h-auto align-middle border-none box-border inline-block" />
                     </picture>
                 </div>
@@ -147,7 +133,6 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
         </div>
     </div>
 </section>
-
 
 <section class="w-full">
     <div class="max-w-[1190px] flex mx-auto relative box-border">
@@ -163,7 +148,7 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
     </div>
 </section>
 
-<section class="w-full max-w-[1190px] mx-auto flex flex-wrap relative">
+<section id="bombas" class="w-full max-w-[1190px] mx-auto flex flex-wrap relative">
     <div class="w-full sm:w-1/3 p-2.5 flex flex-wrap relative">
         <div class="w-full p-2.5 relative flex flex-wrap content-start">
             <div class="w-full mb-5">
@@ -182,103 +167,7 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
                     </div>
                 </div>
             </div>
-            <div class="w-full mb-5 hidden">
-                <div class="transition-all duration-300">
-                    <div class="text-left">
-                        <div class="border border-[#043e81]">
-                            <div class="border-b border-[#043e81] m-0 p-4 font-bold cursor-pointer outline-none">
-                                <span class="text-[#043e81] float-left block w-6">
-                                    <span class="hidden"><i class="font-awesome-900"></i></span>
-                                    <span class="block"><i class="font-awesome-900"></i></span>
-                                </span>
-                                <a class="text-[#043e81] no-underline font-roboto font-semibold">Obra Civil</a>
-                            </div>
-                            <div class="text-[#043e81] font-roboto font-normal border-t border-[#043e81] p-4">
-                                <ul class="list-square m-0 pl-4">
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/" class="text-[#007bff] no-underline"><span class="text-[#043e81]">Bombas sumergibles para drenaje y tratamiento de aguas.</span></a></span>
-                                        </h2>
-                                    </li>
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a></span>
-                                        </h2>
-                                    </li>
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de recirculación y alimentación de circuitos HVAC.</a></span>
-                                        </h2>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full mb-5 hidden">
-                <div class="transition-all duration-300">
-                    <div class="text-left">
-                        <div class="border border-[#043e81]">
-                            <div class="border-b border-[#043e81] m-0 p-4 font-bold cursor-pointer outline-none">
-                                <span class="text-[#043e81] float-left block w-6">
-                                    <span class="hidden"><i class="font-awesome-900"></i></span>
-                                    <span class="block"><i class="font-awesome-900"></i></span>
-                                </span>
-                                <a class="text-[#043e81] no-underline font-roboto font-semibold">Industria</a>
-                            </div>
-                            <div class="text-[#043e81] font-roboto font-normal border-t border-[#043e81] p-4 hidden">
-                                <ul class="list-square m-0 pl-4">
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a></span>
-                                        </h2>
-                                    </li>
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a></span>
-                                        </h2>
-                                    </li>
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a></span>
-                                        </h2>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full mb-5 hidden">
-                <div class="transition-all duration-300">
-                    <div class="text-left">
-                        <div class="border border-[#043e81]">
-                            <div class="border-b border-[#043e81] m-0 p-4 font-bold cursor-pointer outline-none">
-                                <span class="text-[#043e81] float-left block w-6">
-                                    <span class="hidden"><i class="font-awesome-900"></i></span>
-                                    <span class="block"><i class="font-awesome-900"></i></span>
-                                </span>
-                                <a class="text-[#043e81] no-underline font-roboto font-semibold">Riego-Agricola</a>
-                            </div>
-                            <div class="text-[#043e81] font-roboto font-normal border-t border-[#043e81] p-4 hidden">
-                                <ul class="list-square m-0 pl-4">
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a></span>
-                                        </h2>
-                                    </li>
-                                    <li class="list-item text-left">
-                                        <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                            <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a></span>
-                                        </h2>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  
             <div class="w-full mb-5">
                 <div class="transition-all duration-300">
                     <div class="text-left">
@@ -298,7 +187,7 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de recirculación y alimentación de circuitos HVAC.</a></span>
+                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de recirculación y alimentación de circuitos HVAC.</a></span>
                                 </h2>
                             </li>
                         </ul>
@@ -535,12 +424,27 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
     </div>
 </section>
 
+
        
 
 
 
 
 
+
+<!--Puntuar página-->
+<div class="flex flex-col items-center box-border my-8">
+    <div class="box-border mb-2 text-lg">¡Haz clic para puntuar esta página!</div>
+    <div class="inline-block box-border relative" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer; background-image: url('/img/star_2.svg');">
+        <div class="absolute top-0 left-0 h-full" style="width: 0%; background-size: 32px; background-image: url('/img/star_3.svg');"></div>
+    </div>
+    <div class="inline-block align-bottom ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="inline-block fill-current text-gray-600 cursor-pointer">
+            <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
+        </svg>
+        <span class="text-sm">(Votos: <span id="votes-count">0</span> Promedio: <span id="average-rating">0</span>)</span>
+    </div>
+</div>
 
 
 
@@ -553,22 +457,48 @@ Precio Mayorista Entrega Inmediata. Distribuidor MX.')
 
 
 <!-- Incluir el script de HubSpot en tu layout -->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-
-<div class="bg-[#000935] p-12 rounded-md text-white">
-  <h2 class="text-[41px] text-center font-semibold mb-4">¿Necesitas más información?</h2>
-  <p class="text-[32px] mb-6">Por favor llena el siguiente formulario y en breve un experto se comunicará contigo.</p>
-  <div id="hubspotForm"></div>
-</div>
-
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "7547674",
-    formId: "9a3ab0cf-0e30-47a4-b3d9-0b4bfdcc3a27",
-    target: '#hubspotForm'
-  });
-</script>
+<div id="hubspotFormContainer" class="bg-[#000935] p-12 rounded-md text-white">
+    <h2 class="text-[41px] text-center font-semibold mb-4">¿Necesitas más información?</h2>
+    <p class="text-[32px] mb-6">Por favor llena el siguiente formulario y en breve un experto se comunicará contigo.</p>
+    <div id="hubspotForm"></div>
+  </div>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            var script = document.createElement("script");
+            script.src = "//js.hsforms.net/forms/embed/v2.js";
+            script.charset = "utf-8";
+            script.type = "text/javascript";
+            script.async = true;
+            script.onload = function() {
+              hbspt.forms.create({
+                region: "na1",
+                portalId: "7547674",
+                formId: "9a3ab0cf-0e30-47a4-b3d9-0b4bfdcc3a27",
+                target: '#hubspotForm'
+              });
+            };
+            document.body.appendChild(script);
+            observer.disconnect();
+          }
+        });
+      });
+  
+      observer.observe(document.querySelector("#hubspotFormContainer"));
+    });
+  
+    document.querySelectorAll('a[href^="#hubspotForm"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 
 
 
