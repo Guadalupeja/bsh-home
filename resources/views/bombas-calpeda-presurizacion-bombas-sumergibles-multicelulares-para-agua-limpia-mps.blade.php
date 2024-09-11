@@ -1,176 +1,192 @@
 @extends('layouts.app')
 
-@section('title', 'Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP')
-@section('description', 'Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. 
-Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
+@section('title', 'Bombas Sumergibles de Pozo profundo Inoxidable | MPS Calpeda')
+@section('description', '	
+Cotiza aquí Bombas Sumergibles de Pozo profundo en Inoxidable | MPS Calpeda. Entrega inmediata y Precios Distribuidor Mayorista. Envíos todo MX. Marca Italiana.')
 
 @section('structured-data')
 
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-      "description": "Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Calpeda"
-      },
-      "sku": "MXP-001",
-      "mpn": "MXP-001",
-      "image": [
-        "/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp",
-        "/img/curve_MXH.jpg.webp"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/",
-        "priceCurrency": "MXN",
-        "price": "18000",
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "52"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Carlos López"
-          },
-          "reviewBody": "Excelente bomba para proyectos industriales de alta demanda. La calidad del acero inoxidable es insuperable."
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "María Fernández"
-          },
-          "reviewBody": "Muy eficiente, aunque la instalación fue algo compleja."
-        }
-      ],
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
-      }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://bombasellos.com.mx/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bombas",
-          "item": "https://bombasellos.com.mx/bombas/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Centrífugas Calpeda",
-          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Bombas Calpeda – Presurización",
-          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-          "item": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "¿Para qué aplicaciones es ideal la Bomba MXP de Calpeda?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP de Calpeda es ideal para aplicaciones de presurización y transporte de líquidos limpios en entornos industriales y comerciales que requieren materiales resistentes como el acero inoxidable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué variantes de material están disponibles para la Bomba MXP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP está disponible con componentes en acero inoxidable AISI 304 y opcionalmente en AISI 316 para entornos altamente corrosivos."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuál es la capacidad máxima de la Bomba MXP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP tiene una capacidad máxima de hasta 7.2 m3/h y una altura máxima de elevación de 40 metros."
-          }
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Venta y mantenimiento de bombas multicelulares",
-      "provider": {
-        "@type": "Organization",
-        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-      },
-      "description": "Ofrecemos venta y mantenimiento de bombas multicelulares horizontales en acero inoxidable. Distribuidor mayorista en México con soporte técnico experto."
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "mainEntity": {
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bomba Sumergible de Pozo profundo Inoxidable | MPS Calpeda",
+  "description": "Cotiza aquí la Bomba Sumergible de Pozo profundo en Inoxidable MPS Calpeda con entrega inmediata. Fabricada en acero inoxidable. Distribuidor mayorista en México. Mejores precios y soporte técnico especializado.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Calpeda"
+  },
+  "sku": "MPS-001",
+  "mpn": "MPS-001",
+  "category": "Industrial Pumps",
+  "image": [
+    "/img/Bombas-sumergibles-multicelulares-para-agua-limpia.png.webp",
+    "/img/MPS_curve.png.webp"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/",
+    "priceCurrency": "MXN",
+    "price": "25000",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+      "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Ventas",
-        "url": "https://bombasellos.com.mx/contacto",
         "telephone": "+52-55-5752-1715",
-        "email": "ventas@bombasellos.com.mx"
+        "email": "bsh@bombasellos.com.mx",
+        "areaServed": "MX"
       }
     }
-    </script>
-    
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "34"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Carlos Hernández"
+      },
+      "reviewBody": "Excelente bomba para pozos profundos. Gran rendimiento y durabilidad."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Laura Ramírez"
+      },
+      "reviewBody": "Funciona muy bien, aunque el precio es un poco elevado."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bombasellos.com.mx/bombas-sumergibles-pozo-profund-mps-calpeda"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bombasellos.com.mx/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Bombas",
+      "item": "https://bombasellos.com.mx/bombas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Sumergibles Calpeda",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Bombas Calpeda – Pozo profundo",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bombas Sumergibles de Pozo profundo Inoxidable – MPS",
+      "item": "https://bombasellos.com.mx/bombas-sumergibles-pozo-profund-mps-calpeda"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Para qué aplicaciones es ideal la Bomba MPS de Calpeda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba MPS de Calpeda es ideal para la extracción de agua limpia en pozos profundos, estanques, y aplicaciones agrícolas, gracias a su robustez y diseño en acero inoxidable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué materiales se utilizan en la construcción de la Bomba MPS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba MPS está construida en acero inoxidable AISI 304, lo que la hace adecuada para aplicaciones de agua limpia y ligeramente corrosivas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la capacidad máxima de la Bomba MPS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba MPS tiene una capacidad máxima de hasta 7.2 m³/h, con una altura máxima de elevación de 78.5 metros."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Venta y mantenimiento de bombas sumergibles MPS",
+  "provider": {
+    "@type": "Organization",
+    "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Ventas",
+      "telephone": "+52-55-5752-1715",
+      "email": "bsh@bombasellos.com.mx",
+      "areaServed": "MX"
+    }
+  },
+  "description": "Ofrecemos venta, instalación y mantenimiento especializado de bombas sumergibles MPS para pozos profundos. Distribuidor mayorista en México con soporte técnico experto."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "mainEntity": {
+    "@type": "ContactPoint",
+    "contactType": "Ventas",
+    "telephone": "+52-55-5752-1715",
+    "email": "bsh@bombasellos.com.mx",
+    "areaServed": "MX",
+    "contactOption": ["TollFree", "HearingImpairedSupported"],
+    "availableLanguage": ["Español", "English"]
+  }
+}
+</script>
 
 @endsection
 
@@ -183,7 +199,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                 <!-- Spacer -->
                 <div class="w-full mb-[5px] relative">
                     <div class="transition-all box-border">
-                        <div class="box-border h-[76px]"></div>
+                        <div class="box-border lg:h-[76px] h-[16px]"></div>
                     </div>
                 </div>
                 
@@ -209,7 +225,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                         Bombas Calpeda – Presurización
                                         </a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas multicelulares horizontales monobloc – MXP</li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas sumergibles multicelulares para agua limpia – MPS</li>
                                 </ul>
                             </div>
                         </div>
@@ -344,12 +360,12 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                             <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' class="relative w-full flex-row flex-nowrap">
                                                 <div class="transition-all duration-300 ease-in-out">
                                                     <div dir="ltr" class="pb-7.5 mx-auto static overflow-hidden z-[1]">
-                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[489.047px] z-[1] flex transition-transform">
-                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
+                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[450px] z-[1] flex transition-transform">
+                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[450px] relative max-w-full text-center">
                                                                 <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas multicelulares horizontales monobloc – MXP" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" class="box-border" />
-                                                                        <img alt="Bombas multicelulares horizontales monobloc – MXP" src="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" decoding="async" class="max-w-full h-auto align-middle border-none box-border" />
+                                                                    <picture decoding="async" title="Bomba sumergible de pozo profundo MPS" class="box-border">
+                                                                        <source type="image/webp" srcset="/img/Bombas-sumergibles-multicelulares-para-agua-limpia.png.webp" class="box-border" />
+                                                                        <img alt="Bomba Sumergible de pozo profundo MPS" src="/img/Bombas-sumergibles-multicelulares-para-agua-limpia.png.webp" decoding="async" class="min-w-[350px] h-[450px] align-middle border-none box-border" />
                                                                     </picture>
                                                                 </figure>
                                                             </div>
@@ -371,15 +387,40 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                             </div>
                                             <div class="w-full">
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 text-[#666666] box-border">
-                                                        Bomba multicelular monobloc de cuerpo en acero inoxidable para líquidos sin contenido de sólidos, con impulsor en Noryl PPO-GF20.
+                                                   
+                                                    <p class="text-gray-600 leading-[27px] mb-8 mt-0">
+                                                        Bomba sumergible de 5” para extracción de agua limpia de pozos y estanques. Con condensador incorporado y refrigeración de motor por recirculación de agua bombeada. Filtro de aspiración al fondo de partículas sólidas de más de 2 mm.
                                                     </p>
-                                                    <ul class="list-square mt-0 mb-0 pl-[15px] box-border">
-                                                        <li class="text-left box-border">Todos los componentes en contacto con el fluido en acero inoxidable Cr-Ni, AISI 304.</li>
-                                                        <li class="text-left box-border">Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li class="text-left box-border">Qmax. 7.2 m3/h</li>
-                                                        <li class="text-left box-border">Hmax. 40 m.</li>
+                                                    <ul class="list-disc pl-4 mt-0 mb-0 space-y-2">
+                                                        <li class="text-left">
+                                                            Camisa externa y eje en acero inoxidable AISI 304.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Impulsores en Noryl.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Diámetro de pozo mínimo de 140 mm.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Máxima profundidad de inmersión de 20 m.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Profundidad mínima de inmersión de 100 mm.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Doble sello mecánico.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Disponible con interruptor de nivel.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Qmax. 7.2 m³/h.
+                                                        </li>
+                                                        <li class="text-left">
+                                                            Hmax. 78.5 m.
+                                                        </li>
                                                     </ul>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -399,7 +440,8 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bomba MXP</div>
+                                                Bomba de Pozo MPS
+                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -411,7 +453,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Horizontales Multicelulares.
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Sumergibles de Pozo profundo.
                                             </div>
                                         </div>
                                     </h1>                                     
@@ -438,10 +480,10 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
                                     <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
                                         <div class="transition-all duration-300">
-                                            <a href="/img/curve_MXH.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_MXH" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="CURVE MXH" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve MXH" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" class="max-w-full h-auto align-middle border-none inline-block" />
+                                            <a href="/img/MPS_curve.png.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_MPS" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
+                                                <picture fetchpriority="high" decoding="async" title="CURVA BOMBA MPS" class="box-border">
+                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/MPS_curve.png.webp 929w, /img/MPS_curve.png.webp 300w, /img/MPS_curve.png.webp 768w" />
+                                                    <img fetchpriority="high" width="929" height="549" alt="curve MPS" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/MPS_curve.png.webp 929w, /img/MPS_curve.png.webp 300w, /img/MPS_curve.png.webp 768w" class="max-w-full h-auto align-middle border-none inline-block" />
                                                 </picture>
                                             </a>
                                         </div>

@@ -1,176 +1,192 @@
 @extends('layouts.app')
 
-@section('title', 'Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP')
-@section('description', 'Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. 
-Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
+@section('title', 'Bombas Impulsor abierto Vortex en Acero y Bronce | Calpeda C')
+@section('description', 'Cotiza aquí Bombas centrífugas de Impulsor abierto Vortex en Acero y Bronce Calpeda C. 
+Entrega inmediata y Precio mayorista. Envíos todo MX. Marca Italiana.')
 
 @section('structured-data')
 
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-      "description": "Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Calpeda"
-      },
-      "sku": "MXP-001",
-      "mpn": "MXP-001",
-      "image": [
-        "/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp",
-        "/img/curve_MXH.jpg.webp"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/",
-        "priceCurrency": "MXN",
-        "price": "18000",
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "52"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Carlos López"
-          },
-          "reviewBody": "Excelente bomba para proyectos industriales de alta demanda. La calidad del acero inoxidable es insuperable."
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "María Fernández"
-          },
-          "reviewBody": "Muy eficiente, aunque la instalación fue algo compleja."
-        }
-      ],
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
-      }
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://bombasellos.com.mx/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bombas",
-          "item": "https://bombasellos.com.mx/bombas/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Centrífugas Calpeda",
-          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Bombas Calpeda – Presurización",
-          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-          "item": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "¿Para qué aplicaciones es ideal la Bomba MXP de Calpeda?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP de Calpeda es ideal para aplicaciones de presurización y transporte de líquidos limpios en entornos industriales y comerciales que requieren materiales resistentes como el acero inoxidable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué variantes de material están disponibles para la Bomba MXP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP está disponible con componentes en acero inoxidable AISI 304 y opcionalmente en AISI 316 para entornos altamente corrosivos."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cuál es la capacidad máxima de la Bomba MXP?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La Bomba MXP tiene una capacidad máxima de hasta 7.2 m3/h y una altura máxima de elevación de 40 metros."
-          }
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Venta y mantenimiento de bombas multicelulares",
-      "provider": {
-        "@type": "Organization",
-        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-      },
-      "description": "Ofrecemos venta y mantenimiento de bombas multicelulares horizontales en acero inoxidable. Distribuidor mayorista en México con soporte técnico experto."
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "mainEntity": {
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bomba centrífuga con impulsor abierto Vortex | Calpeda C",
+  "description": "Bomba centrífuga con impulsor abierto Vortex de Calpeda C. Construcción en acero inoxidable y bronce, ideal para líquidos limpios con sólidos en suspensión. Entrega inmediata en México. Precio mayorista.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Calpeda"
+  },
+  "sku": "Calpeda-C-001",
+  "mpn": "C-001",
+  "category": "Industrial Pumps",
+  "image": [
+    "/img/Bombas-centrifugas-con-rodete-abierto-C.png.webp",
+    "/img/curve_C.jpg.webp"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-recirculacion-y-climatizacion/",
+    "priceCurrency": "MXN",
+    "price": "25000",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+      "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Ventas",
-        "url": "https://bombasellos.com.mx/contacto",
         "telephone": "+52-55-5752-1715",
-        "email": "ventas@bombasellos.com.mx"
+        "email": "bsh@bombasellos.com.mx",
+        "areaServed": "MX"
       }
     }
-    </script>
-    
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "34"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Carlos Rodríguez"
+      },
+      "reviewBody": "Bomba altamente eficiente, especialmente para líquidos con sólidos. Muy duradera y fácil de mantener."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Marta López"
+      },
+      "reviewBody": "Buena bomba, pero el peso es un poco elevado para instalaciones pequeñas."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bombasellos.com.mx/bombas-centrifugas-impulsor-abierto-vortex-calpeda-c"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bombasellos.com.mx/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Bombas",
+      "item": "https://bombasellos.com.mx/bombas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Centrífugas Calpeda",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Bombas Calpeda – Recirculación y climatización",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-recirculacion-y-climatizacion/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bombas centrífugas con rodete abierto – C",
+      "item": "https://bombasellos.com.mx/bombas-centrifugas-impulsor-abierto-vortex-calpeda-c"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Para qué aplicaciones es ideal la Bomba C de Calpeda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba C de Calpeda es ideal para el bombeo de líquidos limpios con bajos contenidos sólidos. Es ampliamente utilizada en aplicaciones industriales, civiles y agrícolas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué materiales se utilizan en la construcción de la Bomba C?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba C está construida con cuerpo en hierro o bronce y eje de acero inoxidable Cr-Ni, lo que la hace resistente y adecuada para aplicaciones industriales robustas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la capacidad máxima de la Bomba C?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba C tiene una capacidad máxima de hasta 15 m³/h y una altura máxima de elevación de 22.4 metros."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Venta y mantenimiento de bombas centrífugas C",
+  "provider": {
+    "@type": "Organization",
+    "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Ventas",
+      "telephone": "+52-55-5752-1715",
+      "email": "bsh@bombasellos.com.mx",
+      "areaServed": "MX"
+    }
+  },
+  "description": "Venta, instalación y mantenimiento de bombas centrífugas Calpeda C. Distribuidor mayorista en México con soporte técnico especializado."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "mainEntity": {
+    "@type": "ContactPoint",
+    "contactType": "Ventas",
+    "telephone": "+52-55-5752-1715",
+    "email": "bsh@bombasellos.com.mx",
+    "areaServed": "MX",
+    "contactOption": ["TollFree", "HearingImpairedSupported"],
+    "availableLanguage": ["Español", "English"]
+  }
+}
+</script>
 
 @endsection
 
@@ -183,7 +199,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                 <!-- Spacer -->
                 <div class="w-full mb-[5px] relative">
                     <div class="transition-all box-border">
-                        <div class="box-border h-[76px]"></div>
+                        <div class="box-border lg:h-[76px] h-[16px]"></div>
                     </div>
                 </div>
                 
@@ -205,11 +221,11 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
 
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/" class="text-[#043E81] no-underline box-shadow-none">
-                                        Bombas Calpeda – Presurización
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/" class="text-[#043E81] no-underline box-shadow-none">
+                                        Bombas Calpeda – Recirculación y climatización
                                         </a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas multicelulares horizontales monobloc – MXP</li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas centrifugas con rodete abierto – C</li>
                                 </ul>
                             </div>
                         </div>
@@ -344,12 +360,12 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                             <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' class="relative w-full flex-row flex-nowrap">
                                                 <div class="transition-all duration-300 ease-in-out">
                                                     <div dir="ltr" class="pb-7.5 mx-auto static overflow-hidden z-[1]">
-                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[489.047px] z-[1] flex transition-transform">
-                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
+                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[450px] z-[1] flex transition-transform">
+                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[450px] relative max-w-full text-center">
                                                                 <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas multicelulares horizontales monobloc – MXP" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" class="box-border" />
-                                                                        <img alt="Bombas multicelulares horizontales monobloc – MXP" src="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" decoding="async" class="max-w-full h-auto align-middle border-none box-border" />
+                                                                    <picture decoding="async" title="Bomba Centrífuga C" class="box-border">
+                                                                        <source type="image/webp" srcset="/img/Bombas-centrifugas-con-rodete-abierto-C.png.webp" class="box-border" />
+                                                                        <img alt="Bomba Centrífuga C" src="/img/Bombas-centrifugas-con-rodete-abierto-C.png.webp" decoding="async" class="min-w-[350px] h-[450px] align-middle border-none box-border" />
                                                                     </picture>
                                                                 </figure>
                                                             </div>
@@ -371,17 +387,41 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                             </div>
                                             <div class="w-full">
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 text-[#666666] box-border">
-                                                        Bomba multicelular monobloc de cuerpo en acero inoxidable para líquidos sin contenido de sólidos, con impulsor en Noryl PPO-GF20.
+                                                   
+                                                    <p class="text-[#666666] leading-[23px] mb-[32px] mt-0">
+                                                        Centrífuga monobloc de impulsor abierto tipo vortex. Con cuerpo en hierro o bronce para líquidos limpios con bajos contenidos sólidos de hasta 4 mm.
                                                     </p>
-                                                    <ul class="list-square mt-0 mb-0 pl-[15px] box-border">
-                                                        <li class="text-left box-border">Todos los componentes en contacto con el fluido en acero inoxidable Cr-Ni, AISI 304.</li>
-                                                        <li class="text-left box-border">Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li class="text-left box-border">Qmax. 7.2 m3/h</li>
-                                                        <li class="text-left box-border">Hmax. 40 m.</li>
+                                                    <ul class="list-disc pl-4 mt-0 mb-0">
+                                                        <li class="text-left">Cuerpo de Bomba en Hierro o Bronce.</li>
+                                                        <li class="text-left">Eje de Acero inoxidable Cr-Ni/ Cr-Ni-Mo.</li>
+                                                        <li class="text-left">Motores trifásicos 230/400 V o monofásico 230 V.</li>
+                                                        <li class="text-left">Qmax. 15 m3/h.</li>
+                                                        <li class="text-left">Hmax. 22.4 m.</li>
                                                     </ul>
                                                 </div>
                                             </div>
+
+
+
+
+                                            <div class="w-full mb-[20px] relative flex flex-row flex-nowrap justify-start items-start content-start">
+                                                <div class="overflow-hidden transition-transform duration-300 transform">
+                                                    <div class="aspect-w-16 aspect-h-9">
+                                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z_AISoBTYI4?si=vnSRRlzUyyXVmz1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                            <div class="w-full relative flex flex-row flex-nowrap justify-start items-start content-start">
+                                                <div class="overflow-hidden transition-transform duration-300 transform">
+                                                    <div class="aspect-w-16 aspect-h-9">
+                                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LfAEceEhTOk?si=l8wi5vm5o3f754Zz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                                                </div>
+                                            </div>
+
+
+
+
                                         </div>
 
                                     </div>
@@ -399,7 +439,8 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bomba MXP</div>
+                                                Bomba C
+                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -411,7 +452,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Horizontales Multicelulares.
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas centrifugas con impulsor abierto Vortex
                                             </div>
                                         </div>
                                     </h1>                                     
@@ -438,10 +479,10 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
                                     <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
                                         <div class="transition-all duration-300">
-                                            <a href="/img/curve_MXH.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_MXH" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="CURVE MXH" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve MXH" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" class="max-w-full h-auto align-middle border-none inline-block" />
+                                            <a href="/img/curve_C.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_C" data-elementor-lightbox-description="Curva de operación bomba C" class="text-[#007bff] no-underline inline-block shadow-none">
+                                                <picture fetchpriority="high" decoding="async" title="Bomba Centrífuga C">
+                                                    <source type="image/webp" sizes="(max-width: 547px) 100vw, 547px" srcset="/img/curve_C.jpg.webp 547w, /img/curve_C.jpg.webp 291w" />
+                                                    <img fetchpriority="high" width="547" height="564" alt="Curva de operación bomba C" sizes="(max-width: 547px) 100vw, 547px" src="/img/curve_C.jpg.webp" srcset="/img/curve_C.jpg.webp 547w, /img/curve_C.jpg.webp 291w" class="max-w-full h-auto align-middle border-none inline-block" />
                                                 </picture>
                                             </a>
                                         </div>

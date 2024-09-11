@@ -153,7 +153,7 @@ class PaginasController extends Controller
 
 
 
-     // Nuevas funciones generadas para los enlaces proporcionados
+     // Nuevas funciones
     public function bombas_calpeda_presurizacion()
     {
         return view('bombas-calpeda-presurizacion');
@@ -244,11 +244,6 @@ class PaginasController extends Controller
         return view('bombas-calpeda-presurizacion-idromat-regulador-electronico-para-bombas');
     }
 
-    public function bombas_calpeda_presurizacion_duplicado_bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh_2083()
-    {
-        return view('bombas-calpeda-presurizacion-duplicado-bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh-2083');
-    }
-
     public function bombas_calpeda_presurizacion_multi_stage_submersible_pumps_mp()
     {
         return view('bombas-calpeda-presurizacion-multi-stage-submersible-pumps-mp');
@@ -257,11 +252,6 @@ class PaginasController extends Controller
     public function bombas_calpeda_presurizacion_mxa_bombas_multicelulares_autoaspirantes()
     {
         return view('bombas-calpeda-presurizacion-mxa-bombas-multicelulares-autoaspirantes');
-    }
-
-    public function bombas_calpeda_presurizacion_duplicado_bombas_verticales_de_acoplamiento_corto_de_etapas_multiples_mpsu_259()
-    {
-        return view('bombas-calpeda-presurizacion-duplicado-bombas-verticales-de-acoplamiento-corto-de-etapas-multiples-mpsu-259');
     }
 
     public function bombas_calpeda_presurizacion_ngl_bombas_autoaspirantes_jet()
@@ -274,19 +264,9 @@ class PaginasController extends Controller
         return view('bombas-calpeda-presurizacion-ngx-bombas-autoaspirantes-jet');
     }
 
-    public function bombas_calpeda_presurizacion_duplicado_bombas_multicelulares_horizontales_monobloc_mgp_202()
-    {
-        return view('bombas-calpeda-presurizacion-duplicado-bombas-multicelulares-horizontales-monobloc-mgp-202');
-    }
-
     public function bombas_calpeda_presurizacion_sd_bombas_sumergibles_para_pozos_de_4_y_6()
     {
         return view('bombas-calpeda-presurizacion-sd-bombas-sumergibles-para-pozos-de-4-y-6');
-    }
-
-    public function bombas_calpeda_presurizacion_sds_bombas_sumergibles_para_pozos_de_6_8_y_0()
-    {
-        return view('bombas-calpeda-presurizacion-sds-bombas-sumergibles-para-pozos-de-6-8-y-0');
     }
 
     public function bombas_calpeda_presurizacion_sdx_bombas_sumergibles_de_acero_inoxidable_para_pozos_de_6_y_8()
@@ -304,6 +284,222 @@ class PaginasController extends Controller
         return view('bombas-calpeda-presurizacion-sistema-presurizado-con-control-de-presion-integrado-e-max');
     }
 
+        //Nuevas funciones:
 
-     
+        public function sistema_presurizado_con_control_de_presion_integrado_bomba_autocebante_e_ngx()
+        {
+            return view('sistema-presurizado-con-control-de-presion-integrado-bomba-autocebante-e-ngx');
+        }
+
+        public function variomat_sistema_de_velocidad_variable_dirigido_por_inversor()
+        {
+            return view('variomat-sistema-de-velocidad-variable-dirigido-por-inversor');
+        }
+
+        public function bombas_calpeda_recirculacion_y_climatizacion()
+        {
+            return view('bombas-calpeda-recirculacion-y-climatizacion');
+        }
+
+        public function bombas_centrifugas_con_rodete_abierto_c()
+        {
+            return view('bombas-centrifugas-con-rodete-abierto-c');
+        }
+
+        public function bombas_centrifugas_de_aspiracion_axial_segun_norma_europea_en_733_n_n4()
+        {
+            return view('bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4');
+        }
+
+        public function bombas_centrifugas_monobloc_con_bridas_nm_nms()
+        {
+            return view('bombas-centrifugas-monobloc-con-bridas-nm-nms');
+        }
+
+        public function duplicado_bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh_2427()
+        {
+            return view('duplicado-bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh-2427');
+        }
+
+        public function bombas_circulantes_de_tres_velocidades_con_puertos_roscados_nc3()
+        {
+            return view('bombas-circulantes-de-tres-velocidades-con-puertos-roscados-nc3');
+        }
+
+        public function bombas_circulares_de_bajo_consumo_con_bridas_nce_hqf()
+        {
+            return view('bombas-circulares-de-bajo-consumo-con-bridas-nce-hqf');
+        }
+
+        public function bombas_circulares_gemelas_de_ahorro_energetico_con_bridas_nced_hqf()
+        {
+            return view('bombas-circulares-gemelas-de-ahorro-energetico-con-bridas-nced-hqf');
+        }
+
+        public function bombas_con_rodete_periferico_t_tp()
+        {
+            return view('bombas-con-rodete-periferico-t-tp');
+        }
+
+      
+        public function bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh()
+        {
+            return view('bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh');
+        }
+
+        public function c_bombas_centrifugas_con_rodete_abierto()
+        {
+            return view('c-bombas-centrifugas-con-rodete-abierto');
+        }
+
+        public function circuladora_electronica_de_bajo_consumo_energetico_nce_h()
+        {
+            return view('circuladora-electronica-de-bajo-consumo-energetico-nce-h');
+        }
+
+        public function circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas_nce_hf()
+        {
+            return view('circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas-nce-hf');
+        }
+
+        public function ncd3_bombas_gemelas_circulantes_de_tres_velocidades_con_puertos_roscados()
+        {
+            return view('ncd3-bombas-gemelas-circulantes-de-tres-velocidades-con-puertos-roscados');
+        }
+
+        public function nce_ei_bombas_circuladoras_de_bajo_consumo()
+        {
+            return view('nce-ei-bombas-circuladoras-de-bajo-consumo');
+        }
+
+        public function nce_el_circuladoras_electronicas_para_placas_solares_de_bajo_consumo_energetico()
+        {
+            return view('nce-el-circuladoras-electronicas-para-placas-solares-de-bajo-consumo-energetico');
+        }
+
+         // Nuevas funciones generadas para las URLs
+    public function nce_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+    {
+        return view('nce-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+    }
+
+    public function nce_h_circuladora_electronica_de_bajo_consuno_energetico()
+    {
+        return view('nce-h-circuladora-electronica-de-bajo-consuno-energetico');
+    }
+
+    public function nce_hf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+    {
+        return view('nce-hf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+    }
+
+    public function nce_hqf_bombas_circulares_de_bajo_consumo_con_bridas()
+    {
+        return view('nce-hqf-bombas-circulares-de-bajo-consumo-con-bridas');
+    }
+
+    public function nced_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+    {
+        return view('nced-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+    }
+
+    public function nced_hqf_bombas_circulares_gemelas_de_ahorro_energetico_con_bridas()
+    {
+        return view('nced-hqf-bombas-circulares-gemelas-de-ahorro-energetico-con-bridas');
+    }
+
+    public function t_tp_bombas_con_rodete_periferico()
+    {
+        return view('t-tp-bombas-con-rodete-periferico');
+    }
+
+    public function bombas_de_recirculacion_y_alimentacion_de_circuitos_hvac()
+    {
+        return view('bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac');
+    }
+
+    public function bombas_para_riego_agricola()
+    {
+        return view('bombas-para-riego-agricola');
+    }
+
+    public function sellos_mecanicos_calpeda()
+    {
+        return view('sellos-mecanicos-calpeda');
+    }
+
+    public function bombas_calpeda_sistemas_contra_incendio()
+    {
+        return view('bombas-calpeda-sistemas-contra-incendio');
+    }
+
+    public function ej_edj_dj_sistemas_de_lucha_contra_incendios_uni_en_2845()
+    {
+        return view('ej-edj-dj-sistemas-de-lucha-contra-incendios-uni-en-2845');
+    }
+
+    public function home()
+    {
+        return view('home');
+    }
+
+    public function servicios_mantenimiento_y_asesoria_industrial()
+    {
+        return view('servicios-mantenimiento-y-asesoria-industrial');
+    }
+
+    public function bombas_centrifugas()
+    {
+        return view('bombas-centrifugas');
+    }
+
+    public function consultoria_y_capacitacion_tecnica()
+    {
+        return view('consultoria-y-capacitacion-tecnica');
+    }
+
+    public function hidraulico_mecanico()
+    {
+        return view('hidraulico-mecanico');
+    }
+
+    public function maquinados_y_metalizados()
+    {
+        return view('maquinados-y-metalizados');
+    }
+
+    public function servicio_de_mantenimiento()
+    {
+        return view('servicio-de-mantenimiento');
+    }
+
+    public function sistemas_hidraulicos_lineales_y_rotativos()
+    {
+        return view('sistemas-hidraulicos-lineales-y-rotativos');
+    }
+
+    public function contacto()
+    {
+        return view('contacto');
+    }
+
+    public function kits_maquinaria_industrial_sellos_hidraulicos()
+    {
+        return view('kits-maquinaria-industrial-sellos-hidraulicos');
+    }
+
+    public function blog_bsh()
+    {
+        return view('blog-bsh');
+    }
+
+    public function catalogos_del_fabricante()
+    {
+        return view('catalogos-del-fabricante');
+    }
+
+    public function presentaciones()
+    {
+        return view('presentaciones');
+    }
  }

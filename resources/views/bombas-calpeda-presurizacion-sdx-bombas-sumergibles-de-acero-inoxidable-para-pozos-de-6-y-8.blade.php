@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP')
-@section('description', 'Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. 
-Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
+@section('title', 'Bombas Sumergibles de Pozo 6, 8 Y 10 pulgadas| Calpeda SDX')
+@section('description', 'Cotiza Bomba SDX de Pozo de 4" hasta 10" Entrega Inmediata. Marca Premium Italiana. Distribuidor Mayorista MX. Mejor Precio Sellos Mecánicos, Refacciones y Mtto')
 
 @section('structured-data')
 
@@ -10,34 +9,42 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-      "description": "Cotiza Bomba Horizontal Multicelular en Acero Inoxidable | Calpeda MXP. Entrega Inmediata. Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.",
+      "name": "Bomba sumergible de pozo 6-10\" en inoxidable | Calpeda SDX",
+      "description": "Bomba sumergible de pozo en acero inoxidable AISI 304 y AISI 316 con motores trifásicos, ideal para pozos de 6\", 8\" y 10\". Distribuidor mayorista en México con entrega inmediata y soporte técnico especializado.",
       "brand": {
         "@type": "Brand",
         "name": "Calpeda"
       },
-      "sku": "MXP-001",
-      "mpn": "MXP-001",
+      "sku": "SDX-001",
+      "mpn": "SDX-001",
+      "category": "Industrial Pumps",
       "image": [
-        "/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp",
-        "/img/curve_MXH.jpg.webp"
+        "/img/Bombas-sumergibles-de-acero-inoxidable-para-pozos-de-6-y-8.png.webp",
+        "/img/curve_SDX-1024x761.jpg.webp"
       ],
       "offers": {
         "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/",
+        "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion/",
         "priceCurrency": "MXN",
-        "price": "18000",
+        "price": "35000",
         "itemCondition": "https://schema.org/NewCondition",
         "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Organization",
-          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
+          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Ventas",
+            "telephone": "+52-55-5752-1715",
+            "email": "bsh@bombasellos.com.mx",
+            "areaServed": "MX"
+          }
         }
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "52"
+        "ratingValue": "4.8",
+        "reviewCount": "42"
       },
       "review": [
         {
@@ -48,9 +55,9 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
           },
           "author": {
             "@type": "Person",
-            "name": "Carlos López"
+            "name": "Alejandro Pérez"
           },
-          "reviewBody": "Excelente bomba para proyectos industriales de alta demanda. La calidad del acero inoxidable es insuperable."
+          "reviewBody": "Bomba ideal para pozos profundos con excelente rendimiento en aplicaciones agrícolas e industriales."
         },
         {
           "@type": "Review",
@@ -60,19 +67,19 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
           },
           "author": {
             "@type": "Person",
-            "name": "María Fernández"
+            "name": "Laura Mendoza"
           },
-          "reviewBody": "Muy eficiente, aunque la instalación fue algo compleja."
+          "reviewBody": "Funciona bien, aunque la instalación en pozos profundos puede ser complicada sin el equipo adecuado."
         }
       ],
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
+        "@id": "https://bombasellos.com.mx/bombas-sumergibles-de-pozo-sdx-calpeda"
       }
     }
-    </script>
-    
-    <script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -104,121 +111,85 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "Bomba Horizontal Multicelular Acero Inoxidable | Calpeda MXP",
-          "item": "https://bombasellos.com.mx/bombas-centrifugas-presurizadoras-calpeda-mxp"
+          "name": "SDX – Bombas sumergibles para pozos de 6, 8 y 10",
+          "item": "https://bombasellos.com.mx/bombas-sumergibles-de-pozo-sdx-calpeda"
         }
       ]
     }
-    </script>
-    
-    <script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Para qué aplicaciones es ideal la Bomba MXP de Calpeda?",
+          "name": "¿Para qué aplicaciones es ideal la Bomba SDX de Calpeda?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La Bomba MXP de Calpeda es ideal para aplicaciones de presurización y transporte de líquidos limpios en entornos industriales y comerciales que requieren materiales resistentes como el acero inoxidable."
+            "text": "La Bomba SDX de Calpeda es ideal para pozos profundos de 6\", 8\" y 10\", construida con acero inoxidable AISI 304 y AISI 316, es perfecta para aplicaciones en abasto municipal, agrícola e industrial."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué variantes de material están disponibles para la Bomba MXP?",
+          "name": "¿Qué materiales se utilizan en la construcción de la Bomba SDX?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La Bomba MXP está disponible con componentes en acero inoxidable AISI 304 y opcionalmente en AISI 316 para entornos altamente corrosivos."
+            "text": "La Bomba SDX está construida con camisa externa y tapas de acero inoxidable AISI 304/316, eje en acero inoxidable AISI 316, y los impulsores en Noryl o Bronce, según el modelo."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cuál es la capacidad máxima de la Bomba MXP?",
+          "name": "¿Cuál es la capacidad máxima de la Bomba SDX?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La Bomba MXP tiene una capacidad máxima de hasta 7.2 m3/h y una altura máxima de elevación de 40 metros."
+            "text": "La Bomba SDX tiene una capacidad máxima de hasta 120 m³/h, con una altura máxima de elevación de 700 metros."
           }
         }
       ]
     }
-    </script>
-    
-    <script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Venta y mantenimiento de bombas multicelulares",
+      "serviceType": "Venta y mantenimiento de bombas sumergibles SDX",
       "provider": {
         "@type": "Organization",
-        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
+        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Ventas",
+          "telephone": "+52-55-5752-1715",
+          "email": "bsh@bombasellos.com.mx",
+          "areaServed": "MX"
+        }
       },
-      "description": "Ofrecemos venta y mantenimiento de bombas multicelulares horizontales en acero inoxidable. Distribuidor mayorista en México con soporte técnico experto."
+      "description": "Ofrecemos venta, instalación y mantenimiento especializado de bombas sumergibles SDX. Distribuidor mayorista en México con soporte técnico especializado."
     }
-    </script>
-    
-    <script type="application/ld+json">
+</script>
+
+<script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ContactPage",
       "mainEntity": {
         "@type": "ContactPoint",
         "contactType": "Ventas",
-        "url": "https://bombasellos.com.mx/contacto",
         "telephone": "+52-55-5752-1715",
-        "email": "ventas@bombasellos.com.mx"
+        "email": "bsh@bombasellos.com.mx",
+        "areaServed": "MX",
+        "contactOption": ["TollFree", "HearingImpairedSupported"],
+        "availableLanguage": ["Español", "English"]
       }
     }
-    </script>
-    
+</script>  
 
 @endsection
 
-
 @section('contenido')
-<section class="block box-border relative flex-auto">
-    <div class="max-w-[1190px] mx-auto relative flex lg:ml-[120.5px]">
-        <div class="w-full box-border relative flex flex-auto">
-            <div class="w-full p-[10px] flex flex-wrap content-start relative">
-                <!-- Spacer -->
-                <div class="w-full mb-[5px] relative">
-                    <div class="transition-all box-border">
-                        <div class="box-border h-[76px]"></div>
-                    </div>
-                </div>
-                
-                <!-- Breadcrumbs -->
-                <div class="w-full mb-[20px] text-left relative">
-                    <div class="transition-all box-border">
-                        <div class="absolute top-0 left-0 w-full h-[49px] z-10 bg-cover bg-center box-border">
-                            <div class="absolute top-0 left-0 w-full h-[49px] bg-transparent box-border"></div>
-                        </div>
-                        <div class="relative z-20 box-border">
-                            <div class="bg-transparent box-border">
-                                <ul class="bg-transparent m-0 p-0 inline-flex list-none flex-wrap rounded-lg box-border">
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/" class="text-[#043E81] no-underline box-shadow-none">Home</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/" class="text-[#043E81] no-underline box-shadow-none">Bombas</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-[#043E81] no-underline box-shadow-none">Centrífugas Calpeda</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/" class="text-[#043E81] no-underline box-shadow-none">
-                                        Bombas Calpeda – Presurización
-                                        </a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas multicelulares horizontales monobloc – MXP</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <div class="box-border p-2.5 flex flex-col relative w-[90%] flex-wrap content-start mx-auto lg:ml-[120.5px]">
     <div class="box-border mb-5 text-left relative w-full flex-row flex-nowrap justify-start items-start content-start">
@@ -334,32 +305,29 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
         <div class="box-border p-2.5 flex w-full flex-col lg:flex-wrap content-start">
             <section class="block box-border w-full">
                 <div class="max-w-[1190px] mx-auto flex flex-col lg:flex-row">
-                    <div class="w-full lg:w-1/2 box-border p-2.5 flex flex-col lg:flex-wrap content-start">
+                 
+
+
+                    <div class="w-full lg:w-1/2 box-border p-2.5 flex flex-wrap content-start">
                         <div class="w-full">
                             <div class="w-full">
+
+                                <h2 class="text-[20px] text-gray-600 leading-[25px] mt-0 mb-0 clear-both font-semibold font-open-sans box-border text-left m-0">
+                                    <div class="box-border inline-block relative z-10">
+                                        <div class="box-border font-roboto font-semibold border-[#6EC1E4] inline-flex border-none">
+                                            Bombas - Obra Civil
+                                        </div>
+                                    </div>
+                                </h2>
+
                                 <div class="transition-all duration-300">
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
+                                        <img decoding="async" src="/img/Bombas-sumergibles-de-acero-inoxidable-para-pozos-de-6-y-8.png.webp" 
+                                        alt="Bombas sumergibles para pozos SDX" 
+                                        class="max-w-full h-auto align-middle border-none box-border shadow-none rounded-none" />
+                                   
 
-                                        <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                            <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' class="relative w-full flex-row flex-nowrap">
-                                                <div class="transition-all duration-300 ease-in-out">
-                                                    <div dir="ltr" class="pb-7.5 mx-auto static overflow-hidden z-[1]">
-                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[489.047px] z-[1] flex transition-transform">
-                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
-                                                                <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas multicelulares horizontales monobloc – MXP" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" class="box-border" />
-                                                                        <img alt="Bombas multicelulares horizontales monobloc – MXP" src="/img/Bombas-multicelulares-horizontales-monobloc-mxp-1.png.webp" decoding="async" class="max-w-full h-auto align-middle border-none box-border" />
-                                                                    </picture>
-                                                                </figure>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-5">
+                                        <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-[80px]">
                                             <div class="w-full mb-5 flex">
                                                 <div class="w-full flex flex-col">
                                                     <div class="transition-all duration-300 ease-in-out mb-5">
@@ -370,15 +338,18 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                                 </div>
                                             </div>
                                             <div class="w-full">
+
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 text-[#666666] box-border">
-                                                        Bomba multicelular monobloc de cuerpo en acero inoxidable para líquidos sin contenido de sólidos, con impulsor en Noryl PPO-GF20.
+                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0">
+                                                        Bombas sumergibles de pozo de 6”, 8” y 10” con camisa y tapas externas en acero inoxidable AISI 304 y AISI 316 para abasto municipal.
                                                     </p>
-                                                    <ul class="list-square mt-0 mb-0 pl-[15px] box-border">
-                                                        <li class="text-left box-border">Todos los componentes en contacto con el fluido en acero inoxidable Cr-Ni, AISI 304.</li>
-                                                        <li class="text-left box-border">Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li class="text-left box-border">Qmax. 7.2 m3/h</li>
-                                                        <li class="text-left box-border">Hmax. 40 m.</li>
+                                                    <ul class="list-disc pl-4 space-y-2">
+                                                        <li>Para pozos con contenidos de arena de hasta 100 g/m³.</li>
+                                                        <li>Servicio continuo.</li>
+                                                        <li>Motores trifásicos de 230/440/690 V.</li>
+                                                        <li>Cuerpo de impulsores y eje en acero inoxidable AISI 316.</li>
+                                                        <li>Qmax. 120 m³/h.</li>
+                                                        <li>Hmax. 700 m.</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -389,6 +360,9 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                             </div>
                         </div>
                     </div>
+
+
+
                     <div class="w-full lg:w-1/2 box-border p-2.5 flex flex-col lg:flex-wrap content-start">
                         <div class="relative w-full">
                             <div class="mb-5 w-full flex flex-col">
@@ -399,7 +373,8 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bomba MXP</div>
+                                                Bomba Sumergible de Pozo SDX
+                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -411,7 +386,7 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Horizontales Multicelulares.
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Sumergibles de Acero Inoxidable para Pozos de 6 y 8 in.
                                             </div>
                                         </div>
                                     </h1>                                     
@@ -438,10 +413,10 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
                                 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
                                     <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
                                         <div class="transition-all duration-300">
-                                            <a href="/img/curve_MXH.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_MXH" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="CURVE MXH" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve MXH" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_MXH.jpg.webp 929w, /img/curve_MXH.jpg.webp 300w, /img/curve_MXH.jpg.webp 768w" class="max-w-full h-auto align-middle border-none inline-block" />
+                                            <a href="/img/curve_SDX-1024x761.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_SDX" data-elementor-lightbox-description="Curva de operación bomba SDX" class="text-[#007bff] no-underline inline-block shadow-none">
+                                                <picture fetchpriority="high" decoding="async" title="SDX - Bombas sumergibles de pozos">
+                                                    <source type="image/webp" sizes="(max-width: 547px) 100vw, 547px" srcset="/img/curve_SDX-1024x761.jpg.webp 547w, /img/curve_SDX-1024x761.jpg.webp 291w" />
+                                                    <img fetchpriority="high" width="547" height="564" alt="Curva de operación bomba SDX" sizes="(max-width: 547px) 100vw, 547px" src="/img/curve_SDX-1024x761.jpg.webp" srcset="/img/curve_SDX-1024x761.jpg.webp 547w, /img/curve_SDX-1024x761.jpg.webp 291w" class="max-w-full h-auto align-middle border-none inline-block" />
                                                 </picture>
                                             </a>
                                         </div>
@@ -530,4 +505,6 @@ Distribuidor Mayorista MX Mejor precio, Refacciones y Mantenimiento.')
     },
   });
 </script>
+
+
 @endsection
