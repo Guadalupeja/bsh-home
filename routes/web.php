@@ -61,16 +61,85 @@ Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanist
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/cs-cs-r-fk-motores-sumergidos', [PaginasController::class, 'bombas_calpeda_presurizacion_cs_cs_r_fk_motores_sumergidos']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/easymat-sistema-de-velocidad-variable-dirigido-por-inversor', [PaginasController::class, 'bombas_calpeda_presurizacion_easymat_sistema_de_velocidad_variable_dirigido_por_inversor']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/idromat-regulador-electronico-para-bombas', [PaginasController::class, 'bombas_calpeda_presurizacion_idromat_regulador_electronico_para_bombas']);
-Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/duplicado-bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh-2083', [PaginasController::class, 'bombas_calpeda_presurizacion_duplicado_bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh_2083']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/multi-stage-submersible-pumps-mp', [PaginasController::class, 'bombas_calpeda_presurizacion_multi_stage_submersible_pumps_mp']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/mxa-bombas-multicelulares-autoaspirantes', [PaginasController::class, 'bombas_calpeda_presurizacion_mxa_bombas_multicelulares_autoaspirantes']);
-Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/duplicado-bombas-verticales-de-acoplamiento-corto-de-etapas-multiples-mpsu-259', [PaginasController::class, 'bombas_calpeda_presurizacion_duplicado_bombas_verticales_de_acoplamiento_corto_de_etapas_multiples_mpsu_259']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/ngl-bombas-autoaspirantes-jet', [PaginasController::class, 'bombas_calpeda_presurizacion_ngl_bombas_autoaspirantes_jet']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/ngx-bombas-autoaspirantes-jet', [PaginasController::class, 'bombas_calpeda_presurizacion_ngx_bombas_autoaspirantes_jet']);
-Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/duplicado-bombas-multicelulares-horizontales-monobloc-mgp-202', [PaginasController::class, 'bombas_calpeda_presurizacion_duplicado_bombas_multicelulares_horizontales_monobloc_mgp_202']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sd-bombas-sumergibles-para-pozos-de-4-y-6', [PaginasController::class, 'bombas_calpeda_presurizacion_sd_bombas_sumergibles_para_pozos_de_4_y_6']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-0', [PaginasController::class, 'bombas_calpeda_presurizacion_sds_bombas_sumergibles_para_pozos_de_6_8_y_0']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sdx-bombas-sumergibles-de-acero-inoxidable-para-pozos-de-6-y-8', [PaginasController::class, 'bombas_calpeda_presurizacion_sdx_bombas_sumergibles_de_acero_inoxidable_para_pozos_de_6_y_8']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sistema-de-velocidad-variable-a-traves-de-variador-de-frecuencia-imat', [PaginasController::class, 'bombas_calpeda_presurizacion_sistema_de_velocidad_variable_a_traves_de_variador_de_frecuencia_imat']);
 Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sistema-presurizado-con-control-de-presion-integrado-e-max', [PaginasController::class, 'bombas_calpeda_presurizacion_sistema_presurizado_con_control_de_presion_integrado_e_max']);
 
+// Nuevas rutas generadas
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sistema-presurizado-con-control-de-presion-integrado-bomba-autocebante-e-ngx', [PaginasController::class, 'sistema_presurizado_con_control_de_presion_integrado_bomba_autocebante_e_ngx']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/variomat-sistema-de-velocidad-variable-dirigido-por-inversor', [PaginasController::class, 'variomat_sistema_de_velocidad_variable_dirigido_por_inversor']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion', [PaginasController::class, 'bombas_calpeda_recirculacion_y_climatizacion']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-con-rodete-abierto-c', [PaginasController::class, 'bombas_centrifugas_con_rodete_abierto_c']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4', [PaginasController::class, 'bombas_centrifugas_de_aspiracion_axial_segun_norma_europea_en_733_n_n4']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-monobloc-con-bridas-nm-nms', [PaginasController::class, 'bombas_centrifugas_monobloc_con_bridas_nm_nms']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/duplicado-bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh-2427', [PaginasController::class, 'duplicado_bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh_2427']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-circulantes-de-tres-velocidades-con-puertos-roscados-nc3', [PaginasController::class, 'bombas_circulantes_de_tres_velocidades_con_puertos_roscados_nc3']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-circulares-de-bajo-consumo-con-bridas-nce-hqf', [PaginasController::class, 'bombas_circulares_de_bajo_consumo_con_bridas_nce_hqf']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-circulares-gemelas-de-ahorro-energetico-con-bridas-nced-hqf', [PaginasController::class, 'bombas_circulares_gemelas_de_ahorro_energetico_con_bridas_nced_hqf']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-con-rodete-periferico-t-tp', [PaginasController::class, 'bombas_con_rodete_periferico_t_tp']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh', [PaginasController::class, 'bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/c-bombas-centrifugas-con-rodete-abierto', [PaginasController::class, 'c_bombas_centrifugas_con_rodete_abierto']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/circuladora-electronica-de-bajo-consuno-energetico-nce-h', [PaginasController::class, 'circuladora_electronica_de_bajo_consumo_energetico_nce_h']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas-nce-hf', [PaginasController::class, 'circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas_nce_hf']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/ncd3-bombas-gemelas-circulantes-de-tres-velocidades-con-puertos-roscados', [PaginasController::class, 'ncd3_bombas_gemelas_circulantes_de_tres_velocidades_con_puertos_roscados']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-ei-bombas-circuladoras-de-bajo-consumo', [PaginasController::class, 'nce_ei_bombas_circuladoras_de_bajo_consumo']);
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-el-circuladoras-electronicas-para-placas-solares-de-bajo-consumo-energetico', [PaginasController::class, 'nce_el_circuladoras_electronicas_para_placas_solares_de_bajo_consumo_energetico']);
+
+// Nuevas rutas generadas
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas', [PaginasController::class, 'nce_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-h-circuladora-electronica-de-bajo-consuno-energetico', [PaginasController::class, 'nce_h_circuladora_electronica_de_bajo_consuno_energetico']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-hf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas', [PaginasController::class, 'nce_hf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nce-hqf-bombas-circulares-de-bajo-consumo-con-bridas', [PaginasController::class, 'nce_hqf_bombas_circulares_de_bajo_consumo_con_bridas']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nced-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas', [PaginasController::class, 'nced_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/nced-hqf-bombas-circulares-gemelas-de-ahorro-energetico-con-bridas', [PaginasController::class, 'nced_hqf_bombas_circulares_gemelas_de_ahorro_energetico_con_bridas']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/t-tp-bombas-con-rodete-periferico', [PaginasController::class, 't_tp_bombas_con_rodete_periferico']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac', [PaginasController::class, 'bombas_de_recirculacion_y_alimentacion_de_circuitos_hvac']);
+
+Route::get('/bombas/bombas-centrifugas-calpeda/bombas-para-riego-agricola', [PaginasController::class, 'bombas_para_riego_agricola']);
+
+Route::get('/bombas/sellos-mecanicos-calpeda', [PaginasController::class, 'sellos_mecanicos_calpeda']);
+
+Route::get('/bombas-calpeda-sistemas-contra-incendio-2', [PaginasController::class, 'bombas_calpeda_sistemas_contra_incendio']);
+
+Route::get('/bombas-calpeda-sistemas-contra-incendio-2/ej-edj-dj-sistemas-de-lucha-contra-incendios-uni-en-2845', [PaginasController::class, 'ej_edj_dj_sistemas_de_lucha_contra_incendios_uni_en_2845']);
+
+Route::get('/', [PaginasController::class, 'home']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial', [PaginasController::class, 'servicios_mantenimiento_y_asesoria_industrial']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas', [PaginasController::class, 'bombas_centrifugas']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica', [PaginasController::class, 'consultoria_y_capacitacion_tecnica']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/hidraulico-mecanico', [PaginasController::class, 'hidraulico_mecanico']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados', [PaginasController::class, 'maquinados_y_metalizados']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento', [PaginasController::class, 'servicio_de_mantenimiento']);
+
+Route::get('/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos', [PaginasController::class, 'sistemas_hidraulicos_lineales_y_rotativos']);
+
+Route::get('/contacto', [PaginasController::class, 'contacto']);
+
+Route::get('/kits-maquinaria-industrial-sellos-hidraulicos', [PaginasController::class, 'kits_maquinaria_industrial_sellos_hidraulicos']);
+
+Route::get('/blog-bsh', [PaginasController::class, 'blog_bsh']);
+
+Route::get('/blog-bsh/catalogos-del-fabricante', [PaginasController::class, 'catalogos_del_fabricante']);
+
+Route::get('/blog-bsh/presentaciones', [PaginasController::class, 'presentaciones']);
