@@ -1,8 +1,20 @@
 @extends('layouts.app')
 
-@section('title', 'NCE GF Circuladoras electrónicas gemelas de bajo consumo.')
-@section('description', 'Bombas Circuladoras electrónicas gemelas de bajo consumo. NCE GF CALPEDA. Entrega Inmediata. 
-Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
+@section('title', 'NCED GF Circuladoras electrónicas gemelas de bajo consumo')
+@section('description', 'Circuladoras electrónicas gemelas de bajo consumo NCED GF CALPEDA. Entrega Inmediata. 
+Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mantenimiento.')
+<style>
+    .swiper-container {
+      width: 350px; /* Define the width of the carousel */
+      height: 350px; /* Define la altura del carousel */
+    }
+</style>
+
+
+@extends('layouts.app')
+
+@section('title', 'NCED GF Circuladoras electrónicas gemelas de bajo consumo')
+@section('description', 'Circuladoras electrónicas gemelas de bajo consumo NCED GF CALPEDA. Entrega Inmediata. Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mantenimiento.')
 <style>
     .swiper-container {
       width: 350px; /* Define the width of the carousel */
@@ -17,27 +29,23 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "NCE GF Circuladoras electrónicas gemelas de bajo consumo energético embridadas",
-  "description": "Las circuladoras electrónicas gemelas NCE GF de Calpeda son altamente eficientes, diseñadas para reducir el consumo energético en sistemas de calefacción y refrigeración. Especialmente adecuadas para aplicaciones civiles e industriales con ahorro de energía.",
+  "name": "Circuladoras electrónicas gemelas de bajo consumo - NCED GF",
+  "description": "Las circuladoras electrónicas gemelas NCED GF de bajo consumo de Calpeda están diseñadas para sistemas de calefacción y aire acondicionado con control eficiente del flujo de agua. Ideales para instalaciones industriales y domésticas.",
   "brand": {
     "@type": "Brand",
     "name": "Calpeda"
   },
-  "sku": "NCE-GF-002",
-  "mpn": "NCE-GF-002",
-  "category": "Circulator Pumps",
+  "sku": "NCED-GF-001",
+  "mpn": "NCED-GF-001",
+  "category": "Centrifugal Pumps",
   "image": [
-    "/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png"
+    "/img/NCED-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp"
   ],
-  "depth": "50 cm",
-  "width": "35 cm",
-  "weight": "12 kg",
-  "material": "Acero inoxidable",
   "offers": {
     "@type": "Offer",
-    "url": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf",
+    "url": "https://bombasellos.com.mx/bombas-circuladoras-nced-gf",
     "priceCurrency": "MXN",
-    "price": "37500",
+    "price": "31000",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
     "seller": {
@@ -55,8 +63,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "60"
+    "ratingValue": "4.8",
+    "reviewCount": "42"
   },
   "review": [
     {
@@ -67,9 +75,9 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Jorge Ramírez"
+        "name": "Juan Pérez"
       },
-      "reviewBody": "La bomba NCE GF ha sido increíblemente eficiente en nuestro sistema de calefacción industrial. El ahorro energético es significativo."
+      "reviewBody": "La circuladora NCED GF tiene un rendimiento sobresaliente, ideal para proyectos industriales y con un ahorro energético significativo."
     },
     {
       "@type": "Review",
@@ -79,14 +87,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Ana López"
+        "name": "Ana García"
       },
-      "reviewBody": "Buen producto, aunque la instalación tomó más tiempo de lo esperado. Sin embargo, el rendimiento es excelente."
+      "reviewBody": "Muy eficiente, pero la instalación requiere un espacio adecuado para aprovechar al máximo su rendimiento."
     }
   ],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+    "@id": "https://bombasellos.com.mx/bombas-circuladoras-nced-gf"
   }
 }
 </script>
@@ -118,8 +126,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "NCE GF",
-      "item": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+      "name": "NCED GF",
+      "item": "https://bombasellos.com.mx/bombas-circuladoras-nced-gf"
     }
   ]
 }
@@ -133,26 +141,26 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué es la bomba circuladora NCE GF?",
+      "name": "¿Qué es la circuladora NCED GF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF de Calpeda es una circuladora electrónica gemela de bajo consumo diseñada para optimizar el flujo de agua en sistemas de calefacción y refrigeración, reduciendo considerablemente el consumo energético."
+        "text": "La circuladora NCED GF de Calpeda es un equipo diseñado para optimizar el flujo de agua en sistemas de calefacción y aire acondicionado, proporcionando ahorro energético y eficiencia."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Qué características tiene la bomba NCE GF?",
+      "name": "¿Cuáles son las principales aplicaciones de la NCED GF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF está equipada con un motor síncrono de imán permanente y un inversor incorporado para ajustar automáticamente la velocidad según la demanda del sistema, lo que la hace muy eficiente en aplicaciones civiles e industriales."
+        "text": "La NCED GF es ideal para calefacción, refrigeración y circulación en aplicaciones civiles e industriales."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Dónde puedo comprar la bomba NCE GF?",
+      "name": "¿Dónde puedo comprar la bomba NCED GF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Puedes adquirir la bomba NCE GF contactando a nuestras sucursales en México para obtener el mejor precio y soporte especializado."
+        "text": "Puedes comprar la bomba NCED GF en nuestras sucursales de México."
       }
     }
   ]
@@ -164,7 +172,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Venta, instalación y mantenimiento de bombas circuladoras NCE GF",
+  "serviceType": "Venta, instalación y mantenimiento de circuladoras NCED GF",
   "provider": {
     "@type": "Organization",
     "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
@@ -177,18 +185,10 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       "availableLanguage": ["Español", "English"]
     }
   },
-  "termsOfService": "https://bombasellos.com.mx/terms",
-  "areaServed": "MX",
-  "serviceAudience": {
-    "@type": "Audience",
-    "audienceType": "Industria, Doméstico, Comercial"
-  },
-  "description": "Proveemos venta, instalación y mantenimiento especializado de bombas circuladoras NCE GF para sistemas de calefacción y refrigeración. Somos distribuidores mayoristas en México con soporte técnico experto."
+  "description": "Ofrecemos servicios de venta, instalación y mantenimiento de circuladoras NCED GF. Contamos con técnicos expertos en toda la República Mexicana."
 }
 </script>
 @endsection
-
-
 
 
 
@@ -311,12 +311,15 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                 <div class="transition-all duration-300">
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
                                         <div class="swiper-container">
+                                            
+
                                             <figure class="m-0 block box-border leading-[27px]">
-                                                <picture decoding="async" title="NCE GF - Bombas electrónicas gemelas de bajo consumo" class="box-border">
-                                                    <source type="image/webp" srcset="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" />
-                                                    <img decoding="async" src="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" alt="NCE GF - Circuladoras electrónicas gemelas de bajo consumo" class="max-w-[300px] mt-5 h-auto align-middle border-none" />
+                                                <picture decoding="async" title="NCED GF Circuladoras electrónicas gemelas de bajo consumo energético">
+                                                    <source type="image/webp" srcset="/img/NCED-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" />
+                                                    <img decoding="async" src="/img/NCED-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png" alt="NCED-GF Circuladoras electrónicas gemelas de bajo consumo energético" class="max-w-full h-auto align-middle border-none" />
                                                 </picture>
                                             </figure>
+
                                         </div>
 
                                         <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-[80px]">
@@ -332,11 +335,19 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                             <div class="w-full">
 
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Ejecución</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Circuladora de alta eficiencia energética de velocidad variable dirigida por un motor síncrono de imán permanente controlado por un inversor.</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Aplicaciones</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Calefacción, aire acondicionado, refrigeración y circulación. Para aplicaciones civiles e industriales.</p>
-                                                 </div>
+                                                    <p class="text-[#666] leading-[27px] mb-[32px] mt-0">
+                                                        <strong class="font-semibold">Ejecución</strong>
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-[32px] mt-0">
+                                                        Circuladora de alta eficiencia energética de velocidad variable dirigida por un motor síncrono de imán permanente controlado por un inversor.
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-[32px] mt-0">
+                                                        <strong class="font-semibold">Aplicaciones</strong>
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-[32px] mt-0">
+                                                        Calefacción, aire acondicionado, refrigeración y circulación. Para aplicaciones civiles e industriales.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -355,7 +366,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">
-                                                NCE GF</div>
+                                                NCED GF</div>
                                         </div>
                                     </h2>
                                 </div>
@@ -367,7 +378,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Circuladoras electrónicas gemelas de bajo consumo energético embridadas                                            </div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Circuladoras electrónicas gemelas de bajo consumo energético embridadas
+                                            </div>
                                         </div>
                                     </h1>
                                 </div>
@@ -382,26 +394,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                 </div>
                             </div>
 
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none mt-[80px]  lg:mt-[280px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
-                                <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                    <div class="relative w-full flex flex-wrap items-start">
-                                        <div class="text-[#7a7a7a] font-roboto font-normal text-xs mb-5">
-                                            <div class="transition-all duration-300">
-                                                <p class="text-[#666] leading-[1.8] mb-2 mt-0">
-                                                    <strong class="font-semibold">Campo de aplicaciones</strong>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="relative w-full flex justify-center">
-                                        <div class="transition-all duration-300 ease-in-out transform">
-                                           
-                                            <img fetchpriority="high" decoding="async" width="1024" height="601" src="/img/curve_NCE_G_F-1-1024x656.jpg.webp" alt="NCE GF curve" srcset="/img/curve_NCE_G_F-1-1024x656.jpg.webp 1024w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 300w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 768w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 600w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 1138w" sizes="(max-width: 1024px) 100vw, 1024px" title="NCE GF Circuladoras electrónicas de bajo consumo energético" class="max-w-full h-auto align-middle border-none" />
-                                        </a>                                           
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

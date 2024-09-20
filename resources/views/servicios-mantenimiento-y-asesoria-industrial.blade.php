@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('title', 'Bombas Centrífugas Neumáticas Sellos Hidraúlicos 2024| BSH')
-@section('description', 'Cotiza Bombas Centrífugas Neumáticas Sellos Trelleborg en material Turcon, Turcite y Orkot. 
-Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
+@section('title', 'Capacitación y Mantenimiento a Sistemas Hidráulicos y Bombas')
+@section('description', 'Mantenimiento de Pistones, Bombas, Sistemas Hidraúlicos lineales y rotativos. 
+Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Técnica')
 
 @section('structured-data')
 <script type="application/ld+json">
@@ -75,19 +75,61 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Asesoría Técnica",
+      "serviceType": "Mantenimiento Industrial",
       "provider": {
         "@type": "Organization",
         "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
         "areaServed": "MX",
         "availableLanguage": ["Español", "English"]
       },
-      "description": "Ofrecemos asesoría gratuita para la selección, instalación, y operación de equipos hidráulicos. Servicio de entrega inmediata.",
+      "description": "Ofrecemos mantenimiento preventivo y correctivo a sistemas hidráulicos y bombas industriales. Mejora el desempeño y vida útil de tus equipos.",
       "offers": {
         "@type": "Offer",
         "priceCurrency": "MXN",
         "price": "0",
-        "url": "https://bombasellos.com.mx/contacto"
+        "url": "https://bombasellos.com.mx/servicio-de-mantenimiento/"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Consultoría y Capacitación Técnica",
+      "provider": {
+        "@type": "Organization",
+        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+        "areaServed": "MX",
+        "availableLanguage": ["Español", "English"]
+      },
+      "description": "Brinda a tu personal las habilidades técnicas necesarias para seleccionar, operar y reparar equipos hidráulicos y sistemas de bombeo.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MXN",
+        "price": "0",
+        "url": "https://bombasellos.com.mx/consultoria-y-capacitacion-tecnica/"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Maquinados y Metalizados",
+      "provider": {
+        "@type": "Organization",
+        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+        "areaServed": "MX",
+        "availableLanguage": ["Español", "English"]
+      },
+      "description": "Ofrecemos servicios de maquinados de piezas especiales y metalizados con cromo duro para la industria. Capacidades en aleaciones no-convencionales.",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "MXN",
+        "price": "0",
+        "url": "https://bombasellos.com.mx/maquinados-y-metalizados/"
       }
     }
     </script>
@@ -112,6 +154,14 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
             "@type": "Answer",
             "text": "Puede solicitar asesoría técnica gratuita en sitio, contactándonos a través de nuestra página de contacto o llamando al +52-55-5752-1715."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué tipos de servicios de mantenimiento ofrecen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ofrecemos mantenimiento preventivo y correctivo para sistemas hidráulicos, bombas y otros equipos industriales."
+          }
         }
       ]
     }
@@ -131,14 +181,14 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Productos",
-          "item": "https://bombasellos.com.mx/productos/"
+          "name": "Servicios",
+          "item": "https://bombasellos.com.mx/servicios/"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Sellos Mecánicos CALPEDA®",
-          "item": "https://bombasellos.com.mx/sellos-mecanicos-calpeda/"
+          "name": "Mantenimiento Industrial",
+          "item": "https://bombasellos.com.mx/servicio-de-mantenimiento/"
         }
       ]
     }
@@ -149,154 +199,34 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
 @section('contenido')
 
 
-<section class="relative lg:flex flex-wrap max-w-screen-xl mx-auto">
-    <div class="flex w-full lg:w-1/2 p-2">
-        <div class="w-full flex flex-wrap content-start m-0">
-            <!-- Imagen  -->
-            <div class="w-full m-0 text-center p-0">
-                <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="inline-block">
-                    <picture>
-                        <source type="image/webp" srcset="/img/centrifuga-calpeda-en-mexico.jpg.webp 1000w, /img/centrifuga-calpeda-en-mexico-300x112.jpg.webp 300w">
-                        <img src="/img/centrifuga-calpeda-en-mexico.jpg" alt="Bomba Centrifuga horizontal Calpeda" class="max-w-full h-auto border-none shadow-none m-0">
-                    </picture>
-                </a>
-            </div>
-            <!-- Heading 1 -->
-            <div class="w-full p-5 bg-[#610001] text-white mt-[-20px] text-center">
-                <h2 class="text-lg font-semibold font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-white no-underline">Bombas centrífugas Calpeda®.</a></h2>
-            </div>
-        </div>
-    </div>
-
-
-    
-    <div class="flex w-full lg:w-1/2 p-2">
-        <div class="w-full flex flex-wrap m-0">
-
-            <!-- Imagen -->
-            <div class="w-full m-0 text-center p-0">
-                <img src="/img/sellos-hidraulicos-trelleborg-pqbd3zuptdkdqat5kisk61lv5f3zlnvog9859h1ifm.webp" alt="Sellos hidraulicos trelleborg" class="max-w-full h-auto border-none shadow-none">
-            </div>
-            <!-- Heading 2 -->
-            <div class="w-full p-5 bg-[#610001] text-white mt-[-20px] text-center">
-                <h1 class="text-lg font-semibold font-roboto"><a href="https://bombasellos.com.mx/sellos-hidraulicos/" class="text-white no-underline m-0">Sellos Hidraúlicos Trelleborg®</a></h1>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
-
-
-
-<section class="relative flex flex-wrap max-w-screen-xl mx-auto">
-    <div class="w-full lg:w-1/2 p-2 flex flex-wrap">
-
-        <!-- Imagen -->
-        <div class="w-full m-0 text-center">
-            <picture>
-                <source type="image/webp" srcset="/img/Turcite-Slydway.jpg.webp 1000w, /img/Turcite-Slydway-300x112.jpg.webp 300w, /img/Turcite-Slydway-768x286.jpg.webp 768w">
-                <img src="/img/Turcite-Slydway.jpg" alt="Guia Turcite B Slydway y Waylock" class="max-w-full h-auto border-none shadow-none">
-            </picture>
-        </div>
-        <!-- Heading 1 -->
-        <div class="w-full p-5 bg-[#610001] text-white mt[-20] text-center">
-            <h2 class="text-lg font-semibold font-roboto"><a href="https://bombasellos.com.mx/plasticos-de-ingeneria/turcite-b-slydway/" class="text-white no-underline">Turcite B Slydway®</a></h2>
-        </div>
-    </div>
-
-    <div class="w-full lg:w-1/2 p-2 flex flex-wrap">
-        <!-- Imagen 3 -->
-        <div class="w-full mb-5 text-center">
-            <img src="/img/bombas-neumaticas-wilden-ouaz4rauc16doxyxshln5v5whl1csqb895n26rbfyq.webp" alt="Bomba Neumatica de doble diafragma." class="max-w-full h-auto border-none shadow-none">
-        </div>
-        <!-- Heading 2 -->
-        <div class="w-full p-5 bg-[#610001] text-white mt-[-20px] text-center">
-            <h2 class="text-lg font-semibold font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-neumaticas/" class="text-white no-underline">Bombas Neumáticas Wilden®</a></h2>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="relative w-full box-border">
-    <div class="max-w-[1190px] mx-auto flex relative box-border">
-        <div class="w-full flex flex-wrap p-2.5 box-border">
-            <!-- Spacer -->
-            <div class="w-full mb-5 box-border">
-                <div class="lg:h-[50px] h-[20px]"></div>
-            </div>
-            <!-- Heading -->
-            <div class="w-full mb-5 box-border text-center">
-                <div class="text-center">
-                    <span class="inline-block relative z-10">
-                        <div class="font-roboto font-semibold text-[#043E81] lg:text-[33px] text-[20px] lg:leading-[49.5px] border-none">
-                            Conoce más de nuestra gama de sellos hidraúlicos, equipos de bombeo y control de fluidos.
+<section class="relative w-full">
+    <div class="max-w-[1190px] mx-auto flex relative">
+        <div class="w-full flex flex-wrap">
+            <div class="p-2.5 w-full flex flex-wrap">
+                <div class="w-full">
+                    <div class="transition duration-300 ease-in-out">
+                        <div class="w-full p-0 m-0">
+                            <ol class="list-none m-0 p-0 w-auto float-left text-[16px] font-roboto bg-[#edeff0] rounded-md">
+                                <li class="inline-block p-[15px] pr-0 mr-[3px] rounded-l-md text-[16px]"> 
+                                    <span>
+                                        <a href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
+                                            <i class="fas fa-home mx-[5px]"></i>Home
+                                        </a>
+                                    </span>
+                                    <meta itemprop="position" content="1" />
+                                </li>
+                                <li class="inline-block p-[15px] text-gray-400">/</li>
+                                <li class="inline-block p-[15px] pl-2 rounded-r-md text-[16px]">
+                                    <span class="text-[#27272A]" title="Capacitación y Mantenimiento a Sistemas Hidráulicos y Bombas">Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas</span>
+                                    <meta itemprop="position" content="2" />
+                                </li>
+                            </ol>
+                            <div class="clear-both"></div>
                         </div>
-                        <div class="mt-[10px] relative flex justify-center">
-                            <div class="after:content-[''] after:block after:bg-[#610001] after:w-[100px] after:h-[4px] after:mt-2 mx-auto"></div>
-                        </div>                        
-                    </span>
-                </div>
-            </div>
-            <!-- Spacer -->
-            <div class="w-full mt-5 box-border">
-                <div class="lg:h-[50px] h-[20px]"></div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--Seccion 3 columnas-->
-<section class="relative">
-    <div class="max-w-[1190px] mx-auto lg:flex">
-        <!-- Columna 1 -->
-        <div class="lg:w-1/3 p-2.5 flex">
-            <div class="w-full flex flex-wrap content-start">
-                <div class="w-full m-0 text-center">
-                    <a href="https://juntasflexibles.com/" target="_blank" rel="noopener" class="inline-block">
-                        <picture>
-                            <source type="image/webp" srcset="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg.webp 394w, /img/IMAGEN-1-JUNTAS-FLEXIBLES-2-300x228.jpg.webp 300w">
-                            <img src="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg" alt="IMAGEN 1 JUNTAS FLEXIBLES 2" class="max-w-full h-auto">
-                        </picture>
-                    </a>
-                </div>
-                <div class="w-full bg-[#610001] text-center p-0 mt-[-20px]">
-                    <h2 class="text-[18px] lg:text-[25px] font-roboto font-semibold text-white leading-[77.5px] m-0"><a href="https://juntasflexibles.com/" target="_blank" rel="noopener" class="text-white no-underline">Juntas de Expansión</a></h2>
-                </div>
-            </div>
-        </div>
-        <!-- Columna 2 -->
-        <div class="lg:w-1/3 p-2.5 flex">
-            <div class="w-full flex flex-wrap content-start">
-                <div class="w-full m-0 text-center">
-                    <a href="https://bombasellos.com.mx/kits-maquinaria-industrial" target="_blank" class="inline-block">
-                        <picture>
-                            <source type="image/webp" srcset="/img/kits-maquinaria-industrial.png.webp 394w, /img/kits-maquinaria-industrial-300x228.png.webp 300w">
-                            <img src="/img/kits-maquinaria-industrial.png" alt="Maquina de Inyeccion de plasticos con sellos" class="max-w-full h-auto">
-                        </picture>
-                    </a>
-                </div>
-                <div class="w-full bg-[#610001] text-center py-2 mt-[-20px]">
-                    <h2 class="text-[18px] lg:text-[25px] font-semibold font-roboto text-white leading-[32.5px] m-0"><a href="https://bombasellos.com.mx/kits-maquinaria-industrial" class="text-white no-underline">Kits de sellos<br>para maquinaria Industrial.</a></h2>
-                </div>
-            </div>
-        </div>
-        <!-- Columna 3 -->
-        <div class="lg:w-1/3 p-2.5 flex">
-            <div class="w-full flex flex-wrap content-start">
-                <div class="w-full m-0 text-center">
-                    <a href="https://bombasdealtapresion.com.mx/" target="_blank" rel="noopener" class="inline-block">
-                        <picture>
-                            <source type="image/webp" srcset="/img/IMAGEN-2-MAXIMATOR.jpg.webp 394w, /img/IMAGEN-2-MAXIMATOR-300x228.jpg.webp 300w">
-                            <img src="/img/IMAGEN-2-MAXIMATOR.jpg" alt="IMAGEN 2 MAXIMATOR" class="max-w-full h-auto">
-                        </picture>
-                    </a>
-                </div>
-                <div class="w-full bg-[#610001] text-center py-2 mt-[-20px]">
-                    <h2 class="text-[18px] lg:text-[25px] font-semibold font-roboto text-white leading-[32.5px] m-0"><a href="https://bombasdealtapresion.com.mx/" target="_blank" rel="noopener" class="text-white no-underline">Amplificadores<br>Maximator®</a></h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -304,67 +234,47 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
 </section>
 
 
-<div class="p-2.5 flex relative w-full flex-wrap content-start">
-    <!-- Espaciador -->
-    <div class="w-full">
-        <div class="transition-all duration-300">
-            <div class="h-[120px]"></div>
-        </div>
-    </div>
-</div>
 
-
-<section class="relative bg-gradient-to-r from-[#610001] to-[#b00204]">
-    <div class="max-w-[1190px] mx-auto flex">
-        <div class="w-full flex flex-wrap p-2.5">
-            <!-- Espaciador Superior -->
-            <div class="w-full mb-5">
-                <div class="h-[50px]"></div>
-            </div>
-            <!-- Texto Principal -->
-            <div class="w-full mb-5 text-center">
-                <div class="inline-block relative z-10">
-                    <p class="text-white font-roboto font-semibold text-[20px] leading-[28px]">Somos expertos en hidráulica. Te ayudamos en la selección del equipo adecuado, instalación, operación y mantenimiento. Mejora tus procesos y evita paros técnicos.</p>
+<section class="relative w-full bg-cover bg-center" style="background-image: url('/img/bombas-industriales.jpg');">
+    <div class="max-w-[1190px] mx-auto flex relative">
+        <div class="w-full flex flex-wrap">
+            <div class="p-2.5 w-full flex flex-wrap content-start">
+                <!-- Spacer superior -->
+                <div class="w-full mb-5">
+                    <div class="h-[70px]"></div>
                 </div>
-            </div>
-            <!-- Botón de Asesoría -->
-            <div class="w-full mb-5 text-center">
-                <a href="#contacto" class="inline-block bg-black text-white font-roboto font-medium text-[15px] leading-[15px] py-3 px-6 rounded-md transition-all hover:bg-gray-700">
-                    Agendar asesoría
-                </a>
-            </div>
-            <!-- Espaciador Inferior -->
-            <div class="w-full">
-                <div class="h-[50px]"></div>
+                
+                <!-- Heading -->
+                <div class="w-full text-center mb-5">
+                    <h1 class="lg:text-[61px] text-[31px] font-semibold font-roboto text-white leading-[54.5455px]">
+                        Servicios de Mantenimiento y Consultoría Técnica Industrial.
+                    </h1>
+                    <div class="mt-0 relative flex justify-center">
+                        <div class="after:content-[''] after:block after:bg-[#610001] after:w-[100px] after:h-[2px] after:mt-2 mx-auto"></div>
+                    </div> 
+                </div>
+  
+                <!-- Spacer inferior -->
+                <div class="w-full mb-5">
+                    <div class="h-[70px]"></div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<div class="p-2.5 flex w-full flex-wrap content-start">
-    <!-- Espaciador superior -->
-    <div class="w-full mb-5">
-        <div class="h-[25px]"></div>
-    </div>
-
-    <!-- Texto principal centrado -->
-    <div class="w-full mb-5 text-center">
-        <div class="inline-block relative z-10">
-            <p class="font-roboto font-semibold text-[#043e81] text-[27px]">
-                Servicios técnicos especializados para cada industria.
-            </p>
+<div class="my-[45px] text-center">
+    <div class="inline-block relative z-10">
+        <div class="font-roboto font-semibold text-[#043E81] text-[35px] inline-flex">
+            Nuestras soluciones en servicios industriales.
         </div>
+     
         <div class="mt-0 relative flex justify-center">
-            <div class="after:content-[''] after:block after:bg-[#610001] after:w-[100px] after:h-[2px] after:mt-2 mx-auto"></div>
-        </div>    
-        
-    </div>
-
-    <!-- Espaciador inferior -->
-    <div class="w-full mb-5">
-        <div class="h-[25px]"></div>
+            <div class="after:content-[''] after:block after:bg-[#610001] after:w-[100px] after:h-[2px] after:mt-1 mx-auto"></div>
+        </div>   
     </div>
 </div>
+
 
 
 <!--sección de 3 columnas servicios especializados-->

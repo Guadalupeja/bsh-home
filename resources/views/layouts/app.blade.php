@@ -141,7 +141,7 @@
         
         
 <!--Barra guinda-->
-<section class="hidden md:block font-roboto left-0 box-border transition duration-300 ease-in-out border border-transparent rounded mb-4 bg-red-900 h-48.11px">
+<section class="hidden md:block font-roboto left-0 box-border transition duration-300 ease-in-out border border-transparent rounded bg-red-900 h-48.11px">
     <div class="py-3.5 flex justify-center">
         <div class="flex">
             <ul class="flex justify-center">

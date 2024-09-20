@@ -144,12 +144,15 @@ class PaginasController extends Controller
          return view('geotrit-geoclean-geocomp');
      }
  
-     public function bomba_sumergible_para_achiques_gm_0()
+     public function bomba_sumergible_para_achiques_gm_10()
      {
-         return view('bomba-sumergible-para-achiques-gm-0');
+         return view('bomba-sumergible-para-achiques-gm-10');
      }
 
-
+     public function bomba_sumergible_con_sistema_triturador_gqg_1956()
+     {
+         return view('bomba-sumergible-sistema-triturador-gqg-1956');
+     }
 
 
 
@@ -254,6 +257,13 @@ class PaginasController extends Controller
         return view('bombas-calpeda-presurizacion-mxa-bombas-multicelulares-autoaspirantes');
     }
 
+
+    public function bombas_calpeda_presurizacion_mxv_bombas_multicelulares_verticales_in_line()
+    {
+        return view('duplicado-bombas-verticales-de-acoplamiento-corto-de-etapas-multiples-mpsu-2159');
+    }
+
+
     public function bombas_calpeda_presurizacion_ngl_bombas_autoaspirantes_jet()
     {
         return view('bombas-calpeda-presurizacion-ngl-bombas-autoaspirantes-jet');
@@ -264,10 +274,21 @@ class PaginasController extends Controller
         return view('bombas-calpeda-presurizacion-ngx-bombas-autoaspirantes-jet');
     }
 
+    public function duplicado_bombas_multicelulares_horizontales_monobloc_mgp_2102()
+    {
+        return view('duplicado-bombas-multicelulares-horizontales-monobloc-mgp-2102');
+    }
+
     public function bombas_calpeda_presurizacion_sd_bombas_sumergibles_para_pozos_de_4_y_6()
     {
         return view('bombas-calpeda-presurizacion-sd-bombas-sumergibles-para-pozos-de-4-y-6');
     }
+
+    public function bombas_calpeda_presurizacion_sds_bombas_sumergibles_para_pozos_de_6_8_Y_10()
+    {
+        return view('bombas-calpeda-presurizacion-sds-bombas-sumergibles-para-pozos-de-6-8-y-10');
+    }
+
 
     public function bombas_calpeda_presurizacion_sdx_bombas_sumergibles_de_acero_inoxidable_para_pozos_de_6_y_8()
     {
@@ -316,6 +337,12 @@ class PaginasController extends Controller
             return view('bombas-centrifugas-monobloc-con-bridas-nm-nms');
         }
 
+        public function bombas_centrifugas_monobloc_nm4_nms4()
+        {
+            return view('bombas-centrifugas-monobloc-nm4-nms4');
+        }
+
+
         public function duplicado_bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh_2427()
         {
             return view('duplicado-bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh-2427');
@@ -341,7 +368,12 @@ class PaginasController extends Controller
             return view('bombas-con-rodete-periferico-t-tp');
         }
 
-      
+        public function bombas_in_line_NR_NR4()
+        {
+            return view('bombas-presurizadas-NR-NR4');
+        }
+
+
         public function bombas_multicelulares_horizontales_monobloc_de_acero_inoxidable_mxh()
         {
             return view('bombas-multicelulares-horizontales-monobloc-de-acero-inoxidable-mxh');
@@ -378,128 +410,128 @@ class PaginasController extends Controller
         }
 
          // Nuevas funciones generadas para las URLs
-    public function nce_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
-    {
-        return view('nce-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
-    }
+        public function nce_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+        {
+            return view('nce-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+        }
 
-    public function nce_h_circuladora_electronica_de_bajo_consuno_energetico()
-    {
-        return view('nce-h-circuladora-electronica-de-bajo-consuno-energetico');
-    }
+        public function nce_h_circuladora_electronica_de_bajo_consuno_energetico()
+        {
+            return view('nce-h-circuladora-electronica-de-bajo-consuno-energetico');
+        }
 
-    public function nce_hf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
-    {
-        return view('nce-hf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
-    }
+        public function nce_hf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+        {
+            return view('nce-hf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+        }
 
-    public function nce_hqf_bombas_circulares_de_bajo_consumo_con_bridas()
-    {
-        return view('nce-hqf-bombas-circulares-de-bajo-consumo-con-bridas');
-    }
+        public function nce_hqf_bombas_circulares_de_bajo_consumo_con_bridas()
+        {
+            return view('nce-hqf-bombas-circulares-de-bajo-consumo-con-bridas');
+        }
 
-    public function nced_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
-    {
-        return view('nced-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
-    }
+        public function nced_gf_circuladoras_electronicas_gemelas_de_bajo_consumo_energetico_embridadas()
+        {
+            return view('nced-gf-circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas');
+        }
 
-    public function nced_hqf_bombas_circulares_gemelas_de_ahorro_energetico_con_bridas()
-    {
-        return view('nced-hqf-bombas-circulares-gemelas-de-ahorro-energetico-con-bridas');
-    }
+        public function nced_hqf_bombas_circulares_gemelas_de_ahorro_energetico_con_bridas()
+        {
+            return view('nced-hqf-bombas-circulares-gemelas-de-ahorro-energetico-con-bridas');
+        }
 
-    public function t_tp_bombas_con_rodete_periferico()
-    {
-        return view('t-tp-bombas-con-rodete-periferico');
-    }
+        public function t_tp_bombas_con_rodete_periferico()
+        {
+            return view('t-tp-bombas-con-rodete-periferico');
+        }
 
-    public function bombas_de_recirculacion_y_alimentacion_de_circuitos_hvac()
-    {
-        return view('bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac');
-    }
+        public function bombas_de_recirculacion_y_alimentacion_de_circuitos_hvac()
+        {
+            return view('bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac');
+        }
 
-    public function bombas_para_riego_agricola()
-    {
-        return view('bombas-para-riego-agricola');
-    }
+        public function bombas_para_riego_agricola()
+        {
+            return view('bombas-para-riego-agricola');
+        }
 
-    public function sellos_mecanicos_calpeda()
-    {
-        return view('sellos-mecanicos-calpeda');
-    }
+        public function sellos_mecanicos_calpeda()
+        {
+            return view('sellos-mecanicos-calpeda');
+        }
 
-    public function bombas_calpeda_sistemas_contra_incendio()
-    {
-        return view('bombas-calpeda-sistemas-contra-incendio');
-    }
+        public function bombas_calpeda_sistemas_contra_incendio()
+        {
+            return view('bombas-calpeda-sistemas-contra-incendio');
+        }
 
-    public function ej_edj_dj_sistemas_de_lucha_contra_incendios_uni_en_2845()
-    {
-        return view('ej-edj-dj-sistemas-de-lucha-contra-incendios-uni-en-2845');
-    }
+        public function ej_edj_dj_sistemas_de_lucha_contra_incendios_uni_en_2845()
+        {
+            return view('ej-edj-dj-sistemas-de-lucha-contra-incendios-uni-en-2845');
+        }
 
-    public function home()
-    {
-        return view('home');
-    }
+        public function home()
+        {
+            return view('principal');
+        }
 
-    public function servicios_mantenimiento_y_asesoria_industrial()
-    {
-        return view('servicios-mantenimiento-y-asesoria-industrial');
-    }
+        public function servicios_mantenimiento_y_asesoria_industrial()
+        {
+            return view('servicios-mantenimiento-y-asesoria-industrial');
+        }
 
-    public function bombas_centrifugas()
-    {
-        return view('bombas-centrifugas');
-    }
+        public function bombas_centrifugas()
+        {
+            return view('bombas-centrifugas');
+        }
 
-    public function consultoria_y_capacitacion_tecnica()
-    {
-        return view('consultoria-y-capacitacion-tecnica');
-    }
+        public function consultoria_y_capacitacion_tecnica()
+        {
+            return view('consultoria-y-capacitacion-tecnica');
+        }
 
-    public function hidraulico_mecanico()
-    {
-        return view('hidraulico-mecanico');
-    }
+        public function hidraulico_mecanico()
+        {
+            return view('hidraulico-mecanico');
+        }
 
-    public function maquinados_y_metalizados()
-    {
-        return view('maquinados-y-metalizados');
-    }
+        public function maquinados_y_metalizados()
+        {
+            return view('maquinados-y-metalizados');
+        }
 
-    public function servicio_de_mantenimiento()
-    {
-        return view('servicio-de-mantenimiento');
-    }
+        public function servicio_de_mantenimiento()
+        {
+            return view('servicio-de-mantenimiento');
+        }
 
-    public function sistemas_hidraulicos_lineales_y_rotativos()
-    {
-        return view('sistemas-hidraulicos-lineales-y-rotativos');
-    }
+        public function sistemas_hidraulicos_lineales_y_rotativos()
+        {
+            return view('sistemas-hidraulicos-lineales-y-rotativos');
+        }
 
-    public function contacto()
-    {
-        return view('contacto');
-    }
+        public function contacto()
+        {
+            return view('contacto');
+        }
 
-    public function kits_maquinaria_industrial_sellos_hidraulicos()
-    {
-        return view('kits-maquinaria-industrial-sellos-hidraulicos');
-    }
+        public function kits_maquinaria_industrial_sellos_hidraulicos()
+        {
+            return view('kits-maquinaria-industrial-sellos-hidraulicos');
+        }
 
-    public function blog_bsh()
-    {
-        return view('blog-bsh');
-    }
+        public function blog_bsh()
+        {
+            return view('blog-bsh');
+        }
 
-    public function catalogos_del_fabricante()
-    {
-        return view('catalogos-del-fabricante');
-    }
+        public function catalogos_del_fabricante()
+        {
+            return view('catalogos-del-fabricante');
+        }
 
-    public function presentaciones()
-    {
-        return view('presentaciones');
-    }
+        public function presentaciones()
+        {
+            return view('presentaciones');
+        }
  }

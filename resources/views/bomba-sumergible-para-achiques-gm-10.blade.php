@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV')
-@section('description', '	
-Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista')
+@section('title', 'Bombas sumergibles para cisternas y aguas pluviales| Calpeda')
+@section('description', 'Cotiza bombas sumergibles para el desagüe de aguas con sólidos de carcamos y cisternas CALPEDA. 
+En acero inoxidable, fundición y plástico. Precio Mayorista.')
 
 @section('structured-data')
 
@@ -10,21 +10,21 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-      "description": "Cotiza bombas sumergibles para aguas con sólidos, lodos de cárcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista.",
+      "name": "Bomba sumergible para achiques GM-10 | Calpeda",
+      "description": "Bomba sumergible GM-10 para extracción de agua con sólidos en sistemas de drenaje. Fabricada con compuestos plásticos y acero inoxidable. Entrega inmediata y soporte técnico especializado.",
       "brand": {
         "@type": "Brand",
         "name": "Calpeda"
       },
-      "sku": "GQS-GQV-001",
-      "mpn": "GQS-GQV-001",
+      "sku": "GM-10",
+      "mpn": "GM-10",
       "image": [
-        "/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp",
-        "/img/curve_GQS-GQV.jpg.webp"
+        "/img/Bomba-sumergible-para-achiques-GM-10.png.webp",
+        "/img/curve_GM_10.jpg.webp"
       ],
       "offers": {
         "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv",
+        "url": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gm-10",
         "priceCurrency": "MXN",
         "price": "14500",
         "itemCondition": "https://schema.org/NewCondition",
@@ -36,8 +36,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "42"
+        "ratingValue": "4.8",
+        "reviewCount": "38"
       },
       "review": [
         {
@@ -48,9 +48,9 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
           },
           "author": {
             "@type": "Person",
-            "name": "Mario Gómez"
+            "name": "Carlos Rodríguez"
           },
-          "reviewBody": "Excelente rendimiento en aplicaciones industriales, fácil de instalar y mantener. Muy recomendable."
+          "reviewBody": "Una bomba increíble, perfecta para aplicaciones industriales. Muy robusta y fácil de instalar."
         },
         {
           "@type": "Review",
@@ -60,9 +60,9 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
           },
           "author": {
             "@type": "Person",
-            "name": "Laura Martínez"
+            "name": "Ana Méndez"
           },
-          "reviewBody": "Buena bomba, aunque un poco ruidosa en ciertas condiciones. Sin embargo, es muy efectiva para lo que se necesita."
+          "reviewBody": "Buen rendimiento, aunque esperaba un poco menos de ruido en su funcionamiento. Aun así, es una excelente opción."
         }
       ]
     }
@@ -94,8 +94,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv"
+          "name": "GM-10 – Bomba sumergible para achiques",
+          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gm-10"
         }
       ]
     }
@@ -108,26 +108,26 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "¿Qué aplicaciones cubre la bomba sumergible GQS GQV?",
+          "name": "¿Cuáles son las aplicaciones de la bomba GM-10?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es ideal para el manejo de líquidos con sólidos y lodos en aplicaciones industriales, agrícolas, y civiles, como drenaje y tratamiento de aguas sucias."
+            "text": "La bomba GM-10 es ideal para aplicaciones de achique, drenaje de cisternas, pozos y otras situaciones que requieren manejo de líquidos con sólidos pequeños."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Cómo puedo obtener asesoría para la instalación de la bomba GQS GQV?",
+          "name": "¿Cómo obtener asesoría para instalar la GM-10?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Puedes obtener asesoría contactando a nuestros expertos a través del formulario en nuestro sitio web o llamando al +52-55-5752-1715. Ofrecemos soporte técnico especializado."
+            "text": "Ofrecemos asesoría a través de nuestro sitio web y soporte telefónico. Llámanos al +52-55-5752-1715 para asistencia técnica."
           }
         },
         {
           "@type": "Question",
-          "name": "¿Qué ventajas tiene la bomba sumergible GQS GQV?",
+          "name": "¿Qué ventajas ofrece la GM-10?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es resistente, tiene una larga vida útil, es ideal para manejar sólidos grandes, y su instalación es sencilla. Además, ofrece un excelente rendimiento en diversas aplicaciones."
+            "text": "La GM-10 es ligera, resistente, y tiene un motor eficiente que permite una fácil instalación y mantenimiento."
           }
         }
       ]
@@ -138,12 +138,12 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Venta e instalación de bombas sumergibles",
+      "serviceType": "Venta e instalación de bombas sumergibles GM-10",
       "provider": {
         "@type": "Organization",
         "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
       },
-      "description": "Ofrecemos servicios de venta, selección, instalación y mantenimiento de bombas sumergibles para aplicaciones industriales, agrícolas y civiles. Soporte técnico especializado y entrega inmediata."
+      "description": "Ofrecemos venta, instalación y mantenimiento de bombas sumergibles GM-10 para aplicaciones industriales y civiles. Consulta a nuestros expertos para una instalación exitosa."
     }
     </script>
     
@@ -160,6 +160,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
       }
     }
     </script>
+    
     
 
 @endsection
@@ -199,7 +200,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                         Bombas Calpeda – Drenaje y tratamiento de aguas.
                                         </a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas sumergibles para aguas sucias – GQS GQV</li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">GM 10 – Bomba sumergible para achiques</li>
                                 </ul>
                             </div>
                         </div>
@@ -340,9 +341,9 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                                         <div aria-live="off" class="box-content transform translate-x-0 translate-y-0 relative w-full h-[489.047px] z-10 flex transition-transform">
                                                             <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
                                                                 <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 1" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp" class="box-border" />
-                                                                        <img alt="Bomba sumergible para lodos y sólidos." src="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png" decoding="async" class="max-w-full h-auto align-middle border-0 rounded-none shadow-none" />
+                                                                    <picture decoding="async" title="Bombas sumergibles para achiques GM - 10" class="box-border">
+                                                                        <source type="image/webp" srcset="/img/Bomba-sumergible-para-achiques-GM-10.png.webp" class="box-border" />
+                                                                        <img alt="Bomba sumergible para achiques" src="/img/Bomba-sumergible-para-achiques-GM-10.png.webp" decoding="async" class="max-w-full h-auto align-middle border-0 rounded-none shadow-none" />
                                                                     </picture>
                                                                 </figure>
                                                             </div>
@@ -366,23 +367,31 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                             </div>
                                             <div class="w-full">
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 box-border text-[#666666]">
-                                                        Bombas sumergibles para aguas sucias con contenidos sólidos de hasta 50 mm de diámetro para uso industrial y agrícola.
-                                                     </p>
-                                                    
-                                                     <ul class="list-disc pl-4 space-y-2">
-                                                        <li>Impulsor tipo vortex con tratamiento de cataforesis epoxy contra óxido.</li>
-                                                        <li>Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Profundidad máxima de inmersión de 5 m.</li>
-                                                        <li>Cuerpo de bomba en fundición gris EN 1561.</li>
-                                                        <li>Camisa, tapas y eje en acero inoxidable ASI 303.</li>
-                                                        <li>Aceite blanco para aplicaciones sanitarias.</li>
-                                                        <li>Incluye 10 metros de cable.</li>
-                                                        <li>Conexiones bridadas y/o roscadas.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Qmax. 36 m<sup>3</sup>/h.</li>
-                                                        <li>Hmax. 15 m.</li>
+                                                    <p class="text-[#666] leading-[27px] mb-[32px] mt-0">
+                                                        <span class="font-normal">Bomba de achique con cuerpo fabricado en compuestos plásticos patentados que le dan rigidez, ligereza y durabilidad. Para extracción de agua con contenidos sólidos de hasta 8mm de carcamos, pozos y fosas.</span>
+                                                    </p>
+                                                    <ul class="list-[square] m-0 pl-[15px] mt-0 mb-0">
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Profundidad de inmersión de hasta 5 metros.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Incluye 10 metros de cable.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Se puede surtir con Interruptor de nivel tipo flotador.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Motor monofásico de 230 V.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Eje y soporte en acero inoxidable AISI 430.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Qmax. 12 m3/h.</span>
+                                                        </li>
+                                                        <li class="font-normal text-left">
+                                                            <span class="font-normal">Hmax. 7.5 m</span>
+                                                        </li>
                                                     </ul>
                                                     
                                                     
@@ -406,7 +415,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bombas Sumergibles GQS, GQV</div>
+                                                Bomba Sumergible GM10
+                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -418,7 +428,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Sumergibles para liquidos con sólidos y lodos.</div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bomba sumergible para achiques.
+                                            </div>
                                         </div>
                                     </h1>                                     
                                 </div>
@@ -432,7 +443,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[100px] my-[45px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
+                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[360px] mt-[45px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
                                 <div data-id="84ca12f" data-element_type="widget" data-widget_type="heading.default" class="box-border my-5 mx-0 text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
                                     <div class="box-border transition-all duration-300 ease-in-out transform">
                                         <div class="box-border text-[#043e81] font-roboto font-semibold text-xs leading-3 p-0 m-0">
@@ -445,30 +456,15 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
                                     <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
                                         <div class="transition-all duration-300">
-                                            <a href="/img/curve_GQS-GQV.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_GQS-GQV" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 2" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg.webp 929w, /img/curve_GQS-GQV-300x177.jpg.webp 300w, /img/curve_GQS-GQV-768x454.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve GQS GQV" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg 929w, /img/curve_GQS-GQV-300x177.jpg 300w, /img/curve_GQS-GQV-768x454.jpg 768w" class="max-w-full h-auto align-middle border-none inline-block" />
+                                            <a href="/img/curve_GM_10.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_gm-10" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
+                                                <picture fetchpriority="high" decoding="async" title="Bombas sumergibles para achiques GM-10" class="box-border">
+                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GM_10.jpg.webp 929w, /img/curve_GM_10.jpg.webp 300w, /img/curve_GM_10.jpg.webp 768w" />
+                                                    <img fetchpriority="high" width="929" height="549" alt="curve GM - 10" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GM_10.jpg.webp 929w, /img/curve_GM_10.jpg.webp 300w, /img/curve_GM_10.jpg.webp 768w" class="max-w-full h-auto align-middle border-none inline-block" />
                                                 </picture>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="relative w-full mb-5 flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/K3UvsFpstH0?si=zhWzOkIDxvi0wzXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-                                <div class="relative w-full flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SRE4KP5B_F0?si=O8ex1GOPWQ7i9uz6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-
 
                             </div>
                         </div>

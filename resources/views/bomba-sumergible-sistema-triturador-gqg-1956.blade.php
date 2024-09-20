@@ -1,72 +1,60 @@
 @extends('layouts.app')
 
-@section('title', 'Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV')
-@section('description', '	
-Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista')
+@section('title', 'Bombas Sumergibles para agua sucia con sólidos | Calpeda GQN')
+@section('description', 'Cotiza bombas sumergibles para tratamiento y achique de agua sucia y lodos. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista.')
 
 @section('structured-data')
-
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Product",
-      "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-      "description": "Cotiza bombas sumergibles para aguas con sólidos, lodos de cárcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista.",
+      "name": "Bomba GQN para agua con sólidos-lodos con sistema triturador",
+      "description": "Bomba sumergible de un solo impulsor con sistema triturador, diseñada para el manejo de sólidos de hasta 50 mm de diámetro, ideal para desagüe de tanques y cisternas.",
       "brand": {
         "@type": "Brand",
         "name": "Calpeda"
       },
-      "sku": "GQS-GQV-001",
-      "mpn": "GQS-GQV-001",
-      "image": [
-        "/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp",
-        "/img/curve_GQS-GQV.jpg.webp"
+      "sku": "GQN-TRIT-50MM",
+      "material": "Acero inoxidable, fundición gris",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Diámetro máximo de sólidos",
+          "value": "50 mm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Inmersión máxima",
+          "value": "5 m"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Qmax",
+          "value": "48 m3/h"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Hmax",
+          "value": "16.3 m"
+        }
       ],
       "offers": {
-        "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv",
+        "@type": "AggregateOffer",
+        "url": "https://bombasellos.com.mx/",
         "priceCurrency": "MXN",
-        "price": "14500",
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-        }
+        "lowPrice": "8000",
+        "highPrice": "50000",
+        "offerCount": "8",
+        "availability": "https://schema.org/InStock"
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "42"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Mario Gómez"
-          },
-          "reviewBody": "Excelente rendimiento en aplicaciones industriales, fácil de instalar y mantener. Muy recomendable."
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Laura Martínez"
-          },
-          "reviewBody": "Buena bomba, aunque un poco ruidosa en ciertas condiciones. Sin embargo, es muy efectiva para lo que se necesita."
-        }
-      ]
+        "ratingValue": "4.8",
+        "reviewCount": "20"
+      }
     }
     </script>
+    
     
     <script type="application/ld+json">
     {
@@ -88,62 +76,69 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Bombas Sumergibles Calpeda",
-          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/"
+          "name": "Centrífugas Calpeda",
+          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv"
+          "name": "Bombas para obra civil y urbanística",
+          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Bomba GQG – Bombas sumergibles con sistema triturador",
+          "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/"
         }
       ]
     }
     </script>
     
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
         {
-          "@type": "Question",
-          "name": "¿Qué aplicaciones cubre la bomba sumergible GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es ideal para el manejo de líquidos con sólidos y lodos en aplicaciones industriales, agrícolas, y civiles, como drenaje y tratamiento de aguas sucias."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cómo puedo obtener asesoría para la instalación de la bomba GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Puedes obtener asesoría contactando a nuestros expertos a través del formulario en nuestro sitio web o llamando al +52-55-5752-1715. Ofrecemos soporte técnico especializado."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué ventajas tiene la bomba sumergible GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es resistente, tiene una larga vida útil, es ideal para manejar sólidos grandes, y su instalación es sencilla. Además, ofrece un excelente rendimiento en diversas aplicaciones."
-          }
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Qué tipos de bombas ofrecen para aplicaciones industriales?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ofrecemos bombas sumergibles con sistema triturador, diseñadas para el manejo de aguas con sólidos, ideales para aplicaciones en la industria y construcción."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Cómo puedo solicitar más información sobre las bombas Calpeda GQG?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Visite nuestra página de contacto o llame al +52-55-5752-1715 para asesoría gratuita sobre la selección del equipo adecuado."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es adecuada la bomba Calpeda GQN para el manejo de sólidos?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí, esta bomba está diseñada para el manejo de sólidos de hasta 50 mm de diámetro, ideal para desagüe de tanques, cisternas y recolección pluvial."
+              }
+            }
+          ]
         }
-      ]
-    }
-    </script>
+        </script>
+        
     
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Service",
-      "serviceType": "Venta e instalación de bombas sumergibles",
+      "serviceType": "Asesoría gratuita",
       "provider": {
         "@type": "Organization",
         "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
       },
-      "description": "Ofrecemos servicios de venta, selección, instalación y mantenimiento de bombas sumergibles para aplicaciones industriales, agrícolas y civiles. Soporte técnico especializado y entrega inmediata."
+      "description": "Asesoría gratuita para la selección del equipo adecuado a sus necesidades."
     }
     </script>
     
@@ -155,15 +150,12 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
         "@type": "ContactPoint",
         "contactType": "Sales",
         "url": "https://bombasellos.com.mx/contacto",
-        "telephone": "+52-55-5752-1715",
-        "email": "ventas@bombasellos.com.mx"
+        "telephone": "+52-55-5752-1715"
       }
     }
     </script>
     
-
 @endsection
-
 
 
 @section('contenido')
@@ -199,7 +191,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                         Bombas Calpeda – Drenaje y tratamiento de aguas.
                                         </a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas sumergibles para aguas sucias – GQS GQV</li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Submersible Sewage and Drainage Pumps​ – GQN</li>
                                 </ul>
                             </div>
                         </div>
@@ -249,7 +241,23 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
             </div>
         </div>
     
-
+        <!-- BOMBAS CALPEDA -->
+        <div class="box-border mb-5 relative w-full flex flex-col gap-0 flex-grow-0 flex-shrink-1 order-0 self-auto">
+            <div class="box-border transition duration-300 ease-in-out transform">
+                <div class="box-border">
+                    <div class="box-border text-gray-500">
+                        <div class="box-border font-roboto font-semibold w-full absolute select-none"></div>
+                    </div>
+                    <h2 class="text-[20px] text-[#2953B1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-open-sans box-border text-left m-0">
+                        <div class="box-border inline-block relative z-10">
+                            <div class="box-border font-roboto font-semibold text-[#043E81] border-[#6EC1E4] inline-flex border-none">
+                                Bombas Calpeda®
+                            </div>
+                        </div>
+                    </h2>
+                </div>
+            </div>
+        </div>
     
         <!-- OBRA CIVIL -->
         <div class="box-border text-[#043E81] font-roboto font-normal gap-[79px] leading-[30px] mb-5 relative w-full flex flex-col gap-x-[79px] flex-grow-0 flex-shrink-1 order-0 self-auto">
@@ -265,12 +273,12 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/">Bombas de recirculación y alimentación de circuitos HVAC.</a>
                         </span>
                     </li>
                 </ul>
@@ -334,15 +342,15 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
 
                                         <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                            <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' data-widget_type="image-carousel.default" class="relative w-full flex flex-row flex-nowrap">
-                                                <div class="box-border transition duration-300 ease-in-out">
-                                                    <div dir="ltr" class="box-border pb-[30px] mx-auto static overflow-hidden z-10">
-                                                        <div aria-live="off" class="box-content transform translate-x-0 translate-y-0 relative w-full h-[489.047px] z-10 flex transition-transform">
+                                            <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' data-widget_type="image-carousel.default" class="box-border relative w-full flex flex-row flex-nowrap">
+                                                <div class="box-border transition-all duration-300">
+                                                    <div dir="ltr" class="box-border pb-7.5 mx-auto relative overflow-hidden z-[1]">
+                                                        <div aria-live="off" class="box-border transform translate-x-0 relative w-full h-[489.047px] z-[1] flex transition-transform">
                                                             <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
                                                                 <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 1" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp" class="box-border" />
-                                                                        <img alt="Bomba sumergible para lodos y sólidos." src="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png" decoding="async" class="max-w-full h-auto align-middle border-0 rounded-none shadow-none" />
+                                                                    <picture decoding="async" title="Bomba GQN- Bombas sumergibles con sistema triturador 1" class="box-border">
+                                                                        <source type="image/webp" srcset="/img/Submersible-Sewage-and-Drainage-Pumps-GQN.png.webp" />
+                                                                        <img alt="Bombas Calpeda sumergibles con sistema triturador​" src="/img/Submersible-Sewage-and-Drainage-Pumps-GQN.png.webp" decoding="async" class="max-w-full h-auto align-middle border-none box-border shadow-none" />
                                                                     </picture>
                                                                 </figure>
                                                             </div>
@@ -351,7 +359,6 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                         
 
                                         <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-5">
@@ -366,31 +373,22 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                             </div>
                                             <div class="w-full">
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 box-border text-[#666666]">
-                                                        Bombas sumergibles para aguas sucias con contenidos sólidos de hasta 50 mm de diámetro para uso industrial y agrícola.
-                                                     </p>
-                                                    
-                                                     <ul class="list-disc pl-4 space-y-2">
-                                                        <li>Impulsor tipo vortex con tratamiento de cataforesis epoxy contra óxido.</li>
-                                                        <li>Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Profundidad máxima de inmersión de 5 m.</li>
-                                                        <li>Cuerpo de bomba en fundición gris EN 1561.</li>
-                                                        <li>Camisa, tapas y eje en acero inoxidable ASI 303.</li>
-                                                        <li>Aceite blanco para aplicaciones sanitarias.</li>
-                                                        <li>Incluye 10 metros de cable.</li>
-                                                        <li>Conexiones bridadas y/o roscadas.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Qmax. 36 m<sup>3</sup>/h.</li>
-                                                        <li>Hmax. 15 m.</li>
+                                                    <p style="color:rgb(102, 102, 102);line-height:27px;margin-bottom:32px;margin-top:0px;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Bomba sumergible de un solo impulsor y conexión roscada de 2” para el manejo de sólidos de hasta 50 mm de diámetro. Mayormente usada para el desague de tanques y cisternas, extracción de pozos, carcamos y recolección pluvial.</span></p>
+                                                    <ul style="list-style-type:square;margin:0px;padding:0px 0px 0px 15px;margin-top:0px;margin-bottom:0px;box-sizing:border-box;">
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Inmersión máxima de 5 m y mínima de 275mm.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Motores trifásicos de 230/400 V y monofasicos 230 V.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Bomba en fundición gris GJL 200 EN 1561.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Cuerpo-cubierta y eje en Acero Inoxidable 14300 en 10088 (AISI 304).</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Mango de manipulación de acero inox recubierto de polipropileno.&nbsp;</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Camara de aceite aislada para aplicaciones en farmacia y sector alimenticio.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Cable de 20 metros de longitud.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Camara de aceite aislada para aplicaciones en farmacia y sector alimenticio.</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Qmax. 48 m3/h</span></li>
+                                                        <li style="font-weight: 400;display:list-item;text-align:left;box-sizing:border-box;"><span style="font-weight: 400;box-sizing:border-box;">Hmax. 16.3 m.</span></li>
                                                     </ul>
-                                                    
-                                                    
-                                                    
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -405,8 +403,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </div>
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bombas Sumergibles GQS, GQV</div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bomba Sumergible GQN.                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -418,9 +415,10 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Sumergibles para liquidos con sólidos y lodos.</div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas sumergibles para lodos.</div>
                                         </div>
-                                    </h1>                                     
+                                    </h1>
+
                                 </div>
                             </div>
                             <div class="relative w-full flex flex-col">
@@ -432,7 +430,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[100px] my-[45px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
+                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:my-[255px] my-[45px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
                                 <div data-id="84ca12f" data-element_type="widget" data-widget_type="heading.default" class="box-border my-5 mx-0 text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
                                     <div class="box-border transition-all duration-300 ease-in-out transform">
                                         <div class="box-border text-[#043e81] font-roboto font-semibold text-xs leading-3 p-0 m-0">
@@ -440,36 +438,26 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                    <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
-                                        <div class="transition-all duration-300">
-                                            <a href="/img/curve_GQS-GQV.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_GQS-GQV" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 2" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg.webp 929w, /img/curve_GQS-GQV-300x177.jpg.webp 300w, /img/curve_GQS-GQV-768x454.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve GQS GQV" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg 929w, /img/curve_GQS-GQV-300x177.jpg 300w, /img/curve_GQS-GQV-768x454.jpg 768w" class="max-w-full h-auto align-middle border-none inline-block" />
-                                                </picture>
-                                            </a>
+                                <section data-id="e2302cd" data-element_type="section" class="block box-border my-5 mx-0 relative w-full">
+                                    <div class="max-w-[1190px] box-border mx-auto flex flex-col lg:flex-row relative">
+                                        <div data-id="5e55c22" data-element_type="column" class="w-full box-border relative min-h-[1px] flex flex-wrap-none justify-normal items-normal content-normal">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
+                                                    <div class="box-border transition-all duration-300 ease-in-out transform">
+                                                        <img fetchpriority="high" decoding="async" width="994" height="591" src="/img/GQN-curve.png.webp" alt="curve GQN" 
+                                                        srcset="/img/GQN-curve.png.webp 994w, 
+                                                                /img/GQN-curve.png.webp 300w, 
+                                                                /img/GQN-curve.png.webp 768w, 
+                                                                /img/GQN-curve.png.webp 600w" 
+                                                        sizes="(max-width: 994px) 100vw, 994px" 
+                                                        class="max-w-full h-auto align-middle border-none box-border inline-block"
+                                                    >
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
-
-                                <div class="relative w-full mb-5 flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/K3UvsFpstH0?si=zhWzOkIDxvi0wzXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-                                <div class="relative w-full flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SRE4KP5B_F0?si=O8ex1GOPWQ7i9uz6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-
-
+                                </section>
                             </div>
                         </div>
                     </div>
@@ -477,9 +465,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
             </section>
         </div>
     </div>
+    
 </div>
-
-
 
 <!--Puntuar página-->
 <div class="flex flex-col items-center box-border my-8">

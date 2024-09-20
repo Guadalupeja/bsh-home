@@ -191,8 +191,7 @@ Entrega inmediata y Precio mayorista. Envíos todo MX. Marca Italiana. Refaccion
         "availableLanguage": ["Español", "English"]
       }
     }
-    </script>
-    
+    </script>    
 
 @endsection
 
