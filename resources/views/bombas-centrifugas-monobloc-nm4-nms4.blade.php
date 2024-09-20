@@ -1,166 +1,193 @@
 @extends('layouts.app')
 
-@section('title', 'Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV')
-@section('description', '	
-Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista')
+@section('title', 'Bombas centrífugas de acoplamiento directo | NM4, NMS4')
+@section('description', 'Cotiza aquí Bombas Centrífugas Monobloc con Bridas NM4, NMS4 Calpeda. 
+Entrega inmediata y Precio mayorista. Envíos todo MX. Marca Italiana Refacciones y Mtto.')
 
 @section('structured-data')
 
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-      "description": "Cotiza bombas sumergibles para aguas con sólidos, lodos de cárcamos y cisternas. En acero inoxidable, fundición y plástico. Entrega inmediata y Precio Mayorista.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Calpeda"
-      },
-      "sku": "GQS-GQV-001",
-      "mpn": "GQS-GQV-001",
-      "image": [
-        "/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp",
-        "/img/curve_GQS-GQV.jpg.webp"
-      ],
-      "offers": {
-        "@type": "Offer",
-        "url": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv",
-        "priceCurrency": "MXN",
-        "price": "14500",
-        "itemCondition": "https://schema.org/NewCondition",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "42"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Mario Gómez"
-          },
-          "reviewBody": "Excelente rendimiento en aplicaciones industriales, fácil de instalar y mantener. Muy recomendable."
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Laura Martínez"
-          },
-          "reviewBody": "Buena bomba, aunque un poco ruidosa en ciertas condiciones. Sin embargo, es muy efectiva para lo que se necesita."
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://bombasellos.com.mx/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Bombas",
-          "item": "https://bombasellos.com.mx/bombas/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Bombas Sumergibles Calpeda",
-          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Bombas Sumergibles para agua sucia y lodos | Calpeda GQS GQV",
-          "item": "https://bombasellos.com.mx/bombas/bombas-sumergibles-calpeda/gqs-gqv"
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "¿Qué aplicaciones cubre la bomba sumergible GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es ideal para el manejo de líquidos con sólidos y lodos en aplicaciones industriales, agrícolas, y civiles, como drenaje y tratamiento de aguas sucias."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Cómo puedo obtener asesoría para la instalación de la bomba GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Puedes obtener asesoría contactando a nuestros expertos a través del formulario en nuestro sitio web o llamando al +52-55-5752-1715. Ofrecemos soporte técnico especializado."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "¿Qué ventajas tiene la bomba sumergible GQS GQV?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "La bomba sumergible GQS GQV es resistente, tiene una larga vida útil, es ideal para manejar sólidos grandes, y su instalación es sencilla. Además, ofrece un excelente rendimiento en diversas aplicaciones."
-          }
-        }
-      ]
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Venta e instalación de bombas sumergibles",
-      "provider": {
-        "@type": "Organization",
-        "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)"
-      },
-      "description": "Ofrecemos servicios de venta, selección, instalación y mantenimiento de bombas sumergibles para aplicaciones industriales, agrícolas y civiles. Soporte técnico especializado y entrega inmediata."
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "mainEntity": {
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bomba centrífuga monobloc con bridas | Calpeda NM4, NMS4",
+  "description": "Cotiza la bomba centrífuga monobloc con bridas NM4 y NMS4 de Calpeda. Adecuada para líquidos sin sólidos, con entrega inmediata en México. Precio mayorista.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Calpeda"
+  },
+  "sku": "NM-NMS-001",
+  "mpn": "NM-NMS-001",
+  "category": "Industrial Pumps",
+  "image": [
+    "/img/Bombas-centrifugas-monobloc-con-bridas-nm-nms-1.png.webp",
+    "/img/NM_NMS_curve-1024x570.webp"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-recirculacion-y-climatizacion/",
+    "priceCurrency": "MXN",
+    "price": "22000",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+      "contactPoint": {
         "@type": "ContactPoint",
-        "contactType": "Sales",
-        "url": "https://bombasellos.com.mx/contacto",
+        "contactType": "Ventas",
         "telephone": "+52-55-5752-1715",
-        "email": "ventas@bombasellos.com.mx"
+        "email": "bsh@bombasellos.com.mx",
+        "areaServed": "MX",
+        "availableLanguage": ["Español", "English"]
       }
     }
-    </script>
-    
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "45"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Ana Martínez"
+      },
+      "reviewBody": "Excelente bomba, eficiente y perfecta para instalaciones industriales con gran capacidad de flujo."
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Javier Torres"
+      },
+      "reviewBody": "Buen producto, aunque requiere más espacio de instalación del que esperaba."
+    }
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bombasellos.com.mx/bombas-centrifugas-monobloc-nm-nms"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bombasellos.com.mx/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Bombas",
+      "item": "https://bombasellos.com.mx/bombas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Centrífugas Calpeda",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Bombas Calpeda – Recirculación y climatización",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-recirculacion-y-climatizacion/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bombas centrífugas monobloc con bridas – NM4, NMS4",
+      "item": "https://bombasellos.com.mx/bombas-centrifugas-monobloc-nm-nms"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Para qué aplicaciones es ideal la Bomba NM4, NMS4 de Calpeda?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba NM4, NMS4 de Calpeda es ideal para el bombeo de líquidos sin sólidos en aplicaciones industriales y civiles. Ofrece un rango de operación amplio para diferentes sectores."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué materiales se utilizan en la construcción de la Bomba NM4, NMS4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las bombas NM4 y NMS4 están construidas con cuerpo de hierro fundido o bronce y ejes de acero inoxidable, lo que les otorga resistencia y durabilidad para el manejo de líquidos industriales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la capacidad máxima de la Bomba NM4, NMS4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La Bomba NM4, NMS4 puede manejar un caudal máximo de hasta 480 m³/h con una altura de elevación máxima de 95 metros."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Venta y mantenimiento de bombas centrífugas NM4, NMS4",
+  "provider": {
+    "@type": "Organization",
+    "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Ventas",
+      "telephone": "+52-55-5752-1715",
+      "email": "bsh@bombasellos.com.mx",
+      "areaServed": "MX"
+    }
+  },
+  "description": "Venta y mantenimiento especializado de bombas centrífugas NM4 y NMS4 de Calpeda. Distribuidor mayorista en México con servicio técnico de alta calidad."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "mainEntity": {
+    "@type": "ContactPoint",
+    "contactType": "Ventas",
+    "telephone": "+52-55-5752-1715",
+    "email": "bsh@bombasellos.com.mx",
+    "areaServed": "MX",
+    "contactOption": ["TollFree", "HearingImpairedSupported"],
+    "availableLanguage": ["Español", "English"]
+  }
+}
+</script>
 
 @endsection
 
@@ -174,9 +201,10 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                 <!-- Spacer -->
                 <div class="w-full mb-[5px] relative">
                     <div class="transition-all box-border">
-                        <div class="box-border h-[76px]"></div>
+                        <div class="box-border lg:h-[76px] h-[16px]"></div>
                     </div>
                 </div>
+                
                 <!-- Breadcrumbs -->
                 <div class="w-full mb-[20px] text-left relative">
                     <div class="transition-all box-border">
@@ -195,11 +223,11 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
 
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/" class="text-[#043E81] no-underline box-shadow-none">
-                                        Bombas Calpeda – Drenaje y tratamiento de aguas.
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/" class="text-[#043E81] no-underline box-shadow-none">
+                                        Bombas Calpeda – Recirculación y climatización
                                         </a></li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas sumergibles para aguas sucias – GQS GQV</li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas centrífugas monobloc n ≈ 1450 1/min – NM4 NMS4</li>
                                 </ul>
                             </div>
                         </div>
@@ -209,7 +237,6 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
         </div>
     </div>
 </section>
-
 
 <div class="box-border p-2.5 flex flex-col relative w-[90%] flex-wrap content-start mx-auto lg:ml-[120.5px]">
     <div class="box-border mb-5 text-left relative w-full flex-row flex-nowrap justify-start items-start content-start">
@@ -248,9 +275,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                 </div>
             </div>
         </div>
-    
 
-    
         <!-- OBRA CIVIL -->
         <div class="box-border text-[#043E81] font-roboto font-normal gap-[79px] leading-[30px] mb-5 relative w-full flex flex-col gap-x-[79px] flex-grow-0 flex-shrink-1 order-0 self-auto">
             <div class="box-border transition duration-300 ease-in-out transform">
@@ -334,15 +359,15 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
 
                                         <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                            <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' data-widget_type="image-carousel.default" class="relative w-full flex flex-row flex-nowrap">
-                                                <div class="box-border transition duration-300 ease-in-out">
-                                                    <div dir="ltr" class="box-border pb-[30px] mx-auto static overflow-hidden z-10">
-                                                        <div aria-live="off" class="box-content transform translate-x-0 translate-y-0 relative w-full h-[489.047px] z-10 flex transition-transform">
-                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[489.047px] relative max-w-full text-center">
+                                            <div data-id="70dd5e6" data-element_type="widget" data-settings='{"slides_to_show":"1","navigation":"dots","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","autoplay_speed":5000,"infinite":"yes","effect":"slide","speed":500}' class="relative w-full flex-row flex-nowrap">
+                                                <div class="transition-all duration-300 ease-in-out">
+                                                    <div dir="ltr" class="pb-7.5 mx-auto static overflow-hidden z-[1]">
+                                                        <div aria-live="off" class="box-content transform-none relative w-full h-[450px] z-[1] flex transition-transform">
+                                                            <div role="group" aria-roledescription="slide" aria-label="1 de 1" class="box-border flex-shrink-0 w-full h-[450px] relative max-w-full text-center">
                                                                 <figure class="m-0 block box-border leading-[23px]">
-                                                                    <picture decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 1" class="box-border">
-                                                                        <source type="image/webp" srcset="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png.webp" class="box-border" />
-                                                                        <img alt="Bomba sumergible para lodos y sólidos." src="/img/Bombas-sumergibles-para-aguas-sucias-GQS-GQV-1.png" decoding="async" class="max-w-full h-auto align-middle border-0 rounded-none shadow-none" />
+                                                                    <picture decoding="async" title="Bomba Centrífuga NM, NMS" class="box-border">
+                                                                        <source type="image/webp" srcset="/img/Bombas-centrifugas-monobloc-con-bridas-nm-nms-1.png.webp" class="box-border" />
+                                                                        <img alt="Bomba Centrífuga NM, NMS" src="/img/Bombas-centrifugas-monobloc-con-bridas-nm-nms-1.png.webp" decoding="async" class="min-w-[350px] h-[450px] align-middle border-none box-border" />
                                                                     </picture>
                                                                 </figure>
                                                             </div>
@@ -351,8 +376,6 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        
 
                                         <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-5">
                                             <div class="w-full mb-5 flex">
@@ -366,29 +389,23 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                             </div>
                                             <div class="w-full">
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="leading-[23px] mb-[32px] mt-0 box-border text-[#666666]">
-                                                        Bombas sumergibles para aguas sucias con contenidos sólidos de hasta 50 mm de diámetro para uso industrial y agrícola.
-                                                     </p>
-                                                    
-                                                     <ul class="list-disc pl-4 space-y-2">
-                                                        <li>Impulsor tipo vortex con tratamiento de cataforesis epoxy contra óxido.</li>
-                                                        <li>Motores trifásicos 230/400 V o monofásico 230 V.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Profundidad máxima de inmersión de 5 m.</li>
-                                                        <li>Cuerpo de bomba en fundición gris EN 1561.</li>
-                                                        <li>Camisa, tapas y eje en acero inoxidable ASI 303.</li>
-                                                        <li>Aceite blanco para aplicaciones sanitarias.</li>
-                                                        <li>Incluye 10 metros de cable.</li>
-                                                        <li>Conexiones bridadas y/o roscadas.</li>
-                                                        <li>Interruptor de nivel tipo flotador ajustable.</li>
-                                                        <li>Qmax. 36 m<sup>3</sup>/h.</li>
-                                                        <li>Hmax. 15 m.</li>
+                                                   
+                                                    <p class="text-gray-600 leading-[27px] mb-[32px] mt-0">
+                                                        <span class="font-normal">Bombas de aspiración axial e impulsión vertical-radial, monobloc, de acoplamiento directo con motor. Para líquidos limpios.</span>
+                                                    </p>
+                                                    <ul class="list-square ml-4 mb-0 mt-0">
+                                                        <li class="font-normal"><span class="font-normal">Cuerpo de Bomba disponible en Hierro EN 1561 o Bronce EN 1982.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Acoplamiento en Hierro EN 1561.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Impulsor en Hierro, Bronce o Latón.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Eje en acero inoxidable Cr-Ni.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Conexiones bridadas, bridas para soldadura, bridas roscadas y contrabridas bajo pedido.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Puede incorporarse un variador I-MAT de velocidad variable para distribución de agua con modos: presión constante, caudal constante, presión proporcional, velocidad fija y temperatura de sistema constante.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Qmax. 480 m³/h.</span></li>
+                                                        <li class="font-normal"><span class="font-normal">Hmax. 95 m</span></li>
                                                     </ul>
-                                                    
-                                                    
-                                                    
                                                 </div>
                                             </div>
+
                                         </div>
 
                                     </div>
@@ -406,7 +423,8 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-[20PX]">
-                                                Bombas Sumergibles GQS, GQV</div>
+                                                Bomba NM4, NMS4
+                                            </div>
                                         </div>
                                     </h2>
                                 </div>
@@ -418,9 +436,13 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas Sumergibles para liquidos con sólidos y lodos.</div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas centrífugas de acoplamiento directo.
+                                            </div>
                                         </div>
-                                    </h1>                                     
+                                    </h1>  
+                                    <p class="text-[#666666] leading-[23px] my-[32px] text-justify">
+                                        Electrobombas centrífugas monobloc con acoplamiento directo motor- bomba y eje único hasta 15 kW, ejecución para motores normalizados IEC con cojinete axial integrado desde 18,5 hasta 75 kW (ejecución Stub-shaft).
+                                    </p>                                   
                                 </div>
                             </div>
                             <div class="relative w-full flex flex-col">
@@ -432,7 +454,7 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[100px] my-[45px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
+                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[150px] mx-0 p-2.5 flex w-full flex-wrap content-start">
                                 <div data-id="84ca12f" data-element_type="widget" data-widget_type="heading.default" class="box-border my-5 mx-0 text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
                                     <div class="box-border transition-all duration-300 ease-in-out transform">
                                         <div class="box-border text-[#043e81] font-roboto font-semibold text-xs leading-3 p-0 m-0">
@@ -441,35 +463,18 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
                                     </div>
                                 </div>
 
-
                                 <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
                                     <div data-id="7ce4ff1" data-element_type="widget" data-widget_type="image.default" class="box-border text-center w-full flex-row flex-nowrap relative">
                                         <div class="transition-all duration-300">
-                                            <a href="/img/curve_GQS-GQV.jpg.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve_GQS-GQV" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyMywidXJsIjoiaHR0cHM6XC9cL2JvbWJhc2VsbG9zLmNvbS5teFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDRcL2N1cnZlX0dRUy1HUVYuanBnIn0%3D" class="text-[#007bff] no-underline bg-transparent inline-block shadow-none">
-                                                <picture fetchpriority="high" decoding="async" title="Bombas sumergibles para aguas sucias - GQS GQV 2" class="box-border">
-                                                    <source type="image/webp" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg.webp 929w, /img/curve_GQS-GQV-300x177.jpg.webp 300w, /img/curve_GQS-GQV-768x454.jpg.webp 768w" />
-                                                    <img fetchpriority="high" width="929" height="549" alt="curve GQS GQV" sizes="(max-width: 929px) 100vw, 929px" srcset="/img/curve_GQS-GQV.jpg 929w, /img/curve_GQS-GQV-300x177.jpg 300w, /img/curve_GQS-GQV-768x454.jpg 768w" class="max-w-full h-auto align-middle border-none inline-block" />
+                                            <a href="/img/NM4_NMS4_curve-1024x593.png" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="curve NM4, NMS4" data-elementor-lightbox-description="Curva de operación bomba NM4, NMS4" class="text-[#007bff] no-underline inline-block shadow-none">
+                                                <picture fetchpriority="high" decoding="async" title="Bomba Centrífuga NM4, NMS4">
+                                                    <source type="image/webp" sizes="(max-width: 547px) 100vw, 547px" srcset="/img/NM4_NMS4_curve-1024x593.png 547w, /img/NM4_NMS4_curve-1024x593.png 291w" />
+                                                    <img fetchpriority="high" width="547" height="564" alt="Curva de operación bomba NM4, NMS4" sizes="(max-width: 547px) 100vw, 547px" src="/img/NM4_NMS4_curve-1024x593.png" srcset="/img/NM4_NMS4_curve-1024x593.png 547w, /img/NM4_NMS4_curve-1024x593.png 291w" class="max-w-full h-auto align-middle border-none inline-block" />
                                                 </picture>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="relative w-full mb-5 flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/K3UvsFpstH0?si=zhWzOkIDxvi0wzXV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-                                <div class="relative w-full flex-nowrap flex">
-                                    <div class="overflow-hidden transform transition-all duration-300 ease-in-out">
-                                        <div class="aspect-w-16 aspect-h-9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/SRE4KP5B_F0?si=O8ex1GOPWQ7i9uz6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
-                                    </div>
-                                </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -478,8 +483,6 @@ Cotiza bombas sumergibles para aguas con sólidos, lodos de carcamos y cisternas
         </div>
     </div>
 </div>
-
-
 
 <!--Puntuar página-->
 <div class="flex flex-col items-center box-border my-8">

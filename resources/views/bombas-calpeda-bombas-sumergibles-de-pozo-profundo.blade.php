@@ -416,7 +416,7 @@ Entrega Inmediata. Marca Premium Italiana. Distribuidor Mayorista. Refacciones y
              <div class="box-border transition-all ease-in-out">
                  <div>
                      <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                         <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-[#007bff] no-underline bg-transparent">
+                         <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-[#007bff] no-underline bg-transparent">
                              <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas SDS</span>
                          </a>
                      </h2>
@@ -433,7 +433,7 @@ Entrega Inmediata. Marca Premium Italiana. Distribuidor Mayorista. Refacciones y
          <div class="relative w-full text-left flex flex-row justify-center">
              <div class="box-border m-0 transition-all ease-in-out">
                  <div>
-                     <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                     <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                          <span class="flex justify-center">
                              <span class="mr-1 order-5 flex-grow-0">
                                  <i class="fas fa-plus text-white py-3"></i>

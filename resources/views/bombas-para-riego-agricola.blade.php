@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
-@section('title', '	
-Bombas de Pozo profundo y sistemas de riego. -  Calpeda®')
+@section('title', 'Bombas para riego agricola - Drenaje y tratamiento de agua
+')
 @section('description', '	
-Bombas Centrifugas Calpeda® de aspiración axial, en cantiliver, sumergibles para el tratamiento de aguas, 
-sumergibles de pozo profundo y sistemas de riego.')
+Bombas para riego agricola - Drenaje y tratamiento de agua Calpeda®. Entrega Inmediata. 
+Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mtto.')
 
 @section('structured-data')
 <script type="application/ld+json">
@@ -30,53 +30,185 @@ sumergibles de pozo profundo y sistemas de riego.')
   }
 }
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://bombasellos.com.mx/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Bombas",
+      "item": "https://bombasellos.com.mx/bombas/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Centrífugas Calpeda",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Bombas para industria",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Bombas Calpeda – Bombas para alimentación a circuitos HVAC en la industria.",
+      "item": "https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/"
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo solicitar una cotización?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para solicitar una cotización, visite nuestra página de contacto y llene el formulario. Un experto se comunicará con usted a la brevedad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son los tipos de bombas que ofrecen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofrecemos bombas centrífugas sumergibles, de pozo profundo, para alimentación, presurizadoras y HVAC."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Asesoría gratuita",
+  "provider": {
+    "@type": "Organization",
+    "name": "Calpeda"
+  },
+  "description": "Asesoría gratuita para la selección del equipo adecuado a sus necesidades."
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "mainEntity": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "url": "https://bombasellos.com.mx/contacto",
+    "telephone": "+52-55-5752-1715"
+  }
+}
+</script>
 @endsection
 
 
 @section('contenido')
-
-<div class="box-border p-2.5 flex relative w-[90%] flex-wrap content-start mx-auto lg:ml-[120.5px]">
-    <div class="box-border mb-5 relative w-full flex-row flex-nowrap justify-start items-start content-start">
-        <div class="transition-all duration-300">
-            <div class="box-border h-[76px]"></div>
-        </div>
+<div class="box-border p-0 m-0 bg-[#f2f2f2] relative w-full flex-row flex-nowrap justify-start items-start content-start">
+    <div class="transition-all duration-300">
+        <div class="box-border h-[76px]"></div>
     </div>
-    <div class="box-border mb-5 text-left relative w-full flex-row flex-nowrap justify-start items-start content-start">
-        <div class="transition-all duration-300 relative">
-            <!-- Display when you choose background per Post -->
-            <div class="absolute top-0 left-0 w-full h-[29px] z-10 bg-no-repeat bg-center bg-cover box-border">
-                <div class="absolute top-0 left-0 w-full h-[29px] box-border bg-transparent"></div>
+</div>
+
+<section class="bg-[#f2f2f2] transition-all duration-300 relative">
+    <div class="max-w-[1190px] mx-auto lg:flex relative">
+        <!-- Primera columna -->
+        <div class="lg:w-1/2 flex flex-col p-2.5">
+            <div class="w-full flex flex-wrap content-start relative">
+                <!-- Encabezado -->
+                <div class="w-full relative mb-5">
+                    <div class="transition-all duration-300">
+                        <div class="text-gray-600">
+                            <div class="font-roboto font-semibold w-full absolute select-none"></div>
+                        </div>
+                        <h1 class="text-[35px] leading-[44.5px] text-gray-700 font-semibold font-open-sans mt-0 mb-0 text-left">
+                            <div class="inline-block relative z-10">
+                                <div class="font-roboto font-black text-[#043E81] border-none text-[36px]">
+                                    Bombas para riego agrícola
+                                </div>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+
+                <!-- Texto -->
+                <div class="w-full relative mb-5">
+                    <div class="transition-all duration-300">
+                        <p class="text-[#666] leading-[27px] mb-8 text-justify">
+                            Esencialmente bombas sumergibles para la extracción de agua de pozo y bombas de aspiración axial para la presurización de los sistemas de irrigación.
+                            Asistencia en la selección del equipo, instalación, puesta en marcha y operación. Solicita una cita.
+                        </p>
+                        <p class="text-[#666] leading-[27px] mb-8 text-justify">
+                            Asistencia en la selección del equipo, instalación, puesta en marcha y operación.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Botón -->
+                <div class="w-full relative">
+                    <div class="transition-all duration-300">
+                        <a href="#contacto" class="bg-[#610001] text-white text-center font-roboto font-black text-[15px] leading-[15px] py-3 px-6 rounded-md inline-block transition-all">
+                            <span class="flex justify-center">
+                                <span class="flex-grow text-center">AGENDA TU CITA</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="relative z-20 box-border">
-                <div class="bg-transparent mb-0 box-border">
-                    <div class="box-border">
-                        <ul class="bg-transparent m-0 p-0 inline-flex mb-0 list-none flex-wrap rounded-lg mt-0 box-border">
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><a href="https://bombasellos.com.mx/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Home</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Centrífugas Calpeda</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">Bombas Calpeda – Bombas para alimentación de sistemas de riego.</li>
-                        </ul>
+        </div>
+
+        <!-- Segunda columna (imagen) -->
+        <div class="w-1/2 flex flex-col p-2.5">
+            <div class="w-full flex flex-wrap content-start relative">
+                <div class="w-full text-center relative">
+                    <div class="transition-all duration-300">
+                        <picture>
+                            <source type="image/webp" srcset="/img/sistemas-de-riego-agricola.png.webp 600w" sizes="(max-width: 600px) 100vw, 600px" />
+                            <img src="/img/sistemas-de-riego-agricola.png" alt="Sistema de riego agrícola" class="max-w-full h-auto border-none" />
+                        </picture>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+
+<div class="box-border p-2.5 flex relative w-[90%] flex-wrap content-start mx-auto lg:ml-[120.5px]">
+
     <div class="box-border mb-5 text-left relative w-full flex-row flex-nowrap justify-start items-start content-start">
         <div class="transition-all duration-300">
             <div class="box-border text-[#7a7a7a] font-roboto font-semibold w-full absolute select-none"></div>
-            <h1 class="text-[35px] leading-[44.5455px] mt-0 mb-0 font-semibold text-[#666666] font-['Open Sans'] box-border m-0 text-left break-all relative">
+            <h2 class="text-[35px] leading-[44.5455px] mt-0 mb-0 font-semibold text-[#666666] font-['Open Sans'] box-border m-0 text-left break-all relative">
                 <div class="inline-block relative z-10">
-                    <div class="font-roboto font-semibold text-[#043e81] border-none text-[27px] inline-flex border-solid border-[#6ec1e4]">
-                        Bombas de Pozo profundo y sistemas de riego.
+                    <div class="font-roboto font-semibold text-[#333333] border-none text-[27px] inline-flex border-solid border-[#6ec1e4]">
+                        RIEGO AGRICOLA
                     </div>
                     <div class="mt-[10px] relative">
                         <div class="after:content-[''] after:block after:bg-[#610001] after:w-[100px] after:h-[2px] after:mt-2"></div>
                     </div>
                 </div>
-            </h1>
+            </h2>
         </div>
     </div>
 </div>
@@ -199,9 +331,8 @@ sumergibles de pozo profundo y sistemas de riego.')
     </div>
     
 
-<!-- Bombas 1, 2 y 3 -->
-<div class="w-full lg:w-3/4 flex flex-wrap px-1 py-0 mx-auto">
-    <!-- Bomba 1 -->
+    <div class="w-full lg:w-3/4 flex flex-wrap px-1 py-0 mx-auto">
+          <!-- Bomba 1 -->
     <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
         <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
             <div class="box-border transition-all ease-in-out group">
@@ -247,7 +378,8 @@ sumergibles de pozo profundo y sistemas de riego.')
         </div>
     </div>
 
-    <!-- Bomba 2 -->
+    
+        <!-- Bomba 2 -->
     <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
         <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
             <div class="box-border transition-all ease-in-out group">
@@ -339,7 +471,8 @@ sumergibles de pozo profundo y sistemas de riego.')
         </div>
     </div>
 
-    <!-- Bomba 4 -->
+    
+      <!-- Bomba 4 -->
     <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
         <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
             <div class="box-border transition-all ease-in-out group">
@@ -401,7 +534,7 @@ sumergibles de pozo profundo y sistemas de riego.')
             <div class="box-border transition-all ease-in-out">
                 <div>
                     <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-[#007bff] no-underline bg-transparent shadow-none">
+                        <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-[#007bff] no-underline bg-transparent shadow-none">
                             <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba SDS</span>
                         </a>
                     </h2>
@@ -418,7 +551,7 @@ sumergibles de pozo profundo y sistemas de riego.')
         <div class="relative w-full text-left flex flex-row">
             <div class="box-border m-0 transition-all ease-in-out">
                 <div>
-                    <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                    <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/sds-bombas-sumergibles-para-pozos-de-6-8-y-10/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                         <span class="flex justify-center">
                             <span class="mr-1 order-5 flex-grow-0">
                                 <i class="fas fa-plus text-white py-3"></i>
@@ -477,105 +610,106 @@ sumergibles de pozo profundo y sistemas de riego.')
         </div>
     </div>
 
-    <!-- Bomba 7 -->
-    <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
-        <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
-            <div class="box-border transition-all ease-in-out group">
-                <div class="box-border block relative z-10 overflow-hidden text-center">
-                    <picture loading="lazy" decoding="async" title="Bombas Calpeda - Bombas para alimentación de sistemas de riego. 7" class="box-border">
-                        <source type="image/webp" srcset="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
-                        <img loading="lazy" decoding="async" width="300" height="490" src="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png" alt="Bomba axial de bronce en cantiliver." srcset="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png 300w, /img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1-184x300.png 184w" sizes="(max-width: 300px) 100vw, 300px" class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
-                    </picture>
-                </div>
-            </div>
-        </div>
-        <div class="mb-2 relative w-full flex flex-row">
-            <div class="box-border transition-all ease-in-out">
-                <div>
-                    <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4/" class="text-[#007bff] no-underline bg-transparent shadow-none">
-                            <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba N, N4</span>
-                        </a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <div class="text-[#7a7a7a] font-roboto font-normal mb-2 text-[12px] relative w-full flex flex-row h-10">
-            <div class="box-border m-0 p-0 transition-all ease-in-out">
-                <div>
-                    <p class="text-[#666666] leading-[21.6px] mb-2 mt-0">Bombas centrífugas de aspiración axial según norma europea EN 733</p>
-                </div>
-            </div>
-        </div>
-        <div class="relative w-full text-left flex flex-row">
-            <div class="box-border m-0 transition-all ease-in-out">
-                <div>
-                    <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
-                        <span class="flex justify-center">
-                            <span class="mr-1 order-5 flex-grow-0">
-                                <i class="fas fa-plus text-white py-3"></i>
-                            </span>
-                            <span class="flex-grow-1 order-10 block py-3 px-8">MÁS INFORMACIÓN</span>
-                        </span>
-                    </a>
-                </div>
+
+
+
+<!-- Bomba 7 -->
+  <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
+    <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
+        <div class="box-border transition-all ease-in-out group">
+            <div class="box-border block relative z-10 overflow-hidden text-center">
+                <picture loading="lazy" decoding="async" title="Bombas Calpeda - Bombas de alimentación a circuitos HVAC en la industria. 4" class="box-border">
+                    <source type="image/webp" srcset="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
+                    <img loading="lazy" decoding="async" width="300" height="490" src="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png" alt="Bomba axial de bronce en cantiliver." srcset="/img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1.png 300w, /img/N4-Bombas-centrigugas-de-aspiracion-axial-seguun-norma-europea-EN-733-1-184x300.png 184w" sizes="(max-width: 300px) 100vw, 300px" class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
+                </picture>
             </div>
         </div>
     </div>
-
-    <!-- Bomba 8 -->
-    <div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
-        <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
-            <div class="box-border transition-all ease-in-out group">
-                <div class="box-border block relative z-10 overflow-hidden text-center">
-                    <picture loading="lazy" decoding="async" title="Bombas Calpeda - Bombas para alimentación de sistemas de riego. 8" class="box-border">
-                        <source type="image/webp" srcset="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
-                        <img loading="lazy" decoding="async" width="300" height="490" src="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png" alt="Bomba de pozo profundo de 4&quot;, 5&quot;, 6&quot;,8&quot;,10&quot; de SS 316." srcset="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png 300w, /img/Bombas-multicelulares-horizontales-monobloc-mgp-184x300.png 184w" sizes="(max-width: 300px) 100vw, 300px" class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
-                    </picture>
-                </div>
-            </div>
-        </div>
-        <div class="mb-2 relative w-full flex flex-row">
-            <div class="box-border transition-all ease-in-out">
-                <div>
-                    <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                        <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/bombas-multicelulares-horizontales-monobloc-mgp/" class="text-[#007bff] no-underline bg-transparent shadow-none">
-                            <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba MGP</span>
-                        </a>
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <div class="text-[#7a7a7a] font-roboto font-normal mb-2 text-[12px] relative w-full flex flex-row h-10">
-            <div class="box-border m-0 p-0 transition-all ease-in-out">
-                <div>
-                    <p class="text-[#666666] leading-[21.6px] mt-0 box-border">Bombas multicelulares horizontales monobloc</p>
-                </div>
-            </div>
-        </div>
-        <div class="relative w-full text-left flex flex-row">
-            <div class="box-border m-0 transition-all ease-in-out">
-                <div>
-                    <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/bombas-multicelulares-horizontales-monobloc-mgp/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
-                        <span class="flex justify-center">
-                            <span class="mr-1 order-5 flex-grow-0">
-                                <i class="fas fa-plus text-white py-3"></i>
-                            </span>
-                            <span class="flex-grow-1 order-10 block py-3 px-8">MÁS INFORMACIÓN</span>
-                        </span>
+    <div class="mb-2 relative w-full flex flex-row">
+        <div class="box-border transition-all ease-in-out">
+            <div>
+                <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
+                    <a href="https://bombasellos.com.mx:/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4/" class="text-[#007bff] no-underline bg-transparent shadow-none">
+                        <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba N, N4</span>
                     </a>
-                </div>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="text-[#7a7a7a] font-roboto font-normal mb-2 text-[12px] relative w-full flex flex-row h-10">
+        <div class="box-border m-0 p-0 transition-all ease-in-out">
+            <div>
+                <p class="text-[#666666] leading-[21.6px] mb-2 mt-0">Bombas centrífugas de aspiración axial según norma europea EN 733.</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full text-left flex flex-row">
+        <div class="box-border m-0 transition-all ease-in-out">
+            <div>
+                <a href="https://bombasellos.com.mx:/bombas-calpeda-recirculacion-y-climatizacion/bombas-centrifugas-de-aspiracion-axial-segun-norma-europea-en-733-n-n4/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                    <span class="flex justify-center">
+                        <span class="mr-1 order-5 flex-grow-0">
+                            <i class="fas fa-plus text-white py-3"></i>
+                        </span>
+                        <span class="flex-grow-1 order-10 block py-3 px-8">MÁS INFORMACIÓN</span>
+                    </span>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-
-
-
+ <!-- Bomba 8 -->
+<div class="box-border p-1 lg:m-0 mx-auto flex relative w-full lg:w-1/3 flex-wrap content-start">
+    <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap">
+        <div class="box-border transition-all ease-in-out group">
+            <div class="box-border block relative z-10 overflow-hidden text-center">
+                <picture loading="lazy" decoding="async" title="Bombas Calpeda - Bombas para alimentación de sistemas de riego. 8" class="box-border">
+                    <source type="image/webp" srcset="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
+                    <img loading="lazy" decoding="async" width="300" height="490" src="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png" alt="Bomba de pozo profundo de 4&quot;, 5&quot;, 6&quot;,8&quot;,10&quot; de SS 316." srcset="/img/Bombas-multicelulares-horizontales-monobloc-mgp.png 300w, /img/Bombas-multicelulares-horizontales-monobloc-mgp-184x300.png 184w" sizes="(max-width: 300px) 100vw, 300px" class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="mb-2 relative w-full flex flex-row">
+        <div class="box-border transition-all ease-in-out">
+            <div>
+                <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
+                    <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/bombas-multicelulares-horizontales-monobloc-mgp/" class="text-[#007bff] no-underline bg-transparent shadow-none">
+                        <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba MGP</span>
+                    </a>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="text-[#7a7a7a] font-roboto font-normal mb-2 text-[12px] relative w-full flex flex-row h-10">
+        <div class="box-border m-0 p-0 transition-all ease-in-out">
+            <div>
+                <p class="text-[#666666] leading-[21.6px] mt-0 box-border">Bombas multicelulares horizontales monobloc</p>
+            </div>
+        </div>
+    </div>
+    <div class="relative w-full text-left flex flex-row">
+        <div class="box-border m-0 transition-all ease-in-out">
+            <div>
+                <a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/bombas-multicelulares-horizontales-monobloc-mgp/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                    <span class="flex justify-center">
+                        <span class="mr-1 order-5 flex-grow-0">
+                            <i class="fas fa-plus text-white py-3"></i>
+                        </span>
+                        <span class="flex-grow-1 order-10 block py-3 px-8">MÁS INFORMACIÓN</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
+</div>
+    
+  
 
+</div>
 
 
 

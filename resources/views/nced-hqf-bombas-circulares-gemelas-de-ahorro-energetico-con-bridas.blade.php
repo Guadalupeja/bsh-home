@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'NCE GF Circuladoras electrónicas gemelas de bajo consumo.')
-@section('description', 'Bombas Circuladoras electrónicas gemelas de bajo consumo. NCE GF CALPEDA. Entrega Inmediata. 
-Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
+@section('title', 'NCED HQF - Bombas circulares gemelas de ahorro energético.')
+@section('description', 'Bombas circulares gemelas de ahorro energético NCED HQF - CALPEDA. Entrega Inmediata. 
+Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mantenimiento.')
 <style>
     .swiper-container {
       width: 350px; /* Define the width of the carousel */
@@ -17,27 +17,23 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "NCE GF Circuladoras electrónicas gemelas de bajo consumo energético embridadas",
-  "description": "Las circuladoras electrónicas gemelas NCE GF de Calpeda son altamente eficientes, diseñadas para reducir el consumo energético en sistemas de calefacción y refrigeración. Especialmente adecuadas para aplicaciones civiles e industriales con ahorro de energía.",
+  "name": "Bomba circuladora de bajo consumo - NCE HQF",
+  "description": "La bomba circuladora NCE HQF de bajo consumo de Calpeda está diseñada para sistemas de calefacción y aire acondicionado con control preciso y eficiente del flujo de agua. Ideal para instalaciones industriales y domésticas.",
   "brand": {
     "@type": "Brand",
     "name": "Calpeda"
   },
-  "sku": "NCE-GF-002",
-  "mpn": "NCE-GF-002",
-  "category": "Circulator Pumps",
+  "sku": "NCE-HQF-002",
+  "mpn": "NCE-HQF-002",
+  "category": "Pumps",
   "image": [
-    "/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png"
+    "/img/Bombas-circulares-de-bajo-consumo-con-bridas-NCE-HQF-.png.webp"
   ],
-  "depth": "50 cm",
-  "width": "35 cm",
-  "weight": "12 kg",
-  "material": "Acero inoxidable",
   "offers": {
     "@type": "Offer",
-    "url": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf",
+    "url": "https://bombasellos.com.mx/bombas-circuladoras-nce-hqf",
     "priceCurrency": "MXN",
-    "price": "37500",
+    "price": "30500",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
     "seller": {
@@ -48,15 +44,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
         "contactType": "Ventas",
         "telephone": "+52-55-5752-1715",
         "email": "bsh@bombasellos.com.mx",
-        "areaServed": "MX",
-        "availableLanguage": ["Español", "English"]
+        "areaServed": "MX"
       }
     }
   },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": "60"
+    "reviewCount": "50"
   },
   "review": [
     {
@@ -67,9 +62,9 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Jorge Ramírez"
+        "name": "Roberto López"
       },
-      "reviewBody": "La bomba NCE GF ha sido increíblemente eficiente en nuestro sistema de calefacción industrial. El ahorro energético es significativo."
+      "reviewBody": "La bomba NCE HQF es increíblemente eficiente, con un ahorro de energía notable y un rendimiento superior en comparación con otras bombas que he probado."
     },
     {
       "@type": "Review",
@@ -79,14 +74,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Ana López"
+        "name": "María Hernández"
       },
-      "reviewBody": "Buen producto, aunque la instalación tomó más tiempo de lo esperado. Sin embargo, el rendimiento es excelente."
+      "reviewBody": "Muy buen producto, aunque la instalación es un poco complicada si no se tiene suficiente espacio."
     }
   ],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+    "@id": "https://bombasellos.com.mx/bombas-circuladoras-nce-hqf"
   }
 }
 </script>
@@ -118,8 +113,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "NCE GF",
-      "item": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+      "name": "NCE HQF",
+      "item": "https://bombasellos.com.mx/bombas-circuladoras-nce-hqf"
     }
   ]
 }
@@ -133,26 +128,26 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué es la bomba circuladora NCE GF?",
+      "name": "¿Qué es la bomba circuladora NCE HQF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF de Calpeda es una circuladora electrónica gemela de bajo consumo diseñada para optimizar el flujo de agua en sistemas de calefacción y refrigeración, reduciendo considerablemente el consumo energético."
+        "text": "La bomba circuladora NCE HQF de Calpeda es un equipo de bajo consumo diseñado para optimizar el flujo de agua en sistemas de calefacción y aire acondicionado, proporcionando ahorro energético y un control eficiente."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Qué características tiene la bomba NCE GF?",
+      "name": "¿Qué características tiene la bomba NCE HQF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF está equipada con un motor síncrono de imán permanente y un inversor incorporado para ajustar automáticamente la velocidad según la demanda del sistema, lo que la hace muy eficiente en aplicaciones civiles e industriales."
+        "text": "La bomba NCE HQF está equipada con un motor síncrono de imán permanente y un inversor incorporado para controlar la velocidad, lo que le permite ajustar el consumo energético según la demanda del sistema."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Dónde puedo comprar la bomba NCE GF?",
+      "name": "¿Dónde puedo comprar la bomba NCE HQF?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Puedes adquirir la bomba NCE GF contactando a nuestras sucursales en México para obtener el mejor precio y soporte especializado."
+        "text": "Puedes adquirir la bomba NCE HQF a través de nuestra tienda en línea o contactando a nuestras sucursales en México para obtener el mejor precio y soporte especializado."
       }
     }
   ]
@@ -164,7 +159,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Venta, instalación y mantenimiento de bombas circuladoras NCE GF",
+  "serviceType": "Venta y mantenimiento de bombas circuladoras NCE HQF",
   "provider": {
     "@type": "Organization",
     "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
@@ -177,19 +172,10 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       "availableLanguage": ["Español", "English"]
     }
   },
-  "termsOfService": "https://bombasellos.com.mx/terms",
-  "areaServed": "MX",
-  "serviceAudience": {
-    "@type": "Audience",
-    "audienceType": "Industria, Doméstico, Comercial"
-  },
-  "description": "Proveemos venta, instalación y mantenimiento especializado de bombas circuladoras NCE GF para sistemas de calefacción y refrigeración. Somos distribuidores mayoristas en México con soporte técnico experto."
+  "description": "Proveemos venta, instalación y mantenimiento especializado de bombas circuladoras NCE HQF. Somos distribuidores mayoristas en México con soporte técnico experto."
 }
 </script>
 @endsection
-
-
-
 
 
 @section('contenido')
@@ -311,12 +297,16 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                 <div class="transition-all duration-300">
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
                                         <div class="swiper-container">
-                                            <figure class="m-0 block box-border leading-[27px]">
-                                                <picture decoding="async" title="NCE GF - Bombas electrónicas gemelas de bajo consumo" class="box-border">
-                                                    <source type="image/webp" srcset="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" />
-                                                    <img decoding="async" src="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" alt="NCE GF - Circuladoras electrónicas gemelas de bajo consumo" class="max-w-[300px] mt-5 h-auto align-middle border-none" />
+                                            
+
+                                            <figure class="m-0 block leading-[27px]">
+                                                <picture decoding="async" title="NCE HQF Bombas circulares de bajo consumo">
+                                                    <source type="image/webp" srcset="/img/Bombas-circulares-de-bajo-consumo-con-bridas-NCE-HQF-.png.webp" /> 
+                                                    <img decoding="async" src="/img/Bombas-circulares-de-bajo-consumo-con-bridas-NCE-HQF-.png.webp" alt="NCE HQF Bombas circulares de bajo consumo" class="max-w-full h-auto align-middle border-none shadow-none" />
                                                 </picture>
                                             </figure>
+
+
                                         </div>
 
                                         <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-[80px]">
@@ -332,11 +322,20 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                             <div class="w-full">
 
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Ejecución</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Circuladora de alta eficiencia energética de velocidad variable dirigida por un motor síncrono de imán permanente controlado por un inversor.</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Aplicaciones</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Calefacción, aire acondicionado, refrigeración y circulación. Para aplicaciones civiles e industriales.</p>
-                                                 </div>
+                                                    <p class="text-gray-600 leading-[27px] mb-8 mt-0 box-border">
+                                                        <strong class="font-bold box-border">
+                                                            <span class="box-border">Construcción</span>
+                                                        </strong>
+                                                        <br class="box-border" />
+                                                        <span class="box-border">Bomba de circulación de velocidad variable con ahorro de energía accionada por un motor síncrono de imán permanente (pm) controlado por un inversor incorporado.</span>
+                                                    </p>
+                                                    <p class="text-gray-600 leading-[27px] mb-8 mt-0 box-border">
+                                                        <strong class="font-bold box-border">
+                                                            <span class="box-border">Aplicaciones</span>
+                                                        </strong>
+                                                        <span class="box-border">Sistemas de calefacción y acondicionamiento.</span>
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -355,7 +354,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">
-                                                NCE GF</div>
+                                                NCE HQF</div>
                                         </div>
                                     </h2>
                                 </div>
@@ -367,7 +366,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Circuladoras electrónicas gemelas de bajo consumo energético embridadas                                            </div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Bombas circulares de bajo consumo con bridas
+                                            </div>
                                         </div>
                                     </h1>
                                 </div>
@@ -396,11 +396,113 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     <div class="relative w-full flex justify-center">
                                         <div class="transition-all duration-300 ease-in-out transform">
                                            
-                                            <img fetchpriority="high" decoding="async" width="1024" height="601" src="/img/curve_NCE_G_F-1-1024x656.jpg.webp" alt="NCE GF curve" srcset="/img/curve_NCE_G_F-1-1024x656.jpg.webp 1024w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 300w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 768w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 600w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 1138w" sizes="(max-width: 1024px) 100vw, 1024px" title="NCE GF Circuladoras electrónicas de bajo consumo energético" class="max-w-full h-auto align-middle border-none" />
-                                        </a>                                           
+                                                <img fetchpriority="high" decoding="async" width="1024" height="854" src="/img/NCE_HQF_curve-1024x669.webp" alt="NCE HQF curve" srcset="/img/NCE_HQF_curve-1024x669.webp 1024w, /img/NCE_HQF_curve-1024x669.webp 300w, /img/NCE_HQF_curve-1024x669.webp 768w, /img/NCE_HQF_curve-1024x669.webp 1097w" sizes="(max-width: 1024px) 100vw, 1024px" title="Bombas circuladoras de bajo consumo - NCE HQF" class="max-w-full h-auto align-middle border-none inline-block" />
+                                           
                                         </div>
                                     </div>
                                 </div>
+                                
+                                <section data-id="c612325" class="block box-border w-full relative">
+                                    <div class="max-w-[1190px] mx-auto flex relative">
+                                        <div data-id="2e737bb" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="c298225" class="box-border text-center relative w-full flex flex-row flex-nowrap justify-end">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <a href="https://hubs.ly/H0pT2J20" target="_blank" rel="noopener" class="text-[#007bff] no-underline bg-transparent inline-block box-shadow-none">
+                                                            <picture decoding="async" title="Bombas centrífugas autocebantes con rodete abierto - A 28">
+                                                                <source type="image/webp" srcset="/img/download-2.png.webp" />
+                                                                <img width="32" height="32" alt="download 2" src="/img/download-2.png" class="max-w-full h-auto align-middle border-none inline-block" />
+                                                            </picture>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="4040735" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="24ffc14" class="box-border text-[#7a7a7a] font-roboto font-normal relative w-full flex flex-row flex-nowrap">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <p class="leading-[23px] mb-[32px] mt-0 text-[#666]">
+                                                            <a href="https://de.calpeda.com/system/product/catalogue_50hz/93/en/NCE_HQ_ING2022.pdf?1647934518" target="_blank" rel="noopener" data-type="pdf" class="text-[#007bff] no-underline box-shadow-none">Descargar<br />Catálogo 50 Hz</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                              
+
+
+
+                                <section data-id="c612325" class="block box-border w-full relative">
+                                    <div class="max-w-[1190px] mx-auto flex relative">
+                                        <div data-id="2e737bb" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="c298225" class="box-border text-center relative w-full flex flex-row flex-nowrap justify-end">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <a href="https://hubs.ly/H0pT2J20" target="_blank" rel="noopener" class="text-[#007bff] no-underline bg-transparent inline-block box-shadow-none">
+                                                            <picture decoding="async" title="Bombas centrífugas autocebantes con rodete abierto - A 28">
+                                                                <source type="image/webp" srcset="/img/download-2.png.webp" />
+                                                                <img width="32" height="32" alt="download 2" src="/img/download-2.png" class="max-w-full h-auto align-middle border-none inline-block" />
+                                                            </picture>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="4040735" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="24ffc14" class="box-border text-[#7a7a7a] font-roboto font-normal relative w-full flex flex-row flex-nowrap">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <p class="leading-[23px] mb-[32px] mt-0 text-[#666]">
+                                                            <a href="https://de.calpeda.com/system/products/catalogue_60hzs/93/en/NCE_HQ.F_60HZ_2019.pdf?1602686105" target="_blank" rel="noopener" data-type="pdf" class="text-[#007bff] no-underline box-shadow-none">Descargar<br />Catálogo 60 Hz</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+
+
+
+
+                                <section data-id="e3384a1" class="block box-border w-full relative">
+                                    <div class="max-w-[1190px] mx-auto flex relative">
+                                        <div data-id="2037f02" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="2ead57d" class="box-border text-center relative w-full flex flex-row flex-nowrap justify-end">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <a href="https://hubs.ly/H0pT2J_0" target="_blank" rel="noopener" class="text-[#007bff] no-underline bg-transparent inline-block box-shadow-none">
+                                                            <picture decoding="async" title="Bombas centrífugas autocebantes con rodete abierto - A 28">
+                                                                <source type="image/webp" srcset="/img/download-2.png.webp" />
+                                                                <img width="32" height="32" alt="download 2" src="/img/download-2.png" class="max-w-full h-auto align-middle border-none inline-block" />
+                                                            </picture>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="87b0451" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="e59afe9" class="box-border text-[#7a7a7a] font-roboto font-normal relative w-full flex flex-row flex-nowrap">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <p class="leading-[23px] mb-[32px] mt-0 text-[#666]">
+                                                            <a href="https://de.calpeda.com/system/products/instructions/93/IST_NCE_H_HQ_ed5_2022.pdf?1657621524" target="_blank" rel="noopener" data-type="pdf" class="text-[#007bff] no-underline box-shadow-none">Descargar
+                                                                Instrucciones</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+
+                                
+
                             </div>
                         </div>
                     </div>

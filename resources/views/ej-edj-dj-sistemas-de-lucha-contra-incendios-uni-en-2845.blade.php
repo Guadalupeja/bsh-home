@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'NCE GF Circuladoras electrónicas gemelas de bajo consumo.')
-@section('description', 'Bombas Circuladoras electrónicas gemelas de bajo consumo. NCE GF CALPEDA. Entrega Inmediata. 
-Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
+@section('title', 'EJ, EDJ, DJ Sistemas de lucha contra incendios UNI-EN 12845')
+@section('description', 'EJ, EDJ, DJ Sistemas de lucha contra incendios UNI-EN 12845 -CALPEDA. Entrega Inmediata. 
+Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mantenimiento.')
 <style>
     .swiper-container {
       width: 350px; /* Define the width of the carousel */
@@ -17,27 +17,23 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "NCE GF Circuladoras electrónicas gemelas de bajo consumo energético embridadas",
-  "description": "Las circuladoras electrónicas gemelas NCE GF de Calpeda son altamente eficientes, diseñadas para reducir el consumo energético en sistemas de calefacción y refrigeración. Especialmente adecuadas para aplicaciones civiles e industriales con ahorro de energía.",
+  "name": "EJ, EDJ, DJ Sistemas de lucha contra incendios UNI-EN 12845",
+  "description": "EJ, EDJ, DJ Sistemas de lucha contra incendios de Calpeda, diseñados para instalaciones industriales y civiles, conforme a la normativa UNI-EN 12845. Incluyen 1 o 2 bombas principales y una bomba jockey.",
   "brand": {
     "@type": "Brand",
     "name": "Calpeda"
   },
-  "sku": "NCE-GF-002",
-  "mpn": "NCE-GF-002",
-  "category": "Circulator Pumps",
+  "sku": "EJ-EDJ-DJ-001",
+  "mpn": "EJ-EDJ-DJ-001",
+  "category": "Fire Fighting Systems",
   "image": [
-    "/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png"
+    "/img/EQUIPOS-DE-PRESIÓN-Y-CONTRA-INCENDIOS.png.webp"
   ],
-  "depth": "50 cm",
-  "width": "35 cm",
-  "weight": "12 kg",
-  "material": "Acero inoxidable",
   "offers": {
     "@type": "Offer",
-    "url": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf",
+    "url": "https://bombasellos.com.mx/bombas-calpeda-sistemas-contra-incendio-2",
     "priceCurrency": "MXN",
-    "price": "37500",
+    "price": "125000",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
     "seller": {
@@ -48,15 +44,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
         "contactType": "Ventas",
         "telephone": "+52-55-5752-1715",
         "email": "bsh@bombasellos.com.mx",
-        "areaServed": "MX",
-        "availableLanguage": ["Español", "English"]
+        "areaServed": "MX"
       }
     }
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "60"
+    "ratingValue": "4.8",
+    "reviewCount": "40"
   },
   "review": [
     {
@@ -67,9 +62,9 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Jorge Ramírez"
+        "name": "Carlos Pérez"
       },
-      "reviewBody": "La bomba NCE GF ha sido increíblemente eficiente en nuestro sistema de calefacción industrial. El ahorro energético es significativo."
+      "reviewBody": "El sistema contra incendios EJ, EDJ, DJ es confiable y cumple perfectamente con las normativas. Ideal para nuestra instalación industrial."
     },
     {
       "@type": "Review",
@@ -79,14 +74,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       },
       "author": {
         "@type": "Person",
-        "name": "Ana López"
+        "name": "Ana Ramírez"
       },
-      "reviewBody": "Buen producto, aunque la instalación tomó más tiempo de lo esperado. Sin embargo, el rendimiento es excelente."
+      "reviewBody": "Buen sistema, aunque la instalación inicial puede ser un poco complicada."
     }
   ],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+    "@id": "https://bombasellos.com.mx/bombas-calpeda-sistemas-contra-incendio-2"
   }
 }
 </script>
@@ -112,14 +107,14 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Bombas Calpeda",
-      "item": "https://bombasellos.com.mx/bombas-calpeda/"
+      "name": "Sistemas Contra Incendios",
+      "item": "https://bombasellos.com.mx/bombas-calpeda-sistemas-contra-incendio-2/"
     },
     {
       "@type": "ListItem",
       "position": 4,
-      "name": "NCE GF",
-      "item": "https://bombasellos.com.mx/bombas-circuladoras-nce-gf"
+      "name": "EJ, EDJ, DJ",
+      "item": "https://bombasellos.com.mx/bombas-calpeda-sistemas-contra-incendio-2/ej-edj-dj-sistemas-de-lucha-contra-incendios-uni-en-2845"
     }
   ]
 }
@@ -133,26 +128,26 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "¿Qué es la bomba circuladora NCE GF?",
+      "name": "¿Qué es el sistema de lucha contra incendios EJ, EDJ, DJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF de Calpeda es una circuladora electrónica gemela de bajo consumo diseñada para optimizar el flujo de agua en sistemas de calefacción y refrigeración, reduciendo considerablemente el consumo energético."
+        "text": "El sistema EJ, EDJ, DJ es un equipo de lucha contra incendios de Calpeda que cumple con las normativas UNI-EN 12845 y UNI 10779. Está diseñado para alimentar agua a sistemas de rociadores automáticos y unidades de hidrantes."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Qué características tiene la bomba NCE GF?",
+      "name": "¿Cuáles son las características principales del sistema EJ, EDJ, DJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "La bomba NCE GF está equipada con un motor síncrono de imán permanente y un inversor incorporado para ajustar automáticamente la velocidad según la demanda del sistema, lo que la hace muy eficiente en aplicaciones civiles e industriales."
+        "text": "El sistema incluye una o dos bombas principales y una bomba jockey, asegurando que la presión del sistema se mantenga sin necesidad de activar las bombas principales constantemente."
       }
     },
     {
       "@type": "Question",
-      "name": "¿Dónde puedo comprar la bomba NCE GF?",
+      "name": "¿Dónde puedo adquirir el sistema EJ, EDJ, DJ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Puedes adquirir la bomba NCE GF contactando a nuestras sucursales en México para obtener el mejor precio y soporte especializado."
+        "text": "Puedes adquirir el sistema EJ, EDJ, DJ a través de nuestras sucursales en México o en nuestra tienda en línea."
       }
     }
   ]
@@ -164,7 +159,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "serviceType": "Venta, instalación y mantenimiento de bombas circuladoras NCE GF",
+  "serviceType": "Venta y mantenimiento de sistemas de lucha contra incendios EJ, EDJ, DJ",
   "provider": {
     "@type": "Organization",
     "name": "BSH (Bombas Sellos y Hules Industriales S.A. de C.V.)",
@@ -177,18 +172,10 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
       "availableLanguage": ["Español", "English"]
     }
   },
-  "termsOfService": "https://bombasellos.com.mx/terms",
-  "areaServed": "MX",
-  "serviceAudience": {
-    "@type": "Audience",
-    "audienceType": "Industria, Doméstico, Comercial"
-  },
-  "description": "Proveemos venta, instalación y mantenimiento especializado de bombas circuladoras NCE GF para sistemas de calefacción y refrigeración. Somos distribuidores mayoristas en México con soporte técnico experto."
+  "description": "Ofrecemos la venta, instalación y mantenimiento de sistemas de lucha contra incendios EJ, EDJ, DJ de acuerdo a las normativas UNI-EN 12845. Nuestros expertos proporcionan soporte técnico especializado."
 }
 </script>
 @endsection
-
-
 
 
 
@@ -204,7 +191,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
     <div class="box-border w-full flex-row flex-nowrap">
         <div class="transition-all box-border">
             <h2 class="text-[19px] leading-[19px] mt-0 mb-0 font-semibold font-roboto text-black clear-both lg:ml-[120.5px]">
-                ELECTROBOMBAS DE CIRCULACIÓN Y EN LÍNEA
+                EQUIPOS DE PRESIÓN Y CONTRA INCENDIOS
             </h2>
         </div>
     </div>
@@ -311,12 +298,16 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                 <div class="transition-all duration-300">
                                     <div dir="ltr" class="pb-7.5 mx-auto relative overflow-hidden z-1">
                                         <div class="swiper-container">
-                                            <figure class="m-0 block box-border leading-[27px]">
-                                                <picture decoding="async" title="NCE GF - Bombas electrónicas gemelas de bajo consumo" class="box-border">
-                                                    <source type="image/webp" srcset="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" />
-                                                    <img decoding="async" src="/img/NCE-GF-Circuladoras-electronicas-gemelas-de-bajo-consumo-energetico-embridadas.png.webp" alt="NCE GF - Circuladoras electrónicas gemelas de bajo consumo" class="max-w-[300px] mt-5 h-auto align-middle border-none" />
+                                            
+
+                                            <figure class="m-0 block leading-[27px]">
+                                                <picture decoding="async" title="EJ, EDJ, DJ Sistema de lucha contra incendios">
+                                                    <source type="image/webp" srcset="/img/EQUIPOS-DE-PRESIÓN-Y-CONTRA-INCENDIOS.png.webp" /> 
+                                                    <img decoding="async" src="/img/EQUIPOS-DE-PRESIÓN-Y-CONTRA-INCENDIOS.png.webp" alt="EJ, EDJ, DJ Sistema de lucha contra incendios" class="max-w-full h-auto align-middle border-none shadow-none" />
                                                 </picture>
                                             </figure>
+
+
                                         </div>
 
                                         <div class="box-border p-2.5 flex flex-wrap w-full align-start text-justify mt-[80px]">
@@ -332,11 +323,19 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                             <div class="w-full">
 
                                                 <div class="transition-all duration-300 ease-in-out text-[#7a7a7a] font-roboto font-normal">
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Ejecución</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Circuladora de alta eficiencia energética de velocidad variable dirigida por un motor síncrono de imán permanente controlado por un inversor.</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border font-bold">Aplicaciones</p>
-                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 box-border">Calefacción, aire acondicionado, refrigeración y circulación. Para aplicaciones civiles e industriales.</p>
-                                                 </div>
+                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 font-bold">
+                                                        Construcción
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0">
+                                                        Unidades construidas de acuerdo con <span class="font-semibold">UNI</span> -ES 12845 estándares para los sistemas automáticos de extinción de incendios (con rociadores) y según <span class="font-semibold">UNI</span> 10779 para sistemas equipados con unidades de hidrantes. El sistema puede incluir 1 o 2 bombas principales de lucha contra incendios junto con una bomba jockey, que mantiene la presión del sistema sin arrancar las bombas principales.
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0 font-bold">
+                                                        Aplicación
+                                                    </p>
+                                                    <p class="text-[#666] leading-[27px] mb-8 mt-0">
+                                                        Para alimentar agua a sistemas automáticos de lucha contra incendios y unidades con hidrantes.
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
 
@@ -355,7 +354,7 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     <h2 class="text-2xl text-blue-700 leading-6 mt-0 mb-0 font-semibold font-open-sans text-left">
                                         <div class="inline-block relative">
                                             <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">
-                                                NCE GF</div>
+                                                EJ, EDJ, DJ</div>
                                         </div>
                                     </h2>
                                 </div>
@@ -367,7 +366,8 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                                     </div>
                                     <h1 class="text-4xl leading-10 mt-0 mb-0 font-semibold font-open-sans text-gray-600 text-left">
                                         <div class="inline-block relative">
-                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Circuladoras electrónicas gemelas de bajo consumo energético embridadas                                            </div>
+                                            <div class="font-roboto font-semibold text-blue-800 border-cyan-400 inline-flex text-lg">Sistemas de lucha contra incendios UNI -EN 12845
+                                            </div>
                                         </div>
                                     </h1>
                                 </div>
@@ -383,24 +383,38 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
                             </div>
 
                             <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none mt-[80px]  lg:mt-[280px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
-                                <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
-                                    <div class="relative w-full flex flex-wrap items-start">
-                                        <div class="text-[#7a7a7a] font-roboto font-normal text-xs mb-5">
-                                            <div class="transition-all duration-300">
-                                                <p class="text-[#666] leading-[1.8] mb-2 mt-0">
-                                                    <strong class="font-semibold">Campo de aplicaciones</strong>
-                                                </p>
+                                
+                                <section data-id="c612325" class="block box-border w-full relative">
+                                    <div class="max-w-[1190px] mx-auto flex relative">
+                                        <div data-id="2e737bb" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="c298225" class="box-border text-center relative w-full flex flex-row flex-nowrap justify-end">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <a href="https://hubs.ly/H0pT2J20" target="_blank" rel="noopener" class="text-[#007bff] no-underline bg-transparent inline-block box-shadow-none">
+                                                            <picture decoding="async" title="Bombas centrífugas autocebantes con rodete abierto - A 28">
+                                                                <source type="image/webp" srcset="/img/download-2.png.webp" />
+                                                                <img width="32" height="32" alt="download 2" src="/img/download-2.png" class="max-w-full h-auto align-middle border-none inline-block" />
+                                                            </picture>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div data-id="4040735" class="w-1/2 box-border relative flex">
+                                            <div class="box-border p-2.5 flex relative w-full flex-wrap content-start">
+                                                <div data-id="24ffc14" class="box-border text-[#7a7a7a] font-roboto font-normal relative w-full flex flex-row flex-nowrap">
+                                                    <div class="box-border transition duration-300 ease-in-out transform">
+                                                        <p class="leading-[23px] mb-[32px] mt-0 text-[#666]">
+                                                            <a href="https://de.calpeda.com/system/product/catalogue_50hz/65/en/EJ__DJ__EDJ_2020.pdf?1602755681" target="_blank" rel="noopener" data-type="pdf" class="text-[#007bff] no-underline box-shadow-none">Descargar<br />Catálogo 50 Hz</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="relative w-full flex justify-center">
-                                        <div class="transition-all duration-300 ease-in-out transform">
-                                           
-                                            <img fetchpriority="high" decoding="async" width="1024" height="601" src="/img/curve_NCE_G_F-1-1024x656.jpg.webp" alt="NCE GF curve" srcset="/img/curve_NCE_G_F-1-1024x656.jpg.webp 1024w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 300w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 768w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 600w, /img/curve_NCE_G_F-1-1024x656.jpg.webp 1138w" sizes="(max-width: 1024px) 100vw, 1024px" title="NCE GF Circuladoras electrónicas de bajo consumo energético" class="max-w-full h-auto align-middle border-none" />
-                                        </a>                                           
-                                        </div>
-                                    </div>
-                                </div>
+                                </section>
+                                                              
+
                             </div>
                         </div>
                     </div>
