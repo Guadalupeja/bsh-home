@@ -53,10 +53,11 @@
                                     <ol class="block list-none m-0 p-0 pr-5 box-border font-roboto text-base float-left bg-gray-200 rounded-lg">
                                         <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem" class="box-border p-3 pr-0 rounded-l-lg inline-block">
                                             <span itemprop="name" class="box-border m-0 p-0">
-                                                <!-- Home Link -->
-                                                <a itemprop="item" href="https://bombasellos.com.mx" class="text-blue-600 no-underline box-border m-0 p-0 shadow-none">
-                                                    <i class="fas fa-home mr-1"></i>Home 
-                                                </a>
+                                            <!-- Home Link -->
+                                            <a itemprop="item" href="{{ url('/') }}" class="text-blue-600 no-underline box-border m-0 p-0 shadow-none">
+                                                <i class="fas fa-home mr-1"></i>Home 
+                                            </a>
+
                                             </span>
                                             <meta itemprop="position" content="1" class="box-border m-0 p-0" /><!-- Meta Position-->
                                         </li>
@@ -208,13 +209,13 @@
             <div class="box-border p-2.5 flex w-full flex-wrap content-center items-center">
                 <div class="box-border mb-0 text-center relative w-full flex flex-col items-center">
                     <div class="box-border transition-all duration-300 ease-in-out">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-blue-500 no-underline bg-transparent box-border inline-block shadow-none">
+                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda/') }}" class="text-blue-500 no-underline bg-transparent box-border inline-block shadow-none">
                             <img decoding="async" src="/img/Bomba-Calpeda-3-1-opz9v2g1x68t1j2kl0zkeomer349bdr3ztfjfl5vrk.png" title="Bomba centrífuga Calpeda Modelo NR." alt="Bomba presurizadora Calpeda" loading="lazy" class="max-w-full h-auto align-middle border-none box-border inline-block" />
                         </a>
                     </div>
                     <div class="w-full bg-[#610001] transition-all duration-300 ease-in-out mt-0">
                         <h2 class="text-[21px] text-white leading-[63px] font-semibold font-roboto m-0 p-0">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-white no-underline bg-transparent box-border shadow-none block">Bombas Centrífugas Calpeda®</a>
+                            <a href="{{ url('/bombas/bombas-centrifugas-calpeda/') }}" class="text-white no-underline bg-transparent box-border shadow-none block">Bombas Centrífugas Calpeda®</a>
                         </h2>
                     </div>
                 </div>
@@ -224,13 +225,13 @@
             <div class="box-border p-2.5 flex w-full flex-wrap content-center items-center">
                 <div class="box-border mb-0 text-center relative w-full flex flex-col items-center">
                     <div class="box-border transition-all duration-300 ease-in-out">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-neumaticas/" class="text-blue-500 no-underline bg-transparent box-border inline-block shadow-none">
+                        <a href="{{ url('/bombas/bombas-neumaticas/') }}" class="text-blue-500 no-underline bg-transparent box-border inline-block shadow-none">
                             <img decoding="async" src="/img/Bomba-Wilden-1-opz9utzi7nx851euyfbxa8r9em9ye3tiynk643ifbk.png" title="Bomba Neumatica de doble diafragma." alt="Bomba Neumatica de doble diafragma Wilden" loading="lazy" class="max-w-full h-auto align-middle border-none box-border inline-block" />
                         </a>
                     </div>
                     <div class="w-full bg-[#610001] transition-all duration-300 ease-in-out mt-0">
                         <h2 class="text-[21px] text-white leading-[63px] font-semibold font-roboto m-0 p-0">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-neumaticas/" class="text-white no-underline bg-transparent box-border shadow-none block">Bombas Neumaticas Wilden®</a>
+                            <a href="{{ url('/bombas/bombas-neumaticas/') }}" class="text-white no-underline bg-transparent box-border shadow-none block">Bombas Neumaticas Wilden®</a>
                         </h2>
                     </div>
                 </div>

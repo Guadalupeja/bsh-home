@@ -153,3 +153,30 @@ Route::get('/blog-bsh', [PaginasController::class, 'blog_bsh']);
 Route::get('/blog-bsh/catalogos-del-fabricante', [PaginasController::class, 'catalogos_del_fabricante']);
 
 Route::get('/blog-bsh/presentaciones', [PaginasController::class, 'presentaciones']);
+
+
+// New Routes for the provided URLs
+Route::get('/blog-bsh/presentaciones/presentaciones-capacitacion', [PaginasController::class, 'presentaciones_capacitacion']);
+Route::get('/blog-bsh/presentaciones/gama-de-producto-y-servicios', [PaginasController::class, 'gama_de_producto_y_servicios']);
+Route::get('/blog-bsh/presentaciones/presentaciones-por-aplicacion', [PaginasController::class, 'presentaciones_por_aplicacion']);
+Route::get('/blog-bsh/presentaciones/presentaciones-por-segmento', [PaginasController::class, 'presentaciones_por_segmento']);
+Route::get('/mi-cuenta', [PaginasController::class, 'mi_cuenta']);
+Route::get('/plasticos-de-ingeneria', [PaginasController::class, 'plasticos_de_ingeneria']);
+Route::get('/plasticos-de-ingeneria/hules-moldeados-y-extruidos', [PaginasController::class, 'plasticos_de_ingeneria_hules_moldeados_y_extruidos']);
+Route::get('/plasticos-de-ingeneria/orkot', [PaginasController::class, 'plasticos_de_ingeneria_orkot']);
+Route::get('/plasticos-de-ingeneria/turcite-b-slydway', [PaginasController::class, 'plasticos_de_ingeneria_turcite_b_slydway']);
+Route::get('/plasticos-de-ingeneria/turcite-b-slydway/instalacion-de-turcite-b-slydway', [PaginasController::class, 'instalacion_de_turcite_b_slydway']);
+Route::get('/plasticos-de-ingeneria/turcite-a-rod', [PaginasController::class, 'plasticos_de_ingeneria_turcite_a_rod']);
+Route::get('/preguntas-frecuentes', [PaginasController::class, 'preguntas_frecuentes']);
+Route::get('/proximamente', [PaginasController::class, 'proximamente']);
+Route::get('/somos-bsh', [PaginasController::class, 'somos_bsh']);
+Route::get('/sellos-hidraulicos', [PaginasController::class, 'sellos_hidraulicos']);
+Route::get('/sellos-hidraulicos/kits-o-rings-3', [PaginasController::class, 'kits_o_rings_3']);
+Route::get('/sellos-hidraulicos/kits-o-rings-3/check-out-kits-o-rings', [PaginasController::class, 'check_out_kits_o_rings']);
+Route::get('/sellos-hidraulicos/kits-o-rings-3/enviar-pedido-kits-o-rings', [PaginasController::class, 'enviar_pedido_kits_o_rings']);
+Route::get('/sellos-hidraulicos/prueba-filtro', [PaginasController::class, 'prueba_filtro']);
+Route::get('/sellos-hidraulicos/sellos-a-la-medida', [PaginasController::class, 'sellos_a_la_medida']);
+Route::get('/sellos-hidraulicos/sellos-hidraulicos-kits-o-rings', [PaginasController::class, 'sellos_hidraulicos_kits_o_rings']);
+Route::get('/sellos-hidraulicos/sellos-individuales-dinamicos-de-piston-y-vastago', [PaginasController::class, 'sellos_individuales_dinamicos_de_piston_y_vastago']);
+Route::get('/sellos-hidraulicos/sellos-individuales-estaticos-o-rings', [PaginasController::class, 'sellos_individuales_estaticos_o_rings']);
+Route::get('/sellos-hidraulicos/sellos-individuales-rotativos', [PaginasController::class, 'sellos_individuales_rotativos']);

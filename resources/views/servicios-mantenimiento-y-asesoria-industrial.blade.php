@@ -212,7 +212,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
                             <ol class="list-none m-0 p-0 w-auto float-left text-[16px] font-roboto bg-[#edeff0] rounded-md">
                                 <li class="inline-block p-[15px] pr-0 mr-[3px] rounded-l-md text-[16px]"> 
                                     <span>
-                                        <a href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
+                                        <a href="{{ url('/') }}" class="text-[#337ab7] no-underline">
                                             <i class="fas fa-home mx-[5px]"></i>Home
                                         </a>
                                     </span>
@@ -223,7 +223,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
                                     <span class="text-[#27272A]" title="Capacitación y Mantenimiento a Sistemas Hidráulicos y Bombas">Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas</span>
                                     <meta itemprop="position" content="2" />
                                 </li>
-                            </ol>
+                            </ol>                            
                             <div class="clear-both"></div>
                         </div>
                     </div>
@@ -284,14 +284,14 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
         <div class="lg:w-1/3 mt-5 lg:mt-0 flex flex-col bg-white p-0 ml-[19px]">
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
-                <a href="https://bombasellos.com.mx/servicio-de-mantenimiento/">
-                    <img src="/img/Mantenimiento.webp" alt="Servicios de mantenimiento mecanico e hidraúlico industrial" class="w-full h-auto">
-                </a>
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}">
+                    <img src="{{ asset('img/Mantenimiento.webp') }}" alt="Servicios de mantenimiento mecanico e hidraúlico industrial" class="w-full h-auto">
+                </a>                
             </div>
             <!-- Título -->
             <div class="p-4 pt-5 pb-6 bg-white text-[#043e81] h-[70px]">
                 <h2 class="text-[25px] font-semibold font-roboto leading-[25px] h-[100px]">
-                    <a href="https://bombasellos.com.mx/servicio-de-mantenimiento/" class="text-[#043e81] no-underline font-roboto">
+                    <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}" class="text-[#043e81] no-underline font-roboto">
                         Mantenimiento industrial.
                     </a>
                 </h2>
@@ -304,7 +304,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
             </div>
             <!-- Botón -->
             <div class="mt-6 text-center w-full font-roboto">
-                <a href="https://bombasellos.com.mx/servicio-de-mantenimiento/" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
                     Más información
                 </a>
             </div>
@@ -314,14 +314,14 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
         <div class="lg:w-1/3 mt-5 lg:mt-0 flex flex-col bg-white p-0 ml-[19px]">
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
-                <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica/">
-                    <img src="/img/Consultoria-T%C3%A9cnica.png.webp" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
-                </a>
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica') }}">
+                    <img src="{{ asset('img/Consultoria-Técnica.png.webp') }}" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
+                </a>                
             </div>
             <!-- Título -->
             <div class="p-4 pt-5 pb-6 bg-white text-[#043e81] h-[70px]">
                 <h2 class="text-[25px] font-semibold font-roboto leading-[25px]">
-                    <a href="https://bombasellos.com.mx/consultoria-y-capacitacion-tecnica/" class="text-[#043e81] no-underline">
+                    <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica') }}" class="text-[#043e81] no-underline">
                         Consultoría y capacitación técnica.
                     </a>
                 </h2>
@@ -334,7 +334,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
             </div>
             <!-- Botón -->
             <div class="mt-6 text-center w-full font-roboto">
-                <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica/" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica') }}" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
                     Más información
                 </a>
             </div>
@@ -344,15 +344,15 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
         <div class="lg:w-1/3 mt-5 lg:mt-0 flex flex-col bg-white p-0 ml-[19px]">
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
-                <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados/">
-                    <img src="/img/Maquinados-Metalizados.png.webp" alt="Maquinados de piezas especiales y metalizados cromo duro" class="w-full h-auto">
-                </a>
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados') }}">
+                    <img src="{{ asset('img/Maquinados-Metalizados.png.webp') }}" alt="Maquinados de piezas especiales y metalizados cromo duro" class="w-full h-auto">
+                </a>                
             </div>
   
             <!-- Título -->
             <div class="p-4 pt-5 pb-6 bg-white text-[#043e81] h-[70px]">
                 <h2 class="text-[25px] font-semibold font-roboto leading-[25px]">
-                    <a href="https://bombasellos.com.mx/maquinados-y-metalizados/" class="text-[#043e81] no-underline">
+                    <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados') }}" class="text-[#043e81] no-underline">
                         Maquinados y metalizados.
                     </a>
                 </h2>
@@ -365,7 +365,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
             </div>
             <!-- Botón -->
             <div class="mt-6 text-center font-roboto">
-                <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados/" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
+                <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/maquinados-y-metalizados') }}" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
                     Más información
                 </a>
             </div>
@@ -384,6 +384,20 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
         </div>
     </div>
 </section>
+
+<!-- Puntuar página -->
+<div class="flex flex-col items-center box-border my-8">
+    <div class="box-border mb-2 text-lg">¡Haz clic para puntuar esta página!</div>
+    <div class="inline-block box-border relative" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer; background-image: url('/img/star_2.svg');">
+        <div class="absolute top-0 left-0 h-full" style="width: 0%; background-size: 32px; background-image: url('/img/star_3.svg');"></div>
+    </div>
+    <div class="inline-block align-bottom ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="inline-block fill-current text-gray-600 cursor-pointer">
+            <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
+        </svg>
+        <span class="text-sm">(Votos: <span id="votes-count">0</span> Promedio: <span id="average-rating">0</span>)</span>
+    </div>
+</div>
 
 
 <!-- Incluir el script de HubSpot en tu layout -->

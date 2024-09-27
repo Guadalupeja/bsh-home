@@ -149,10 +149,6 @@ Capacidades de Maquinado y Metalizado Cromo duro. Consultoría Técnica')
 
 @section('contenido')
 
-
-
-
-
 <section class="relative w-full">
     <div class="max-w-[1190px] mx-auto flex relative">
         <div class="w-full flex flex-wrap">
@@ -161,9 +157,9 @@ Capacidades de Maquinado y Metalizado Cromo duro. Consultoría Técnica')
                     <div class="transition duration-300 ease-in-out">
                         <div class="w-full p-0 m-0">
                             <ol class="list-none m-0 p-0 w-auto float-left text-[13px] lg:text-[16px] font-roboto bg-[#edeff0] rounded-md">
-                                <li class="inline-block p-[15px] pr-0 mr-[3px] rounded-l-md text-[13px] lg:text-[16px]"> 
+                                <li class="inline-block p-[15px] pr-0 mr-[3px] rounded-l-md text-[13px] lg:text-[16px]">
                                     <span>
-                                        <a href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
+                                        <a href="{{ url('/') }}" class="text-[#337ab7] no-underline">
                                             <i class="fas fa-home mx-[5px]"></i>Home
                                         </a>
                                     </span>
@@ -172,14 +168,15 @@ Capacidades de Maquinado y Metalizado Cromo duro. Consultoría Técnica')
                                 <li class="inline-block pl-1 text-gray-400">/</li>
                                 <li class="inline-block pl-2 rounded-r-md text-[16px]">
                                     <span class="text-[#27272A]" title="Capacitación y Mantenimiento a Sistemas Hidráulicos y Bombas">
-                                    <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/" class="text-[#337ab7] no-underline">Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas
-                                    </a>
+                                        <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial') }}" class="text-[#337ab7] no-underline">
+                                            Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas
+                                        </a>
                                     </span>
                                     <meta itemprop="position" content="2" />
                                 </li>
                                 <li class="inline-block pl-1 text-gray-400">/</li>
                                 <li class="inline-block pl-1">BOMBAS CENTRÍFUGAS</li>
-                            </ol>
+                            </ol>                            
                             <div class="clear-both"></div>
                         </div>
                     </div>
@@ -293,6 +290,19 @@ Capacidades de Maquinado y Metalizado Cromo duro. Consultoría Técnica')
     </div>
 </section>
 
+<!-- Puntuar página -->
+<div class="flex flex-col items-center box-border my-8">
+    <div class="box-border mb-2 text-lg">¡Haz clic para puntuar esta página!</div>
+    <div class="inline-block box-border relative" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer; background-image: url('/img/star_2.svg');">
+        <div class="absolute top-0 left-0 h-full" style="width: 0%; background-size: 32px; background-image: url('/img/star_3.svg');"></div>
+    </div>
+    <div class="inline-block align-bottom ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="inline-block fill-current text-gray-600 cursor-pointer">
+            <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
+        </svg>
+        <span class="text-sm">(Votos: <span id="votes-count">0</span> Promedio: <span id="average-rating">0</span>)</span>
+    </div>
+</div>
 
 <!-- Incluir el script de HubSpot en tu layout -->
 <div id="hubspotFormContainer" class="bg-[#000935] p-12 rounded-md text-white">

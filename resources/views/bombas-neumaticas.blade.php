@@ -41,30 +41,31 @@ material. Entrega inmediata. Distribuidor mayorista MX. Kits de refacciones.')
                 <div class="box-border">
                     <!-- Breadcrumb wrapper -->
                     <div class="box-border m-0 p-0">
-                        <!-- Ordered list-->
-                        <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="block list-none m-0 p-0 font-roboto text-sm rounded bg-gray-200">
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pl-4 pr-0 mr-1 rounded-l text-base">
-                                <span itemprop="name" class="m-0 p-0">
-                                    <!-- Home Link -->
-                                    <a itemprop="item" href="https://bombasellos.com.mx" class="text-blue-600 no-underline">
-                                        <i aria-hidden="true" class="fas fa-home mr-1"></i>Home
-                                    </a>
-                                </span>
-                                <meta itemprop="position" content="1" /><!-- Meta Position-->
-                            </li>
-                            <li class="inline-block p-3.5 pl-2 text-base m-0"><span class="text-gray-400">/</span></li>
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pl-2 text-base m-0">
-                                <a itemprop="item" page-parent="2330" href="https://bombasellos.com.mx/bombas/" title="Bombas" class="text-blue-600 no-underline">
-                                    <span itemprop="name">Bombas</span>
+                     <!-- Ordered list-->
+                    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="block list-none m-0 p-0 font-roboto text-sm rounded bg-gray-200">
+                        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pl-4 pr-0 mr-1 rounded-l text-base">
+                            <span itemprop="name" class="m-0 p-0">
+                                <!-- Home Link -->
+                                <a itemprop="item" href="{{ url('/') }}" class="text-blue-600 no-underline">
+                                    <i aria-hidden="true" class="fas fa-home mr-1"></i>Home
                                 </a>
-                                <meta itemprop="position" content="2" />
-                            </li>
-                            <li class="inline-block p-3.5 pl-2 text-base m-0"><span class="text-gray-400">/</span></li>
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pr-3.5 text-base m-0 rounded-r">
-                                <span itemprop="name" title="Bombas Neumáticas de doble Diafragma y Refacciones| Wilden®" class="text-gray-900 text-base">Bombas Neumáticas de doble Diafragma y Refacciones| Wilden®</span>
-                                <meta itemprop="position" content="3" />
-                            </li>
-                        </ol>
+                            </span>
+                            <meta itemprop="position" content="1" /><!-- Meta Position-->
+                        </li>
+                        <li class="inline-block p-3.5 pl-2 text-base m-0"><span class="text-gray-400">/</span></li>
+                        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pl-2 text-base m-0">
+                            <a itemprop="item" page-parent="2330" href="{{ url('/bombas') }}" title="Bombas" class="text-blue-600 no-underline">
+                                <span itemprop="name">Bombas</span>
+                            </a>
+                            <meta itemprop="position" content="2" />
+                        </li>
+                        <li class="inline-block p-3.5 pl-2 text-base m-0"><span class="text-gray-400">/</span></li>
+                        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block p-3.5 pr-3.5 text-base m-0 rounded-r">
+                            <span itemprop="name" title="Bombas Neumáticas de doble Diafragma y Refacciones| Wilden®" class="text-gray-900 text-base">Bombas Neumáticas de doble Diafragma y Refacciones| Wilden®</span>
+                            <meta itemprop="position" content="3" />
+                        </li>
+                    </ol>
+
                         <div class="box-border m-0 p-0"></div>
                     </div>
                 </div>

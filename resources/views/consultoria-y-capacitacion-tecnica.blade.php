@@ -164,7 +164,7 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                             <ol class="list-none m-0 p-0 w-auto float-left text-[13px] lg:text-[16px] font-roboto bg-[#edeff0] rounded-md">
                                 <li class="inline-block p-[15px] pr-0 mr-[3px] rounded-l-md text-[13px] lg:text-[16px]"> 
                                     <span>
-                                        <a href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
+                                        <a href="{{ url('/') }}" class="text-[#337ab7] no-underline">
                                             <i class="fas fa-home mx-[5px]"></i>Home
                                         </a>
                                     </span>
@@ -173,14 +173,14 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                                 <li class="inline-block pl-1 text-gray-400">/</li>
                                 <li class="inline-block pl-2 rounded-r-md text-[16px]">
                                     <span class="text-[#27272A]" title="Capacitación y Mantenimiento a Sistemas Hidráulicos y Bombas">
-                                    <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/" class="text-[#337ab7] no-underline">Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas
-                                    </a>
+                                        <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/') }}" class="text-[#337ab7] no-underline">Capacitación y Mantenimiento a Sistemas Hidraulicos y Bombas
+                                        </a>
                                     </span>
                                     <meta itemprop="position" content="2" />
                                 </li>
                                 <li class="inline-block pl-1 text-gray-400">/</li>
                                 <li class="inline-block pl-1">CONSULTORIA Y CAPACITACION TÉCNICA</li>
-                            </ol>
+                            </ol>                            
                             <div class="clear-both"></div>
                         </div>
                     </div>
@@ -314,7 +314,7 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
             <div class="p-2.5 flex w-full flex-wrap align-content-start">
                 <div class="w-full flex justify-center">
                     <div class="transition-all duration-300 flex flex-col items-center">
-                        <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas/" class="text-[#007bff] no-underline">
+                        <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas/') }}" class="text-[#007bff] no-underline">
                             <div class="transition-all duration-300">
                                 <picture decoding="async" title="Capacitación en instalación de bombas">
                                     <source type="image/webp" srcset="/img/bombas-centrifugas-1.jpg.webp 575w, /img/bombas-centrifugas-1-300x168.jpg.webp 300w" sizes="(max-width: 575px) 100vw, 575px" />
@@ -323,18 +323,19 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                             </div>
                         </a>
                         <h2 class="font-roboto w-full font-semibold text-white bg-[#610001] text-[21px] leading-[50.4px] mt-0 mb-0 text-center p-0 m-0 clear-both">
-                            <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas/" class="text-white no-underline">Equipos de Bombeo y sistemas paralelos.</a>
+                            <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas/') }}" class="text-white no-underline">Equipos de Bombeo y sistemas paralelos.</a>
                         </h2>
                     </div>
                 </div>
             </div>
         </div>
+        
 
         <div class="lg:w-1/2 box-border flex relative">
             <div class="p-2.5 flex w-full flex-wrap align-content-start">
                 <div class="w-full flex justify-center">
                     <div class="transition-all duration-300 flex flex-col items-center">
-                        <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos/">
+                        <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos/') }}">
                             <div class="transition-all duration-300">
                                 <picture loading="lazy" decoding="async" title="Sistemas Hidráulicos">
                                     <source type="image/webp" srcset="/img/sistemas-hidraulicos-1.jpg.webp 575w, /img/sistemas-hidraulicos-1-300x168.jpg.webp 300w" sizes="(max-width: 575px) 100vw, 575px" />
@@ -343,16 +344,29 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                             </div>
                         </a>
                         <h2 class="font-roboto w-full font-semibold text-white bg-[#610001] text-[21px] leading-[50.4px] mt-0 mb-0 text-center p-0 m-0 clear-both">
-                            <a href="https://bombasellos.com.mx/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos/" class="text-white no-underline">Sistemas hidráulicos lineales y rotativos.</a>
+                            <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos/') }}" class="text-white no-underline">Sistemas hidráulicos lineales y rotativos.</a>
                         </h2>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>        
     </div>
 </section>
 
 
+<!-- Puntuar página -->
+<div class="flex flex-col items-center box-border my-8">
+    <div class="box-border mb-2 text-lg">¡Haz clic para puntuar esta página!</div>
+    <div class="inline-block box-border relative" style="width: 160px; height: 32px; background-size: 32px; cursor: pointer; background-image: url('/img/star_2.svg');">
+        <div class="absolute top-0 left-0 h-full" style="width: 0%; background-size: 32px; background-image: url('/img/star_3.svg');"></div>
+    </div>
+    <div class="inline-block align-bottom ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="inline-block fill-current text-gray-600 cursor-pointer">
+            <path d="M18 18v-16h-4v16h4zM12 18v-11h-4v11h4zM6 18v-8h-4v8h4z"></path>
+        </svg>
+        <span class="text-sm">(Votos: <span id="votes-count">0</span> Promedio: <span id="average-rating">0</span>)</span>
+    </div>
+</div>
 
 
 <!-- Incluir el script de HubSpot en tu layout -->

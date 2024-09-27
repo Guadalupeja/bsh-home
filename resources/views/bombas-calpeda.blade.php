@@ -51,10 +51,11 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                                     <ol class="block list-none m-0 p-0 pr-5 box-border font-roboto text-base float-left bg-gray-200 rounded-lg">
                                         <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem" class="box-border p-3 pr-0 rounded-l-lg inline-block">
                                             <span itemprop="name" class="box-border m-0 p-0">
-                                                <!-- Home Link -->
-                                                <a itemprop="item" href="https://bombasellos.com.mx" class="text-blue-600 no-underline box-border m-0 p-0 shadow-none">
-                                                    <i class="fas fa-home mr-1"></i>Home 
-                                                </a>
+                                  <!-- Home Link -->
+                                  <a itemprop="item" href="{{ url('/') }}" class="text-blue-600 no-underline box-border m-0 p-0 shadow-none">
+                                    <i class="fas fa-home mr-1"></i>Home 
+                                  </a>
+
                                             </span>
                                             <meta itemprop="position" content="1" class="box-border m-0 p-0" /><!-- Meta Position-->
                                         </li>
@@ -157,23 +158,24 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
           <div class="transition-all">
             <p class="text-gray-600 leading-relaxed mb-8"><strong>Obra civil</strong></p>
             <ul class="list-square pl-4 mb-0">
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-drenaje-y-tratamiento-de-aguas/" class="text-blue-500">Drenaje y tratamiento de aguas.</a></li>
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-presurizacion/" class="text-blue-500">Presurización.</a></li>
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-recirculacion-y-climatizacion/" class="text-blue-500">Recirculación y climatización.</a></li>
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-sistemas-contra-incendio/" class="text-blue-500">Sistemas contra incendio.</a></li>
-            </ul>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/') }}" class="text-blue-500">Drenaje y tratamiento de aguas.</a></li>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/') }}" class="text-blue-500">Presurización.</a></li>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-recirculacion-y-climatizacion/') }}" class="text-blue-500">Recirculación y climatización.</a></li>
+              <li class="list-item"><a href="{{ url('/bombas-calpeda-sistemas-contra-incendio-2') }}" class="text-blue-500">Sistemas contra incendio.</a></li>
+          </ul>          
             <p class="text-gray-600 leading-relaxed mb-8"><strong>Industria.</strong></p>
             <ul class="list-square pl-4 mb-0">
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-maquinaria-y-equipos-oem/" class="text-blue-500">Maquinaria y equipos (OEM)</a></li>
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/" class="text-blue-500">Circuitos de transferencia de calor y refrigeración</a></li>
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-drenaje-y-tratamiento-de-aguas/" class="text-blue-500">Tratamiento de aguas residuales industriales</a></li>
-            </ul>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/') }}" class="text-blue-500">Maquinaria y equipos (OEM)</a></li>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/') }}" class="text-blue-500">Circuitos de transferencia de calor y refrigeración</a></li>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/') }}" class="text-blue-500">Tratamiento de aguas residuales industriales</a></li>
+          </ul>
+          
             <p class="text-gray-600 leading-relaxed mb-8"><strong>Riego-Agricola.</strong></p>
             <ul class="list-square pl-4 mb-0">
-              <li class="list-item"><a href="https://bombasellos.com.mx:/bombas-calpeda-agricultura-y-riego/" class="text-blue-500">Sistemas de riego</a></li>
-            </ul>
-            <p class="text-gray-600 leading-relaxed mb-8">&nbsp;</p>
-            <p class="text-gray-600 leading-relaxed mb-8"><a href="https://bombasellos.com.mx:/sellos-mecanicos-calpeda/" class="text-blue-500"><strong>Sellos mécanicos CALPEDA®</strong></a></p>
+              <li class="list-item"><a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/') }}" class="text-blue-500">Sistemas de riego</a></li>
+          </ul>
+          <p class="text-gray-600 leading-relaxed mb-8">&nbsp;</p>
+          <p class="text-gray-600 leading-relaxed mb-8"><a href="{{ url('/bombas/sellos-mecanicos-calpeda') }}" class="text-blue-500"><strong>Sellos mécanicos CALPEDA®</strong></a></p>          
           </div>
         </div>
       </div>
@@ -194,7 +196,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bomba-sumergible-para-achiques-gqr/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a  href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -204,7 +206,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bomba-sumergible-para-achiques-gqr/" class="text-blue-500">
+                      <a  href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GQR
@@ -220,7 +222,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/bomba-sumergible-para-achiques-gqr/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a  href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
@@ -243,7 +245,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -253,7 +255,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/" class="text-blue-500">
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GX 40
@@ -269,7 +271,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
@@ -292,7 +294,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gqs-gqv/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -302,7 +304,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gqs-gqv/" class="text-blue-500">
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GQS, GQV
@@ -318,7 +320,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gqs-gqv/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
@@ -345,7 +347,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gm-50/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -355,7 +357,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gm-50/" class="text-blue-500">
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GM 50
@@ -371,7 +373,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/bombas-sumergibles-para-aguas-sucias-gm-50/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
@@ -394,7 +396,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/geotrit-geoclean-geocomp/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geotrit-geoclean-geocomp') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -404,7 +406,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/geotrit-geoclean-geocomp/" class="text-blue-500">
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geotrit-geoclean-geocomp') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GEOTRIT-GEOCLEAN-GEOCOMP
@@ -420,7 +422,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/geotrit-geoclean-geocomp/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geotrit-geoclean-geocomp') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
@@ -443,7 +445,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute top-0 left-0 w-full h-full p-4 text-left">
                         <h3 class="text-[#043e81] text-lg leading-snug mt-4 mb-4 font-semibold font-roboto relative overflow-hidden p-2 bg-transparent"></h3>
                       </div>
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/') }}" class="absolute top-0 left-0 w-full h-full z-20 text-transparent bg-transparent"></a>
                     </div>
                   </div>
                 </div>
@@ -453,7 +455,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                       <div class="absolute text-gray-500 font-roboto font-semibold w-full select-none"></div>
                     </div>
                     <h2 class="text-2xl leading-tight m-0 font-semibold font-open-sans text-left">
-                      <a href="https://bombasellos.com.mx:/bombas-calpeda/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/" class="text-blue-500">
+                      <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/') }}" class="text-blue-500">
                         <div class="inline-block relative">
                           <div class="inline-flex text-[#043e81] border-none">
                             GEO
@@ -469,7 +471,7 @@ obra civil, industria y riego agrícola. Conoce más sobre todas nuestras soluci
                   </div>
                 </div>
                 <div class="mt-auto">
-                  <a href="https://bombasellos.com.mx:/bombas-calpeda/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
+                  <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/geo-estacion-automatica-de-recogida-y-elevacion-de-aguas-sucias/') }}" class="text-white bg-[#043e81] font-roboto font-medium text-lg px-8 py-3 rounded-md inline-block text-center transition-all w-auto">
                     <span class="flex items-center justify-center">
                       <span class="mr-2 order-5 flex-grow-0">
                         <i class="fas fa-plus" aria-hidden="true"></i>
