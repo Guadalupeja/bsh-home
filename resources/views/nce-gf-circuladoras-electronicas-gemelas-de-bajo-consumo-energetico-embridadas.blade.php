@@ -284,12 +284,12 @@ Distribuidor Mayorista Mx. Mejor precio. Refacciones y Mtto.')
         </div>
 
         <div class="box-border">
-            <a href="https://bombasellos.com.mx/bombas/sellos-mecanicos-calpeda/" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
-                <span class="box-border no-underline flex justify-center">
-                    <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
-                </span>
-            </a>
-        </div>
+          <a href="{{ url('/bombas/sellos-mecanicos-calpeda') }}" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
+              <span class="box-border no-underline flex justify-center">
+                  <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
+              </span>
+          </a>
+      </div>
     </div>
 
     <div class="w-full lg:w-3/4 flex flex-col lg:flex-row px-1 py-0 mx-auto">

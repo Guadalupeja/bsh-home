@@ -534,4 +534,127 @@ class PaginasController extends Controller
         {
             return view('presentaciones');
         }
+
+
+        // Functions for the new URLs
+        public function presentaciones_capacitacion()
+        {
+            return view('presentaciones-capacitacion');
+        }
+
+        public function gama_de_producto_y_servicios()
+        {
+            return view('gama-de-producto-y-servicios');
+        }
+
+        public function presentaciones_por_aplicacion()
+        {
+            return view('presentaciones-por-aplicacion');
+        }
+
+        public function presentaciones_por_segmento()
+        {
+            return view('presentaciones-por-segmento');
+        }
+
+        public function mi_cuenta()
+        {
+            return view('mi-cuenta');
+        }
+
+        public function plasticos_de_ingeneria()
+        {
+            return view('plasticos-de-ingeneria');
+        }
+
+        public function plasticos_de_ingeneria_hules_moldeados_y_extruidos()
+        {
+            return view('plasticos-de-ingeneria-hules-moldeados-y-extruidos');
+        }
+
+        public function plasticos_de_ingeneria_orkot()
+        {
+            return view('plasticos-de-ingeneria-orkot');
+        }
+
+        public function plasticos_de_ingeneria_turcite_b_slydway()
+        {
+            return view('plasticos-de-ingeneria-turcite-b-slydway');
+        }
+
+        public function instalacion_de_turcite_b_slydway()
+        {
+            return view('instalacion-de-turcite-b-slydway');
+        }
+
+        public function plasticos_de_ingeneria_turcite_a_rod()
+        {
+            return view('plasticos-de-ingeneria-turcite-a-rod');
+        }
+
+        public function preguntas_frecuentes()
+        {
+            return view('preguntas-frecuentes');
+        }
+
+        public function proximamente()
+        {
+            return view('proximamente');
+        }
+
+        public function somos_bsh()
+        {
+            return view('somos-bsh');
+        }
+
+        public function sellos_hidraulicos()
+        {
+            return view('sellos-hidraulicos');
+        }
+
+        public function kits_o_rings_3()
+        {
+            return view('kits-o-rings-3');
+        }
+
+        public function check_out_kits_o_rings()
+        {
+            return view('check-out-kits-o-rings');
+        }
+
+        public function enviar_pedido_kits_o_rings()
+        {
+            return view('enviar-pedido-kits-o-rings');
+        }
+
+        public function prueba_filtro()
+        {
+            return view('prueba-filtro');
+        }
+
+        public function sellos_a_la_medida()
+        {
+            return view('sellos-a-la-medida');
+        }
+
+        public function sellos_hidraulicos_kits_o_rings()
+        {
+            return view('sellos-hidraulicos-kits-o-rings');
+        }
+
+        public function sellos_individuales_dinamicos_de_piston_y_vastago()
+        {
+            return view('sellos-individuales-dinamicos-de-piston-y-vastago');
+        }
+
+        public function sellos_individuales_estaticos_o_rings()
+        {
+            return view('sellos-individuales-estaticos-o-rings');
+        }
+
+        public function sellos_individuales_rotativos()
+        {
+            return view('sellos-individuales-rotativos');
+        }
+
  }

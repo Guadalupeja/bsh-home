@@ -213,21 +213,40 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                         <div class="relative z-20 box-border">
                             <div class="bg-transparent box-border">
                                 <ul class="bg-transparent m-0 p-0 inline-flex list-none flex-wrap rounded-lg box-border">
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/" class="text-[#043E81] no-underline box-shadow-none">Home</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/" class="text-[#043E81] no-underline box-shadow-none">Bombas</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-[#043E81] no-underline box-shadow-none">Centrífugas Calpeda</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
-
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/" class="text-[#043E81] no-underline box-shadow-none">
-                                        Bombas Calpeda – Presurización
-                                        </a></li>
-                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto"><span class="text-[#043E81] px-1">/</span></li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <a href="{{ url('/') }}" class="text-[#043E81] no-underline box-shadow-none">Home</a>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <span class="text-[#043E81] px-1">/</span>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <a href="{{ url('/bombas') }}" class="text-[#043E81] no-underline box-shadow-none">Bombas</a>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <span class="text-[#043E81] px-1">/</span>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda') }}" class="text-[#043E81] no-underline box-shadow-none">Centrífugas Calpeda</a>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <span class="text-[#043E81] px-1">/</span>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica') }}" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <span class="text-[#043E81] px-1">/</span>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}" class="text-[#043E81] no-underline box-shadow-none">
+                                            Bombas Calpeda – Presurización
+                                        </a>
+                                    </li>
+                                    <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
+                                        <span class="text-[#043E81] px-1">/</span>
+                                    </li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">Bombas multicelulares verticales monobloc – MXV-B</li>
-                                </ul>
+                                </ul>                                
                             </div>
                         </div>
                     </div>
@@ -255,8 +274,8 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
 
 <!-- Contenido e imagenes -->
 <div class="box-border p-2.5 flex flex-col relative w-full flex-wrap content-start mx-auto lg:w-[90%] lg:flex-row lg:ml-[120.5px]">
-    <!-- Columna de contenido e imágenes -->
-    <div class="w-full lg:w-1/4">
+       <!-- Columna de contenido e imágenes -->
+       <div class="w-full lg:w-1/4">
         <!-- APLICACIONES -->
         <div class="box-border mb-5 relative w-full flex flex-col gap-0 flex-grow-0 flex-shrink-1 order-0 self-auto">
             <div class="box-border transition duration-300 ease-in-out transform">
@@ -274,7 +293,7 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                 </div>
             </div>
         </div>
-
+        
         <!-- OBRA CIVIL -->
         <div class="box-border text-[#043E81] font-roboto font-normal gap-[79px] leading-[30px] mb-5 relative w-full flex flex-col gap-x-[79px] flex-grow-0 flex-shrink-1 order-0 self-auto">
             <div class="box-border transition duration-300 ease-in-out transform">
@@ -284,20 +303,20 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
                 <div class="box-border">&nbsp;</div>
                 <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
                     <span class="text-[#043E81] box-border font-bold">Industria.</span>
@@ -305,20 +324,20 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales') }}">Bombas de tratamientos de aguas residuales.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}">Maquinaria y equipos (OEM)</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
                 <div class="box-border">&nbsp;</div>
                 <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
                     <span class="text-[#043E81] box-border font-bold">Riego-Agricola.</span>
@@ -326,27 +345,27 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego') }}">Bombas para alimentación de sistemas de riego.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo') }}">Bombas sumergibles de pozo profundo.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
             </div>
         </div>
-
+    
         <div class="box-border">
-            <a href="https://bombasellos.com.mx/bombas/sellos-mecanicos-calpeda/" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
+            <a href="{{ url('/bombas/sellos-mecanicos-calpeda') }}" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
                 <span class="box-border no-underline flex justify-center">
                     <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
                 </span>
             </a>
         </div>
+        
     </div>
-
     <div class="w-full lg:w-3/4 flex flex-col lg:flex-row lg:flex-wrap px-1 py-0 mx-auto">
         <div class="box-border p-2.5 flex w-full flex-col lg:flex-wrap content-start">
             <section class="block box-border w-full">
@@ -461,7 +480,7 @@ Cotiza aquí Bombas verticales presurizadoras, presurizadoras en linea. En acero
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:my-[350px] mx-0 p-2.5 flex w-full flex-wrap content-start">
+                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[350px] mx-0 p-2.5 flex w-full flex-wrap content-start">
                                 <div data-id="84ca12f" data-element_type="widget" data-widget_type="heading.default" class="box-border my-5 mx-0 text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
                                     <div class="box-border transition-all duration-300 ease-in-out transform">
                                         <div class="box-border text-[#043e81] font-roboto font-semibold text-xs leading-3 p-0 m-0">

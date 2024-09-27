@@ -43,7 +43,7 @@
                                     <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="list-none m-0 p-0 float-left font-roboto text-base w-auto bg-[#ededf0] rounded-md">
                                         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block text-base px-2 py-1 mr-1 rounded-l-md">
                                             <span itemprop="name">
-                                                <a itemprop="item" href="https://bombasellos.com.mx" class="text-[#337ab7] no-underline">
+                                                <a itemprop="item" href="{{ url('/') }}" class="text-[#337ab7] no-underline">
                                                     <i aria-hidden="true" class="fa fa-home mr-1"></i>Home
                                                 </a>
                                             </span>
@@ -51,7 +51,7 @@
                                         </li>
                                         <li class="inline-block text-base px-2 py-1 text-[#cccccc]">/</li>
                                         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="inline-block text-base px-2 py-1">
-                                            <a itemprop="item" href="https://bombasellos.com.mx/bombas/" title="Bombas" class="text-[#337ab7] no-underline">
+                                            <a itemprop="item" href="{{ url('/bombas/') }}" title="Bombas" class="text-[#337ab7] no-underline">
                                                 <span itemprop="name">Bombas</span>
                                             </a>
                                             <meta itemprop="position" content="2" />
@@ -61,7 +61,7 @@
                                             <span itemprop="name" title="Centrífugas Calpeda" class="text-[#27272a]">Centrífugas Calpeda</span>
                                             <meta itemprop="position" content="3" />
                                         </li>
-                                    </ol>
+                                    </ol>                                    
                                     <div class="m-0 p-0"></div>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
             <div class="w-full p-2.5 relative flex flex-wrap content-start">
                 <div class="w-full text-center relative">
                     <picture class="transition-all duration-300">
-                        <source type="image/webp" srcset="/img/centrifugas-calpeda-en-mexico.webp 667w" sizes="(max-width: 667px) 100vw, 667px" />
+                        <source type="image/webp" srcset="/img/centrifugas-calpeda-en-mexico.png.webp 667w" sizes="(max-width: 667px) 100vw, 667px" />
                         <img fetchpriority="high" decoding="async" width="667" height="492" src="https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico.png" alt="Bomba Sumergible de Acero inoxidable" srcset="https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico.png 667w, https://bombasellos.com.mx/wp-content/uploads/2020/04/centrifugas-calpeda-en-mexico-300x221.png 300w" sizes="(max-width: 667px) 100vw, 667px" class="max-w-full h-auto align-middle border-none box-border inline-block" />
                     </picture>
                 </div>
@@ -177,96 +177,80 @@
                         <ul class="list-square m-0 pl-4">
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/">Bombas sumergibles para drenaje y tratamiento de aguas.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
+                                    </span>
                                 </h2>
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/') }}">Bombas para presurización de líquidos limpios.</a>
+                                    </span>
                                 </h2>
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de recirculación y alimentación de circuitos HVAC.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                                    </span>
                                 </h2>
                             </li>
-                        </ul>
+                        </ul>                        
                         <h3 class="text-[15px] text-[#2953b1] leading-[18.2609px] mt-4 mb-[18.2609px] font-semibold font-roboto">
                             <span class="text-[#043e81] font-black">Industria.</span>
                         </h3>
                         <ul class="list-square m-0 pl-4">
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/') }}">Bombas de tratamientos de aguas residuales.</a>
+                                    </span>
                                 </h2>
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/') }}">Maquinaria y equipos (OEM)</a>
+                                    </span>
                                 </h2>
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
+                                    </span>
                                 </h2>
                             </li>
                         </ul>
+                        
                         <h3 class="text-[15px] text-[#2953b1] leading-[18.2609px] mt-4 mb-[18.2609px] font-semibold font-roboto">
                             <span class="text-[#043e81] font-black">Riego-Agricola.</span>
                         </h3>
                         <ul class="list-square m-0 pl-4">
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/') }}">Bombas para alimentación de sistemas de riego.</a>
+                                    </span>
                                 </h2>
                             </li>
                             <li class="list-item text-left">
                                 <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a></span>
+                                    <span class="text-lg text-[#043e81]">
+                                        <a class="text-[#043e81] no-underline" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/') }}">Bombas sumergibles de pozo profundo.</a>
+                                    </span>
                                 </h2>
                             </li>
-                        </ul>
+                        </ul>                        
                     </div>
                 </div>
             </div>
             <div class="w-full mb-5">
                 <div class="transition-all duration-300">
                     <div class="text-left">
-                        <h3 class="text-[15px] text-[#2953b1] leading-[18.2609px] mt-4 mb-[18.2609px] font-semibold font-roboto">
-                            <span class="text-[#043e81] font-black">Industria.</span>
-                        </h3>
-                        <ul class="list-square m-0 pl-4">
-                            <li class="list-item text-left">
-                                <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a></span>
-                                </h2>
-                            </li>
-                            <li class="list-item text-left">
-                                <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a></span>
-                                </h2>
-                            </li>
-                            <li class="list-item text-left">
-                                <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a></span>
-                                </h2>
-                            </li>
-                        </ul>
-                        <h3 class="text-[15px] text-[#2953b1] leading-[18.2609px] mt-4 mb-[18.2609px] font-semibold font-roboto">
-                            <span class="text-[#043e81] font-black">Riego-Agricola.</span>
-                        </h3>
-                        <ul class="list-square m-0 pl-4">
-                            <li class="list-item text-left">
-                                <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a></span>
-                                </h2>
-                            </li>
-                            <li class="list-item text-left">
-                                <h2 class="text-2xl text-[#2953b1] leading-snug mt-5 mb-5 font-semibold font-roboto">
-                                    <span class="text-lg text-[#043e81]"><a class="text-[#043e81] no-underline" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a></span>
-                                </h2>
-                            </li>
-                        </ul>
+
+
                     </div>
                 </div>
             </div>
@@ -278,11 +262,11 @@
             <div class="w-full">
                 <div class="transition-all duration-300">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/sellos-mecanicos-calpeda/" class="text-white no-underline bg-[#610001] inline-block font-roboto font-medium text-[15px] leading-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300">
+                        <a href="{{ url('/bombas/sellos-mecanicos-calpeda/') }}" class="text-white no-underline bg-[#610001] inline-block font-roboto font-medium text-[15px] leading-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300">
                             <span class="flex justify-center">
                                 <span class="flex-grow-1 order-10">Sellos mécanicos CALPEDA®</span>
                             </span>
-                        </a>
+                        </a>                        
                     </div>
                 </div>
             </div>

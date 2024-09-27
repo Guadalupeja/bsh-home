@@ -54,17 +54,25 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="bg-transparent mb-0 box-border">
                     <div class="box-border">
                         <ul class="bg-transparent m-0 p-0 inline-flex mb-0 list-none flex-wrap rounded-lg mt-0 box-border">
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><a href="https://bombasellos.com.mx/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Home</a></li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <a href="{{ url('/') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Home</a>
+                            </li>
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas</a></li>
+                            <li>
+                                <a href="{{ url('bombas') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas</a>
+                            </li>
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Centrífugas Calpeda</a></li>
+                            <li>
+                                <a href="{{ url('bombas/bombas-centrifugas-calpeda') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Centrífugas Calpeda</a>
+                            </li>
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas para industria.</a></li>
+                            <li>
+                                <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas para industria.</a>
+                            </li>
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-
+                        
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">Bombas Sumergibles para aguas residuales y lodos | Calpeda®</li>
-                        </ul>
+                        </ul>                        
                     </div>
                 </div>
             </div>
@@ -94,117 +102,97 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
 
 <!-- Contenido e imágenes -->
 <div class="box-border p-2.5 flex flex-col relative w-full flex-wrap content-start m-5 lg:w-[90%] md:flex-row md:ml-[120.5px]">
-    <!-- Columna de contenido e imágenes -->
-    <div class="w-full md:w-1/4">
-<!-- APLICACIONES -->
-<!-- APLICACIONES -->
-<div class="box-border mb-5 relative w-full flex flex-col gap-0 flex-grow-0 flex-shrink-1 order-0 self-auto">
-    <div class="box-border transition duration-300 ease-in-out transform">
-        <div class="box-border">
-            <div class="box-border text-gray-500">
-                <div class="box-border font-roboto font-black w-full absolute select-none"></div>
-            </div>
-            <h2 class="text-[20px] text-[#2953B1] leading-[25px] mt-0 mb-0 clear-both font-black font-open-sans box-border text-left mx-0">
-                <div class="box-border inline-block relative z-10">
-                    <div class="box-border font-roboto font-black text-[#043E81] border-[#6EC1E4] inline-flex text-[43px] border-none">
-                        Aplicaciones
-                    </div>
+     <!-- Columna de contenido e imágenes -->
+ <div class="w-full lg:w-1/4">
+    <!-- APLICACIONES -->
+    <div class="box-border mb-5 relative w-full flex flex-col gap-0 flex-grow-0 flex-shrink-1 order-0 self-auto">
+        <div class="box-border transition duration-300 ease-in-out transform">
+            <div class="box-border">
+                <div class="box-border text-gray-500">
+                    <div class="box-border font-roboto font-semibold w-full absolute select-none"></div>
                 </div>
-            </h2>
+                <h2 class="text-[20px] text-[#2953B1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-open-sans box-border text-left m-0">
+                    <div class="box-border inline-block relative z-10">
+                        <div class="box-border font-roboto font-semibold text-[#043E81] border-[#6EC1E4] inline-flex text-[43px] border-none">
+                            Aplicaciones
+                        </div>
+                    </div>
+                </h2>
+            </div>
         </div>
     </div>
-</div>
 
 
-
-        <!-- BOMBAS CALPEDA -->
-        <div class="box-border mb-5 relative w-full flex flex-col gap-0 flex-grow-0 flex-shrink-1 order-0 self-auto">
-            <div class="box-border transition duration-300 ease-in-out transform">
-                <div class="box-border">
-                    <div class="box-border text-gray-500">
-                        <div class="box-border font-roboto font-semibold w-full absolute select-none"></div>
-                    </div>
-                    <h2 class="text-[20px] text-[#2953B1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-open-sans box-border text-left m-0">
-                        <div class="box-border inline-block relative z-10">
-                            <div class="box-border font-roboto font-semibold text-[#043E81] border-[#6EC1E4] inline-flex border-none">
-                                Bombas Calpeda®
-                            </div>
-                        </div>
-                    </h2>
-                </div>
-            </div>
+    <!-- OBRA CIVIL -->
+    <div class="box-border text-[#043E81] font-roboto font-normal gap-[79px] leading-[30px] mb-5 relative w-full flex flex-col gap-x-[79px] flex-grow-0 flex-shrink-1 order-0 self-auto">
+        <div class="box-border transition duration-300 ease-in-out transform">
+            <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
+                <span class="text-[#043E81] box-border font-bold">Obra civil.</span>
+            </p>
+            <ul class="list-disc pl-4">
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
+                    </span>
+                </li>
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
+                    </span>
+                </li>
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                    </span>
+                </li>
+            </ul>                
+            <div class="box-border">&nbsp;</div>
+            <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
+                <span class="text-[#043E81] box-border font-bold">Industria.</span>
+            </p>
+            <ul class="list-disc pl-4">
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales') }}">Bombas de tratamientos de aguas residuales.</a>
+                    </span>
+                </li>
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}">Maquinaria y equipos (OEM)</a>
+                    </span>
+                </li>
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
+                    </span>
+                </li>
+            </ul>                
+            <div class="box-border">&nbsp;</div>
+            <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
+                <span class="text-[#043E81] box-border font-bold">Riego-Agricola.</span>
+            </p>
+            <ul class="list-disc pl-4">
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego') }}">Bombas para alimentación de sistemas de riego.</a>
+                    </span>
+                </li>
+                <li class="box-border text-left">
+                    <span class="text-[#043E81] box-border">
+                        <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo') }}">Bombas sumergibles de pozo profundo.</a>
+                    </span>
+                </li>
+            </ul>                
         </div>
+    </div>
 
-        <!-- OBRA CIVIL -->
-        <div class="box-border text-[#043E81] font-roboto font-normal gap-[79px] leading-[30px] mb-5 relative w-full flex flex-col gap-x-[79px] flex-grow-0 flex-shrink-1 order-0 self-auto">
-            <div class="box-border transition duration-300 ease-in-out transform">
-                <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
-                    <span class="text-[#043E81] box-border font-bold">Obra civil.</span>
-                </p>
-                <ul class="list-disc pl-4">
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
-                        </span>
-                    </li>
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a>
-                        </span>
-                    </li>
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/">Bombas de recirculación y alimentación de circuitos HVAC.</a>
-                        </span>
-                    </li>
-                </ul>
-                <div class="box-border">&nbsp;</div>
-                <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
-                    <span class="text-[#043E81] box-border font-bold">Industria.</span>
-                </p>
-                <ul class="list-disc pl-4">
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a>
-                        </span>
-                    </li>
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a>
-                        </span>
-                    </li>
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a>
-                        </span>
-                    </li>
-                </ul>
-                <div class="box-border">&nbsp;</div>
-                <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
-                    <span class="text-[#043E81] box-border font-bold">Riego-Agricola.</span>
-                </p>
-                <ul class="list-disc pl-4">
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a>
-                        </span>
-                    </li>
-                    <li class="box-border text-left">
-                        <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a>
-                        </span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="box-border">
-            <a href="https://bombasellos.com.mx/bombas/sellos-mecanicos-calpeda/" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
-                <span class="box-border no-underline flex justify-center">
-                    <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
-                </span>
-            </a>
-        </div>
+    <div class="box-border">
+        <a href="{{ url('/bombas/sellos-mecanicos-calpeda') }}" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
+            <span class="box-border no-underline flex justify-center">
+                <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
+            </span>
+        </a>
+    </div>
     </div>
 
 
@@ -218,7 +206,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm') }}">
                             <picture fetchpriority="high" decoding="async" title="Bombas Sumergibles GM" class="box-border">
                                 <source type="image/webp" srcset="/img/GM-Bombas-sumergibles-.png.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img fetchpriority="high" decoding="async" width="300" height="490" src="/img/GM-Bombas-sumergibles-.png" alt="Bomba sumergible para agua sucia" class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -231,7 +219,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GM</span>
                             </a>
                         </h2>
@@ -248,7 +236,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-gm') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -266,7 +254,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas-sumergibles-con-sistema-triturador">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-con-sistema-triturador') }}">
                             <picture decoding="async" title="Bombas Sumergibles GQG" class="box-border">
                                 <source type="image/webp" srcset="/img/bomba-gqg-calpeda.jpg.webp 300w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img decoding="async" width="300" height="490" src="/img/bomba-gqg-calpeda.jpg" alt="Bomba sumergible de acero Inoxidables para agua sucia." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -279,7 +267,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas-sumergibles-con-sistema-triturador" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-con-sistema-triturador') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GQG</span>
                             </a>
                         </h2>
@@ -296,7 +284,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas-sumergibles-con-sistema-triturador" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-con-sistema-triturador') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -314,7 +302,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv') }}">
                             <picture loading="lazy" decoding="async" title="Bombas Sumergibles GXR, GXV" class="box-border">
                                 <source type="image/webp" srcset="/img/bomba-GXR-GXV-calpeda.png.webp 300w, /img/bomba-GXR-GXV-calpeda-184x300.png.webp 184w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img loading="lazy" decoding="async" width="300" height="490" src="/img/bomba-GXR-GXV-calpeda.png" alt="Bomba sumergible de acero inoxidable." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -327,7 +315,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GXR, GXV</span>
                             </a>
                         </h2>
@@ -344,7 +332,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-de-acero-inoxidable-gxr-gxv') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -362,7 +350,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}">
                             <picture loading="lazy" decoding="async" title="Bomba Sumergible GQR" class="box-border">
                                 <source type="image/webp" srcset="/img/Bomba-GQR-calpeda.png.webp 300w, /img/Bomba-GQR-calpeda-184x300.png.webp 184w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img loading="lazy" decoding="async" width="300" height="490" src="/img/Bomba-GQR-calpeda.png" alt="Bomba sumergible para carcamo de aguas negras." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -375,7 +363,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bomba GQR</span>
                             </a>
                         </h2>
@@ -392,7 +380,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bomba-sumergible-para-achiques-gqr') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -410,7 +398,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}">
                             <picture loading="lazy" decoding="async" title="Bombas Sumergibles GX 40" class="box-border">
                                 <source type="image/webp" srcset="/img/bomba-gx40-calpeda.jpg.webp 300w, /img/bomba-gx40-calpeda-184x300.jpg.webp 184w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img loading="lazy" decoding="async" width="300" height="490" src="/img/bomba-gx40-calpeda.jpg" alt="Bombas sumergibles para aguas residuales en la Industria." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -423,7 +411,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GX 40</span>
                             </a>
                         </h2>
@@ -440,7 +428,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-de-acero-inoxidable-para-aguas-sucias-gx40') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -458,7 +446,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}">
                             <picture loading="lazy" decoding="async" title="Bomba Sumergible GQS, GQV" class="box-border">
                                 <source type="image/webp" srcset="/img/bomba-gqs-gqv-calpeda.png.webp 300w, /img/bomba-gqs-gqv-calpeda-184x300.png.webp 184w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img loading="lazy" decoding="async" width="300" height="490" src="/img/bomba-gqs-gqv-calpeda.png" alt="Bombas para aguas negras con triturador." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -471,7 +459,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GQS, GQV</span>
                             </a>
                         </h2>
@@ -488,7 +476,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gqs-gqv') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>
@@ -506,7 +494,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="box-border mb-1 overflow-hidden relative w-full flex flex-row flex-nowrap justify-center">
                 <div class="box-border transition-all ease-in-out group">
                     <div class="box-border block relative z-10 overflow-hidden text-center">
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50/">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}">
                             <picture loading="lazy" decoding="async" title="Bombas GM 50" class="box-border">
                                 <source type="image/webp" srcset="/img/bomba-gm50-calpeda.png.webp 300w, /img/bomba-gm50-calpeda-184x300.png.webp 184w" sizes="(max-width: 300px) 100vw, 300px" class="box-border" />
                                 <img loading="lazy" decoding="async" width="300" height="490" src="/img/bomba-gm50-calpeda.png" alt="Bomba sumergible para drenaje de aguas residuales." class="max-w-full h-auto align-middle border-none p-0 m-0 transition-transform ease-in-out transform group-hover:translate-x-2" />
@@ -519,7 +507,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
                 <div class="box-border transition-all ease-in-out">
                     <div>
                         <h2 class="text-[20px] text-[#2953b1] leading-[25px] mt-0 mb-0 clear-both font-semibold font-[Open Sans] m-0 text-left">
-                            <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50/" class="text-[#007bff] no-underline bg-transparent">
+                            <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}" class="text-[#007bff] no-underline bg-transparent">
                                 <span class="font-roboto font-semibold text-[#043e81] border-[#6ec1e4] inline-flex border-none">Bombas GM 50</span>
                             </a>
                         </h2>
@@ -536,7 +524,7 @@ Entrega Inmediata y Precios Distribuidor Mayorista')
             <div class="relative w-full text-left flex flex-row justify-center">
                 <div class="box-border m-0 transition-all ease-in-out">
                     <div>
-                        <a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50/" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
+                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/bombas-sumergibles-para-aguas-sucias-gm-50') }}" class="text-white no-underline bg-[#043e81] box-border font-roboto font-medium text-[18px] py-2.5 px-3 rounded-[5px] inline-block leading-[18px] text-center transition-all ease-in-out w-auto">
                             <span class="flex justify-center">
                                 <span class="mr-1 order-5 flex-grow-0">
                                     <i class="fas fa-plus text-white py-3"></i>

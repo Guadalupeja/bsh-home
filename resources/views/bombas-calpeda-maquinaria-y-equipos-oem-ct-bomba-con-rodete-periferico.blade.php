@@ -142,18 +142,38 @@ Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mantenimiento')
                 <div class="bg-transparent mb-0 box-border">
                     <div class="box-border">
                         <ul class="bg-transparent m-0 p-0 inline-flex mb-0 list-none flex-wrap rounded-lg mt-0 box-border">
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><a href="https://bombasellos.com.mx/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Home</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Centrífugas Calpeda</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas para industria</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
-                            <li><a href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas Calpeda –  Maquinaria y equipos (OEM)</a></li>
-                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto"><span class="text-[#043e81] px-1">/</span></li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <a href="{{ url('/') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Home</a>
+                            </li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <span class="text-[#043e81] px-1">/</span>
+                            </li>
+                            <li>
+                                <a href="{{ url('/bombas') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas</a>
+                            </li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <span class="text-[#043e81] px-1">/</span>
+                            </li>
+                            <li>
+                                <a href="{{ url('/bombas/bombas-centrifugas-calpeda') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Centrífugas Calpeda</a>
+                            </li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <span class="text-[#043e81] px-1">/</span>
+                            </li>
+                            <li>
+                                <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas para industria</a>
+                            </li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <span class="text-[#043e81] px-1">/</span>
+                            </li>
+                            <li>
+                                <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}" class="text-[#043e81] hyphens-auto no-underline bg-transparent box-shadow-none">Bombas Calpeda –  Maquinaria y equipos (OEM)</a>
+                            </li>
+                            <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">
+                                <span class="text-[#043e81] px-1">/</span>
+                            </li>
                             <li class="block text-[#043e81] text-[16px] font-normal hyphens-auto text-left box-border font-roboto">CT – Bomba con rodete periferico</li>
-                        </ul>
+                        </ul>                        
                     </div>
                 </div>
             </div>
@@ -225,20 +245,20 @@ Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mantenimiento')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas/">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/">Bombas para presurización de líquidos limpios.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
                 <div class="box-border">&nbsp;</div>
                 <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
                     <span class="text-[#043E81] box-border font-bold">Industria.</span>
@@ -246,20 +266,20 @@ Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mantenimiento')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales/">Bombas de tratamientos de aguas residuales.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales') }}">Bombas de tratamientos de aguas residuales.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem/">Maquinaria y equipos (OEM)</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}">Maquinaria y equipos (OEM)</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion/">Bombas de alimentación a circuitos HVAC en la industria.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
                 <div class="box-border">&nbsp;</div>
                 <p class="text-gray-600 leading-[27px] mb-[32px] mt-0 box-border">
                     <span class="text-[#043E81] box-border font-bold">Riego-Agricola.</span>
@@ -267,25 +287,26 @@ Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mantenimiento')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/">Bombas para alimentación de sistemas de riego.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego') }}">Bombas para alimentación de sistemas de riego.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="https://bombasellos.com.mx/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo/">Bombas sumergibles de pozo profundo.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo') }}">Bombas sumergibles de pozo profundo.</a>
                         </span>
                     </li>
-                </ul>
+                </ul>                
             </div>
         </div>
     
         <div class="box-border">
-            <a href="https://bombasellos.com.mx/bombas/sellos-mecanicos-calpeda/" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
+            <a href="{{ url('/bombas/sellos-mecanicos-calpeda') }}" class="text-white no-underline bg-[#610001] box-border font-roboto font-medium inline-block leading-[15px] text-[15px] py-3 px-6 rounded-[3px] text-center transition-all duration-300 ease-in-out shadow-none">
                 <span class="box-border no-underline flex justify-center">
                     <span class="box-border no-underline flex-grow order-10 block">Sellos mécanicos CALPEDA®</span>
                 </span>
             </a>
         </div>
+        
     </div>
 
     <div class="w-full lg:w-3/4 flex flex-wrap px-1 py-0 mx-auto">
@@ -389,7 +410,7 @@ Marca Premium Italiana. Distribuidor Mayorista. Refacciones y Mantenimiento')
                                     </a>
                                 </div>
                             </div>
-                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none my-[510px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
+                            <div class="box-border transition-all duration-300 bg-transparent border-none border-radius-none shadow-none lg:mt-[210px] mx-0 p-2.5 flex relative w-full flex-wrap content-start">
                                 <div data-id="84ca12f" data-element_type="widget" data-widget_type="heading.default" class="box-border my-5 mx-0 text-center relative w-full flex-wrap-none justify-normal items-normal content-normal">
                                     <div class="box-border transition-all duration-300 ease-in-out transform">
                                         <div class="box-border text-[#043e81] font-roboto font-semibold text-xs leading-3 p-0 m-0">
