@@ -322,7 +322,7 @@ Sistemas de desplazamiento rotativo y lineal. Maquinados, Metalizados, Soldadura
                         <div data-id="ba3c1b9" data-element_type="widget" data-widget_type="button.default" class="relative w-full">
                             <div class="box-border transition-all duration-300">
                                 <div class="box-border">
-                                    <a href="{{ url('hidraulico-mecanico') }}" role="button" class="font-roboto font-black bg-[#610001] text-white no-underline text-[18px] inline-block leading-[18px] py-3 px-6 rounded-md text-center transition-all">
+                                    <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/hidraulico-mecanico') }}" role="button" class="font-roboto font-black bg-[#610001] text-white no-underline text-[18px] inline-block leading-[18px] py-3 px-6 rounded-md text-center transition-all">
                                         <span class="flex justify-center">
                                             <span class="flex-grow">Más información</span>
                                         </span>
@@ -342,7 +342,7 @@ Sistemas de desplazamiento rotativo y lineal. Maquinados, Metalizados, Soldadura
                                 <div class="box-border">
                                     <picture loading="lazy" title="Servicios de Mantenimiento Industrial 2">
                                         <source type="image/webp" srcset="/img/servicio-hidraulico-mecanico.png.webp 984w" sizes="(max-width: 984px) 100vw, 984px" />
-                                        <img width="984" height="840" src="/img/servicio-hidraulico-mecanico.png" alt="Reparación de pistones y bombas hidráulicas." loading="lazy" class="max-w-full h-auto align-middle border-none" />
+                                        <img width="984" height="840" src="/img/servicio-hidraulico-mecanico.png.webp" alt="Reparación de pistones y bombas hidráulicas." loading="lazy" class="max-w-full h-auto align-middle border-none" />
                                     </picture>
                                 </div>
                             </div>

@@ -168,7 +168,7 @@
                     <div class="box-border transition-all duration-300 ease-in-out">
                         <picture fetchpriority="high" decoding="async" class="box-border" title="Bombas 1">
                             <source type="image/webp" srcset="/img/Bomba-Calpeda-2-1.png.webp 700w" sizes="(max-width: 700px) 100vw, 700px" class="box-border" />
-                            <img fetchpriority="high" decoding="async" width="700" height="700" src="/img/Bomba-Calpeda-2-1.png" alt="Bomba Sumergible Calpeda" srcset="/img/Bomba-Calpeda-2-1.png 700w, /img/Bomba-Calpeda-2-1-300x300.png 300w, /img/Bomba-Calpeda-2-1-150x150.png 150w" sizes="(max-width: 700px) 100vw, 700px" class="max-w-full h-auto align-middle border-none inline-block" />
+                            <img fetchpriority="high" decoding="async" width="700" height="700" src="/img/Bomba-Calpeda-2-1.png.webp" alt="Bomba Sumergible Calpeda" srcset="/img/Bomba-Calpeda-2-1.png.webp 700w" sizes="(max-width: 700px) 100vw, 700px" class="max-w-full h-auto align-middle border-none inline-block" />
                         </picture>
                     </div>
                 </div>

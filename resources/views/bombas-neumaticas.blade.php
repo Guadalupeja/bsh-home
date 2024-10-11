@@ -135,8 +135,8 @@ material. Entrega inmediata. Distribuidor mayorista MX. Kits de refacciones.')
         </div>
         <div class="w-full md:w-1/2 p-2.5 text-center">
             <picture>
-                <source type="image/webp" srcset="/img/wilden-serie-de-especialidad.png.webp 675w, public/img/wilden-serie-de-especialidad-300x200.png.webp 300w" sizes="(max-width: 675px) 100vw, 675px" />
-                <img class="max-w-full h-auto" src="/img/wilden-serie-de-especialidad.png" alt="wilden serie de especialidad" srcset="public/img/wilden-serie-de-especialidad.png 675w, public/img/wilden-serie-de-especialidad-300x200.png 300w" sizes="(max-width: 675px) 100vw, 675px" />
+                <source type="image/webp" srcset="/img/wilden-serie-de-especialidad.png.webp 675w" sizes="(max-width: 675px) 100vw, 675px" />
+                <img class="max-w-full h-auto" src="/img/wilden-serie-de-especialidad.png.webp" alt="wilden serie de especialidad" srcset="public/img/wilden-serie-de-especialidad.png.webp 675w" sizes="(max-width: 675px) 100vw, 675px" />
             </picture>
             <div class="mt-5">
                 <a href="#tecnica" class="text-white bg-[#610001] font-black text-[15px] py-2 px-4 rounded inline-block">INFORMACIÓN TÉCNICA</a>

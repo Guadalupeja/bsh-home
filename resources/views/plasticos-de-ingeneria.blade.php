@@ -310,7 +310,7 @@
                                 <div>
                                     <picture loading="lazy" title="Plásticos de ingenería 1">
                                         <source type="image/webp" srcset="/img/modeados-extruidos-1.png.webp 600w" sizes="(max-width: 600px) 100vw, 600px" />
-                                        <img width="600" height="470" src="/img/modeados-extruidos-1.png" alt="Perfiles sobre diseño por moldeo, extrusión y maquinado" loading="lazy" srcset="https://bombasellos.com.mx/wp-content/uploads/2020/05/modeados-extruidos-1.png 600w, https://bombasellos.com.mx/wp-content/uploads/2020/05/modeados-extruidos-1-300x235.png 300w" sizes="(max-width: 600px) 100vw, 600px" class="max-w-full h-auto align-middle border-none inline-block" />
+                                        <img width="600" height="470" src="/img/modeados-extruidos-1.png.webp" alt="Perfiles sobre diseño por moldeo, extrusión y maquinado" loading="lazy" srcset="/img/modeados-extruidos-1.png.webp 600w" sizes="(max-width: 600px) 100vw, 600px" class="max-w-full h-auto align-middle border-none inline-block" />
                                     </picture>
                                 </div>
                             </div>
@@ -398,6 +398,43 @@
             </div>
 
             <!-- Tercera columna -->
+
+
+            <div class="lg:w-1/4 box-border relative lg:flex min-h-[1px]">
+                <div class="w-full relative flex">
+                    <div class="flex relative w-full flex-wrap content-start p-2.5">
+                        <div class="box-border overflow-hidden relative w-full">
+                            <div class="transition-all duration-300 group">
+                                <div class="block relative z-10 overflow-hidden m-0 text-center bg-[#043e81]">
+                                    <img src="/img/turcite-rod-qud12rr5kv7dxjyi6rnariyghorj1javgs48gtq9bs.png" title="Turcite Rod" alt="Barras de Turcite para maquinados"
+                                        class="max-w-[calc(100%_+_50px)] h-auto align-middle border-none box-border m-0 transition-transform duration-[0.35s] transform translate-x-[-40px] group-hover:translate-x-0 w-[calc(100%_+_50px)] min-w-full block relative opacity-100 rounded-none shadow-none" />
+                                    <div class="box-border bottom-0 min-h-[25%] h-auto max-h-full text-left p-[15px] backface-visibility-hidden absolute left-0 w-full">
+                                        <h2 class="text-white font-roboto font-semibold text-[20px] leading-[25px] mt-[20px] mb-[20px] clear-both box-border transition-transform duration-[0.35s] transform translate-y-[40px] group-hover:translate-y-0 text-center"></h2>
+                                    </div>
+                                    <a href="{{ url('plasticos-de-ingeneria/turcite-a-rod') }}"
+                                    title=""
+                                        class="text-[#007bff] no-underline bg-transparent box-border block absolute top-0 left-0 w-full h-[327.5px] z-50 opacity-0"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-border text-center relative w-full">
+                            <div class="m-0 p-0 bg-[#610001] transition-all duration-300">
+                                <h2 class="text-white font-roboto font-semibold text-[18px] leading-[48.6px] m-0 clear-both box-border p-0">
+                                    <a href="{{ url('plasticos-de-ingeneria/turcite-a-rod') }}"
+                                    class="text-white no-underline bg-transparent box-border text-[18px] leading-[48.6px]">
+                                        Maquinados Turcite® A Barra
+                                    </a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Cuarta columna -->
+
             <div class="lg:w-1/4 box-border relative lg:flex min-h-[1px]">
                 <div class="w-full relative flex">
                     <div class="flex relative w-full flex-wrap content-start p-2.5">
@@ -430,37 +467,9 @@
                 </div>
             </div>
 
-            <!-- Cuarta columna -->
-            <div class="lg:w-1/4 box-border relative lg:flex min-h-[1px]">
-                <div class="w-full relative flex">
-                    <div class="flex relative w-full flex-wrap content-start p-2.5">
-                        <div class="box-border overflow-hidden relative w-full">
-                            <div class="transition-all duration-300 group">
-                                <div class="block relative z-10 overflow-hidden m-0 text-center bg-[#043e81]">
-                                    <img src="/img/turcite-rod-qud12rr5kv7dxjyi6rnariyghorj1javgs48gtq9bs.png" title="Turcite Rod" alt="Barras de Turcite para maquinados"
-                                        class="max-w-[calc(100%_+_50px)] h-auto align-middle border-none box-border m-0 transition-transform duration-[0.35s] transform translate-x-[-40px] group-hover:translate-x-0 w-[calc(100%_+_50px)] min-w-full block relative opacity-100 rounded-none shadow-none" />
-                                    <div class="box-border bottom-0 min-h-[25%] h-auto max-h-full text-left p-[15px] backface-visibility-hidden absolute left-0 w-full">
-                                        <h2 class="text-white font-roboto font-semibold text-[20px] leading-[25px] mt-[20px] mb-[20px] clear-both box-border transition-transform duration-[0.35s] transform translate-y-[40px] group-hover:translate-y-0 text-center"></h2>
-                                    </div>
-                                    <a href="{{ url('plasticos-de-ingeneria/turcite-a-rod') }}"
-                                    title=""
-                                        class="text-[#007bff] no-underline bg-transparent box-border block absolute top-0 left-0 w-full h-[327.5px] z-50 opacity-0"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="box-border text-center relative w-full">
-                            <div class="m-0 p-0 bg-[#610001] transition-all duration-300">
-                                <h2 class="text-white font-roboto font-semibold text-[18px] leading-[48.6px] m-0 clear-both box-border p-0">
-                                    <a href="{{ url('plasticos-de-ingeneria/turcite-a-rod') }}"
-                                    class="text-white no-underline bg-transparent box-border text-[18px] leading-[48.6px]">
-                                        Maquinados Turcite® A Barra
-                                    </a>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
+
 
         </div>
     </div>

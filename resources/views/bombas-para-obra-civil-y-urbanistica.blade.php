@@ -204,7 +204,7 @@ Asistencia en la selección del equipo, instalación, puesta en marcha y operaci
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline bg-transparent shadow-none" href="{{ url('/bombas-calpeda-sistemas-contra-incendio') }}">Sistemas contra incendio.</a>
+                            <a class="text-[#043E81] no-underline bg-transparent shadow-none" href="{{ url('/bombas-calpeda-sistemas-contra-incendio-2') }}">Sistemas contra incendio.</a>
                         </span>
                     </li>
                 </ul>                

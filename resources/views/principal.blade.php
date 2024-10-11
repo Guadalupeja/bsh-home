@@ -156,8 +156,8 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
             <div class="w-full m-0 text-center p-0">
                 <a href="{{ url('bombas/bombas-centrifugas-calpeda') }}" class="inline-block">
                     <picture>
-                        <source type="image/webp" srcset="/img/centrifuga-calpeda-en-mexico.jpg.webp 1000w, /img/centrifuga-calpeda-en-mexico-300x112.jpg.webp 300w">
-                        <img src="/img/centrifuga-calpeda-en-mexico.jpg" alt="Bomba Centrifuga horizontal Calpeda" class="max-w-full h-auto border-none shadow-none m-0">
+                        <source type="image/webp" srcset="/img/centrifuga-calpeda-en-mexico.jpg.webp 1000w">
+                        <img src="/img/centrifuga-calpeda-en-mexico.jpg.webp" alt="Bomba Centrifuga horizontal Calpeda" class="max-w-full h-auto border-none shadow-none m-0">
                     </picture>
                 </a>
             </div>
@@ -179,7 +179,7 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
             </div>
             <!-- Heading 2 -->
             <div class="w-full p-5 bg-[#610001] text-white mt-[-20px] text-center">
-                <h1 class="text-lg font-semibold font-roboto"><a href="{{ url('/sellos-hidraulicos') }}" class="text-white no-underline m-0">Sellos Hidraúlicos Trelleborg®</a></h1>
+                <h1 class="text-lg font-semibold font-roboto"><a href="{{ url('sellos-hidraulicos') }}" class="text-white no-underline m-0">Sellos Hidraúlicos Trelleborg®</a></h1>
             </div>
         </div>
     </div>
@@ -196,13 +196,13 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
         <!-- Imagen -->
         <div class="w-full m-0 text-center">
             <picture>
-                <source type="image/webp" srcset="/img/Turcite-Slydway.jpg.webp 1000w, /img/Turcite-Slydway-300x112.jpg.webp 300w, /img/Turcite-Slydway-768x286.jpg.webp 768w">
-                <img src="/img/Turcite-Slydway.jpg" alt="Guia Turcite B Slydway y Waylock" class="max-w-full h-auto border-none shadow-none">
+                <source type="image/webp" srcset="/img/Turcite-Slydway.jpg.webp 1000w">
+                <img src="/img/Turcite-Slydway.jpg.webp" alt="Guia Turcite B Slydway y Waylock" class="max-w-full h-auto border-none shadow-none">
             </picture>
         </div>
         <!-- Heading 1 -->
         <div class="w-full p-5 bg-[#610001] text-white mt[-20] text-center">
-            <h2 class="text-lg font-semibold font-roboto"><a href="{{ url('/plasticos-de-ingeneria/turcite-b-slydway/') }}" class="text-white no-underline">Turcite B Slydway®</a></h2>
+            <h2 class="text-lg font-semibold font-roboto"><a href="{{ url('plasticos-de-ingeneria/turcite-b-slydway/') }}" class="text-white no-underline">Turcite B Slydway®</a></h2>
         </div>
     </div>
 
@@ -258,8 +258,8 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
                 <div class="w-full m-0 text-center">
                     <a href="https://juntasflexibles.com/" target="_blank" rel="noopener" class="inline-block">
                         <picture>
-                            <source type="image/webp" srcset="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg.webp 394w, /img/IMAGEN-1-JUNTAS-FLEXIBLES-2-300x228.jpg.webp 300w">
-                            <img src="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg" alt="IMAGEN 1 JUNTAS FLEXIBLES 2" class="max-w-full h-auto">
+                            <source type="image/webp" srcset="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg.webp 394w">
+                            <img src="/img/IMAGEN-1-JUNTAS-FLEXIBLES-2.jpg.webp" alt="IMAGEN 1 JUNTAS FLEXIBLES 2" class="max-w-full h-auto">
                         </picture>
                     </a>
                 </div>
@@ -274,8 +274,8 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
                 <div class="w-full m-0 text-center">
                     <a href="https://bombasellos.com.mx/kits-maquinaria-industrial" target="_blank" class="inline-block">
                         <picture>
-                            <source type="image/webp" srcset="/img/kits-maquinaria-industrial.png.webp 394w, /img/kits-maquinaria-industrial-300x228.png.webp 300w">
-                            <img src="/img/kits-maquinaria-industrial.png" alt="Maquina de Inyeccion de plasticos con sellos" class="max-w-full h-auto">
+                            <source type="image/webp" srcset="/img/kits-maquinaria-industrial.png.webp 394w">
+                            <img src="/img/kits-maquinaria-industrial.png.webp" alt="Maquina de Inyeccion de plasticos con sellos" class="max-w-full h-auto">
                         </picture>
                     </a>
                 </div>
@@ -290,8 +290,8 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
                 <div class="w-full m-0 text-center">
                     <a href="https://bombasdealtapresion.com.mx/" target="_blank" rel="noopener" class="inline-block">
                         <picture>
-                            <source type="image/webp" srcset="/img/IMAGEN-2-MAXIMATOR.jpg.webp 394w, /img/IMAGEN-2-MAXIMATOR-300x228.jpg.webp 300w">
-                            <img src="/img/IMAGEN-2-MAXIMATOR.jpg" alt="IMAGEN 2 MAXIMATOR" class="max-w-full h-auto">
+                            <source type="image/webp" srcset="/img/IMAGEN-2-MAXIMATOR.jpg.webp 394w">
+                            <img src="/img/IMAGEN-2-MAXIMATOR.jpg.webp" alt="IMAGEN 2 MAXIMATOR" class="max-w-full h-auto">
                         </picture>
                     </a>
                 </div>
@@ -374,14 +374,14 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
         <div class="lg:w-1/3 mt-5 lg:mt-0 flex flex-col bg-white p-0 ml-[19px]">
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
-                <a href="{{ url('servicio-de-mantenimiento/') }}">
+                <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}">
                     <img src="/img/Mantenimiento.webp" alt="Servicios de mantenimiento mecanico e hidraúlico industrial" class="w-full h-auto">
                 </a>
             </div>
             <!-- Título -->
             <div class="p-4 pt-5 pb-6 bg-white text-[#043e81] h-[70px]">
                 <h2 class="text-[25px] font-semibold font-roboto leading-[25px] h-[100px]">
-                    <a href="{{ url('servicio-de-mantenimiento/') }}" class="text-[#043e81] no-underline font-roboto">
+                    <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}" class="text-[#043e81] no-underline font-roboto">
                         Mantenimiento industrial.
                     </a>
                 </h2>
@@ -394,7 +394,7 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
             </div>
             <!-- Botón -->
             <div class="mt-6 text-center w-full font-roboto">
-                <a href="{{ url('servicio-de-mantenimiento/') }}" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
+                <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/servicio-de-mantenimiento') }}" class="inline-block bg-[#610001] text-white text-[16px] py-3 px-7 w-full">
                     Más información
                 </a>
             </div>
@@ -405,7 +405,7 @@ Entrega inmediata, Precio Mayorista. Distribuidores Autorizados Mx')
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
                 <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica/') }}">
-                    <img src="/img/Consultoria-T%C3%A9cnica.png.webp" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
+                    <img src="img/Consultoria-y-capacitacion-tecnica.png.webp" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
                 </a>
             </div>
             <!-- Título -->

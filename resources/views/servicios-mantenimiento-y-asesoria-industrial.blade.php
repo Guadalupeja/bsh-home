@@ -315,7 +315,7 @@ Capacidades de Maquinado y Metalizado Cromo duro.Consultoría y Capactación Té
             <!-- Imagen -->
             <div class="relative w-full text-center mb-5">
                 <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial/consultoria-y-capacitacion-tecnica') }}">
-                    <img src="{{ asset('img/Consultoria-Técnica.png.webp') }}" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
+                    <img src="{{ asset('img/Consultoria-Tecnica.png.webp') }}" alt="Consultoría y capacitación técnica en Bombas y sistemas hidraúlicos" class="w-full h-auto">
                 </a>                
             </div>
             <!-- Título -->

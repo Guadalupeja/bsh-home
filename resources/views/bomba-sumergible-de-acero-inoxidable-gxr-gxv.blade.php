@@ -170,13 +170,13 @@ En acero inoxidable. Entrega inmediata y Precio Mayorista.')
                                         <span class="text-[#043E81] px-1">/</span>
                                     </li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
-                                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica') }}" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a>
+                                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica') }}" class="text-[#043E81] no-underline box-shadow-none">Bombas para obra civil y urbanística</a>
                                     </li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
                                         <span class="text-[#043E81] px-1">/</span>
                                     </li>
                                     <li class="block text-[#043E81] text-[16px] font-normal text-left box-border font-roboto">
-                                        <a href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}" class="text-[#043E81] no-underline box-shadow-none">
+                                        <a href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}" class="text-[#043E81] no-underline box-shadow-none">
                                             Bombas Calpeda – Drenaje y tratamiento de aguas.
                                         </a>
                                     </li>
@@ -261,17 +261,17 @@ En acero inoxidable. Entrega inmediata y Precio Mayorista.')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-drenaje-y-tratamiento-de-aguas') }}">Bombas sumergibles para drenaje y tratamiento de aguas.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
                         </span>
                     </li>
                 </ul>
@@ -282,17 +282,17 @@ En acero inoxidable. Entrega inmediata y Precio Mayorista.')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales') }}">Bombas de tratamientos de aguas residuales.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/tratamiento-de-aguas-residuales') }}">Bombas de tratamientos de aguas residuales.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}">Maquinaria y equipos (OEM)</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-maquinaria-y-equipos-oem') }}">Maquinaria y equipos (OEM)</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-para-industria-bombas-centrifugas-monobloc-bombas-multicelulares-horizontales/bombas-calpeda-circuitos-de-transferencia-de-calor-y-refrigeracion') }}">Bombas de alimentación a circuitos HVAC en la industria.</a>
                         </span>
                     </li>
                 </ul>
@@ -303,12 +303,12 @@ En acero inoxidable. Entrega inmediata y Precio Mayorista.')
                 <ul class="list-disc pl-4">
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego') }}">Bombas para alimentación de sistemas de riego.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego') }}">Bombas para alimentación de sistemas de riego.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo') }}">Bombas sumergibles de pozo profundo.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('bombas/bombas-centrifugas-calpeda/bombas-calpeda-agricultura-y-riego/bombas-calpeda-bombas-sumergibles-de-pozo-profundo') }}">Bombas sumergibles de pozo profundo.</a>
                         </span>
                     </li>
                 </ul>

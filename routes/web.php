@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PaginasController;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\PostController; // Agregas esta línea
 
+require __DIR__.'/auth.php';
 
 Route::get('/', function () {
     return view('principal');
@@ -180,3 +182,23 @@ Route::get('/sellos-hidraulicos/sellos-hidraulicos-kits-o-rings', [PaginasContro
 Route::get('/sellos-hidraulicos/sellos-individuales-dinamicos-de-piston-y-vastago', [PaginasController::class, 'sellos_individuales_dinamicos_de_piston_y_vastago']);
 Route::get('/sellos-hidraulicos/sellos-individuales-estaticos-o-rings', [PaginasController::class, 'sellos_individuales_estaticos_o_rings']);
 Route::get('/sellos-hidraulicos/sellos-individuales-rotativos', [PaginasController::class, 'sellos_individuales_rotativos']);
+
+// Rutas del Blog
+// Rutas públicas
+Route::get('/blog', [PostController::class, 'index'])->name('posts.index');
+Route::get('/blog/{slug}', [PostController::class, 'show'])->name('posts.show');
+
+// Rutas protegidas (requieren autenticación)
+Route::middleware(['auth'])->group(function () {
+    // Dashboard u otras rutas protegidas
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+
+    // Rutas para gestionar posts
+    Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create');
+    Route::post('/posts', [PostController::class, 'store'])->name('posts.store');
+    Route::get('/posts/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
+    Route::put('/posts/{post}', [PostController::class, 'update'])->name('posts.update');
+    Route::delete('/posts/{post}', [PostController::class, 'destroy'])->name('posts.destroy');
+});

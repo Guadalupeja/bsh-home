@@ -266,12 +266,12 @@ En acero inoxidable, fundición y plástico. Precio Mayorista.')
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-calpeda-presurizacion') }}">Bombas para presurización de líquidos limpios.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-calpeda-presurizacion/') }}">Bombas para presurización de líquidos limpios.</a>
                         </span>
                     </li>
                     <li class="box-border text-left">
                         <span class="text-[#043E81] box-border">
-                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
+                            <a class="text-[#043E81] no-underline box-border shadow-none" href="{{ url('/bombas/bombas-centrifugas-calpeda/bombas-para-obra-civil-y-urbanistica/bombas-de-recirculacion-y-alimentacion-de-circuitos-hvac/') }}">Bombas de recirculación y alimentación de circuitos HVAC.</a>
                         </span>
                     </li>
                 </ul>

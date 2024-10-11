@@ -87,7 +87,7 @@
                             <span class="sr-only">Facebook</span>
                             <i class="fa-brands fa-facebook text-gray-400"></i>
                         </a>
-                        <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
+                        <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales-bsh" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
                             <span class="sr-only">Linkedin-square</span>
                             <i class="fa-brands fa-linkedin text-gray-400 text-3xl"></i>
                         </a>
@@ -120,15 +120,15 @@
                     <!-- Enlaces del menú -->
                     <div id="menu-items" class="font-sans bg-gray-900 w-full items-center flex flex-col md:ml-6 hidden md:block md:bg-white">
                         <a href="{{ url('/') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">INICIO</a>
-                        <a href="{{ url('/sellos-hidraulicos') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">SELLOS HIDRÁULICOS</a>
-                        <a href="{{ url('/bombas') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">BOMBAS</a>
-                        <a href="{{ url('/plasticos-de-ingeneria') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">MATERIALES</a>
-                        <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">SERVICIOS</a>
-                        <a href="{{ url('/blog-bsh') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">MEDIA/TOOLS</a>
-                        <a href="{{ url('/somos-bsh') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">NOSOTROS</a>
-                        <a href="{{ url('/contacto') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">CONTACTO</a>
-                        <a href="{{ url('/blog') }}" class="text-blue-500 text-sm px-3 py-2 hover:text-blue-700">BLOG</a>
-                        <a href="{{ url('/preguntas-frecuentes') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">FAQ´S</a>
+                        <a href="{{ url('sellos-hidraulicos') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">SELLOS HIDRÁULICOS</a>
+                        <a href="{{ url('bombas') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">BOMBAS</a>
+                        <a href="{{ url('plasticos-de-ingeneria') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">MATERIALES</a>
+                        <a href="{{ url('servicios-mantenimiento-y-asesoria-industrial') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">SERVICIOS</a>
+                        <a href="{{ url('blog-bsh') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">MEDIA/TOOLS</a>
+                        <a href="{{ url('somos-bsh') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">NOSOTROS</a>
+                        <a href="{{ url('contacto') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">CONTACTO</a>
+                        <a href="{{ url('blog') }}" class="text-blue-500 text-sm px-3 py-2 hover:text-blue-700">BLOG</a>
+                        <a href="{{ url('preguntas-frecuentes') }}" class="text-blue-500 text-xs px-3 py-2 hover:text-blue-700">FAQ´S</a>
                     </div>
                 </div>
             </div>
@@ -141,13 +141,13 @@
             <div class="flex">
                 <ul class="flex justify-center">
                     <li class="pr-15 text-sm">
-                        <a title="TURCITE®B SLYDWAY® y WAYLOCK®" href="{{ url('/plasticos-de-ingeneria/turcite-b-slydway') }}" class="text-white uppercase">TURCITE®B SLYDWAY® y WAYLOCK®</a>
+                        <a title="TURCITE®B SLYDWAY® y WAYLOCK®" href="{{ url('plasticos-de-ingeneria/turcite-b-slydway') }}" class="text-white uppercase">TURCITE®B SLYDWAY® y WAYLOCK®</a>
                     </li>
                     <li class="pr-15 text-sm px-4">
                         <a title="JUNTAS DE EXPANSIÓN" href="https://juntasflexibles.com/" class="text-white uppercase">JUNTAS DE EXPANSIÓN</a>
                     </li>
                     <li class="pr-15 text-sm px-4">
-                        <a title="BOMBAS NEUMÁTICAS WILDEN®" href="{{ url('/bombas/bombas-neumaticas') }}" class="text-white uppercase">BOMBAS NEUMÁTICAS WILDEN®</a>
+                        <a title="BOMBAS NEUMÁTICAS WILDEN®" href="{{ url('bombas/bombas-neumaticas') }}" class="text-white uppercase">BOMBAS NEUMÁTICAS WILDEN®</a>
                     </li>
                     <li class="text-sm px-4">
                         <a title="AMPLIFICADORES MAXIMATOR℗" href="https://bombasdealtapresion.com.mx/" class="text-white uppercase">AMPLIFICADORES MAXIMATOR℗</a>
@@ -186,7 +186,7 @@
                                 <span class="sr-only">Facebook</span>
                                 <i class="fa-brands fa-facebook text-gray-400 text-3xl"></i>
                             </a>
-                            <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
+                            <a href="https://www.linkedin.com/company/bombas-sellos-y-hules-industriales-bsh" target="_blank" class="inline-flex items-center justify-center text-gray-400 hover:text-gray-600 transition duration-300 ease-in-out no-underline ml-4">
                                 <span class="sr-only">Linkedin-square</span>
                                 <i class="fa-brands fa-linkedin text-gray-400 text-3xl"></i>
                             </a>
@@ -207,21 +207,21 @@
                         <div id="menuItems" class="hidden md:block">
                             <ul class="text-white">
                                 <li><a href="{{ url('/') }}" class="text-sm">INICIO</a></li>
-                                <li><a href="{{ url('/sellos-hidraulicos') }}" class="text-sm">SELLOS HIDRÁULICOS</a></li>
-                                <li><a href="{{ url('/bombas') }}" class="text-sm">BOMBAS</a></li>
-                                <li><a href="{{ url('/plasticos-de-ingeneria') }}" class="text-sm">MATERIALES</a></li>
-                                <li><a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial') }}" class="text-sm">SERVICIOS</a></li>
-                                <li><a href="{{ url('/blog-bsh') }}" class="text-sm">MEDIA/TOOLS</a></li>
-                                <li><a href="{{ url('/somos-bsh') }}" class="text-sm">NOSOTROS</a></li>
-                                <li><a href="{{ url('/contacto') }}" class="text-sm">CONTACTO</a></li>
-                                <li><a href="{{ url('/blog') }}" class="text-sm">BLOG</a></li>
-                                <li><a href="{{ url('/preguntas-frecuentes') }}" class="text-sm">FAQ´S</a></li>
+                                <li><a href="{{ url('sellos-hidraulicos') }}" class="text-sm">SELLOS HIDRÁULICOS</a></li>
+                                <li><a href="{{ url('bombas') }}" class="text-sm">BOMBAS</a></li>
+                                <li><a href="{{ url('plasticos-de-ingeneria') }}" class="text-sm">MATERIALES</a></li>
+                                <li><a href="{{ url('servicios-mantenimiento-y-asesoria-industrial') }}" class="text-sm">SERVICIOS</a></li>
+                                <li><a href="{{ url('blog-bsh') }}" class="text-sm">MEDIA/TOOLS</a></li>
+                                <li><a href="{{ url('somos-bsh') }}" class="text-sm">NOSOTROS</a></li>
+                                <li><a href="{{ url('contacto') }}" class="text-sm">CONTACTO</a></li>
+                                <li><a href="{{ url('blog') }}" class="text-sm">BLOG</a></li>
+                                <li><a href="{{ url('preguntas-frecuentes') }}" class="text-sm">FAQ´S</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="p-4">
-                        <p><a href="{{ url('/aviso-de-privacidad') }}" class="text-sm text-white">AVISO DE PRIVACIDAD</a></p>
+                        <p><a href="{{ url('aviso-de-privacidad') }}" class="text-sm text-white">AVISO DE PRIVACIDAD</a></p>
                     </div>
                 </div>
                 <!-- Tercera columna del footer -->

@@ -317,8 +317,8 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                         <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/bombas-centrifugas/') }}" class="text-[#007bff] no-underline">
                             <div class="transition-all duration-300">
                                 <picture decoding="async" title="Capacitación en instalación de bombas">
-                                    <source type="image/webp" srcset="/img/bombas-centrifugas-1.jpg.webp 575w, /img/bombas-centrifugas-1-300x168.jpg.webp 300w" sizes="(max-width: 575px) 100vw, 575px" />
-                                    <img loading="lazy" decoding="async" class="max-w-full h-auto" src="/img/bombas-centrifugas-1.jpg" alt="Capacitación en instalación de bombas" />
+                                    <source type="image/webp" srcset="/img/bombas-centrifugas-1.jpg.webp 575w" sizes="(max-width: 575px) 100vw, 575px" />
+                                    <img loading="lazy" decoding="async" class="max-w-full h-auto" src="/img/bombas-centrifugas-1.jpg.webp" alt="Capacitación en instalación de bombas" />
                                 </picture>
                             </div>
                         </a>
@@ -338,7 +338,7 @@ sistemas hidráulicos, control y manejo. 30 años de experiencia.')
                         <a href="{{ url('/servicios-mantenimiento-y-asesoria-industrial/sistemas-hidraulicos-lineales-y-rotativos/') }}">
                             <div class="transition-all duration-300">
                                 <picture loading="lazy" decoding="async" title="Sistemas Hidráulicos">
-                                    <source type="image/webp" srcset="/img/sistemas-hidraulicos-1.jpg.webp 575w, /img/sistemas-hidraulicos-1-300x168.jpg.webp 300w" sizes="(max-width: 575px) 100vw, 575px" />
+                                    <source type="image/webp" srcset="/img/sistemas-hidraulicos-1.jpg.webp 575w" sizes="(max-width: 575px) 100vw, 575px" />
                                     <img loading="lazy" decoding="async" class="max-w-full h-auto" src="/img/sistemas-hidraulicos-1.jpg.webp" alt="Sistemas Hidráulicos" />
                                 </picture>
                             </div>
